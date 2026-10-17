@@ -21,6 +21,15 @@ rule that can be checked by machine.
    - at least 2 `howto` items,
    - at most 3 `trend` items.
 
+## Field formats
+
+- `minutes` (optional): how long the item takes, exactly `"N min"` with 1 or 2 digits, for example `"3 min"`
+  (pattern `^\d{1,2} min$`). It is shared by both languages and the app shows it localised. No ranges, words
+  or Hindi digits: `"3-5 min"`, `"about 3 min"` and `"५ मिनट"` are rejected.
+- `title`, `hook` and `imageAlt` are shown as plain text, so they must not contain `*`. Inline markdown
+  (`**bold**`, `*italic*`, a literal `\*`) is allowed only in the longer text fields such as `steps`, `body`
+  and `whatToDo`.
+
 ## Item lifetimes
 
 `reviewBy` is the last day an item is shown. The validator caps how long an item may live after `publishAt`:

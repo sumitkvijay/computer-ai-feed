@@ -40,6 +40,8 @@ def main(argv=None) -> int:
     if pruned:
         print("Leaving out (30+ days past reviewBy):", ", ".join(pruned))
     src = feedlib.without_items(src, pruned)
+    for rid in feedlib.stale_week_ids(src):
+        print(f"WARNING week.json references {rid!r}, which is archived or pruned; leaving it out")
 
     out.mkdir(parents=True, exist_ok=True)
     for lang in feedlib.LANGS:

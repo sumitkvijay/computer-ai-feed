@@ -28,8 +28,12 @@ SHARED_FIELDS = ("id", "type", "publishAt", "reviewBy", "tags", "image", "minute
 LANG_FIELDS = ("title", "hook", "imageAlt", "steps", "prompt", "example", "privacyNote", "body",
                "whyItMatters", "sourceName", "whatsHappening", "howToSpot", "whatToDo", "helpline")
 # Fields rendered as inline markdown (prompt is copied verbatim, so it is not checked).
-MARKDOWN_FIELDS = ("title", "hook", "steps", "example", "privacyNote", "body", "whyItMatters",
+MARKDOWN_FIELDS = ("steps", "example", "privacyNote", "body", "whyItMatters",
                    "whatsHappening", "howToSpot", "whatToDo", "helpline")
+# Fields the app shows as plain text, so a '*' would appear literally.
+PLAIN_TEXT_FIELDS = ("title", "hook", "imageAlt")
+# "N min" with 1 or 2 ASCII digits, the same in both languages; the app shows it localised.
+MINUTES = re.compile(r"^\d{1,2} min$", re.ASCII)
 LIST_LIMITS = {"steps": (2, 6), "howToSpot": (2, 4), "whatToDo": (2, 4)}
 
 PRIVACY_EN = re.compile(r"\b(photo|selfie|face|voice|document)", re.IGNORECASE)
@@ -45,6 +49,7 @@ class Sources:
     tools: list = field(default_factory=list)
     tasks: list = field(default_factory=list)
     week: dict = field(default_factory=dict)
+    archived: set = field(default_factory=set)  # ids of items whose sources are in archive/items/
 
 
 def _read(path: Path):
@@ -63,7 +68,13 @@ def load_sources(root: Path) -> Sources:
     src.tools = _read(root / "content" / "tools.json")
     src.tasks = _read(root / "content" / "tasks.json")
     src.week = _read(root / "content" / "week.json")
+    src.archived = archived_ids(root)
     return src
+
+
+def archived_ids(root: Path) -> set:
+    """Ids (file stems) of the item sources prune.py moved to archive/items/."""
+    return {p.stem for p in (Path(root) / "archive" / "items").glob("*.json")}
 
 
 def load_app_lessons(root: Path) -> set:
@@ -205,8 +216,8 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
 
     if "image" in it:
         _check_image(src.root, it["image"], iid, errs)
-    if "minutes" in it and not _is_str(it["minutes"]):
-        e("minutes must be a non-empty string")
+    if "minutes" in it and not (isinstance(it["minutes"], str) and MINUTES.match(it["minutes"])):
+        e(f"minutes must look like \"3 min\" (1 or 2 digits, a space, then min), got {it['minutes']!r}")
 
     if typ == "news":
         if "sourceUrl" not in it:
@@ -258,6 +269,9 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
                     le(f"{f} count {len(v)} must be {lo} to {hi_}")
             elif not _is_str(d.get(f)):
                 le(f"{f} is required")
+        for f in PLAIN_TEXT_FIELDS:
+            if isinstance(d.get(f), str) and "*" in d[f]:
+                le(f"{f} must not contain '*': the app shows it as plain text")
         for f in MARKDOWN_FIELDS:
             v = d.get(f)
             for s in (v if isinstance(v, list) else [v]):
@@ -353,7 +367,9 @@ def _validate(src, app_lessons, check_urls, min_stories):
         errs.append(f"week: stories count {len(stories)} must be {min_stories} to 7")
     if len(set(stories)) != len(stories):
         errs.append("week: stories contains duplicate ids")
-    refs = [("stories", x) for x in stories] + [("featured", featured)]
+    # An id prune.py has archived is stale but harmless: build.py leaves it out with a warning.
+    refs = [(k, r) for k, r in [("stories", x) for x in stories] + [("featured", featured)]
+            if r in by_id or r not in src.archived]
     for kind, rid in refs:
         if rid not in by_id:
             errs.append(f"week: {kind} references unknown item {rid!r}")
@@ -386,6 +402,13 @@ def _flatten_item(it, lang):
     if it["type"] == "safety":
         out.setdefault("helpline", DEFAULT_HELPLINE)
     return out
+
+
+def stale_week_ids(src: Sources) -> list:
+    """week.json ids (stories, then featured) that are not among src.items, e.g. archived or pruned."""
+    ids = {i["id"] for i in src.items}
+    refs = list(src.week["stories"]) + [src.week["featured"]]
+    return [r for r in dict.fromkeys(refs) if r not in ids]
 
 
 def build(src: Sources, lang: str, generated_at: str) -> dict:
@@ -422,7 +445,7 @@ def without_items(src: Sources, ids) -> Sources:
     ids = set(ids)
     keep = [(i, f) for i, f in zip(src.items, src.files) if i["id"] not in ids]
     return Sources(root=src.root, items=[i for i, _ in keep], files=[f for _, f in keep],
-                   tools=src.tools, tasks=src.tasks, week=src.week)
+                   tools=src.tools, tasks=src.tasks, week=src.week, archived=src.archived)
 
 
 def referenced_images(doc: dict) -> list:

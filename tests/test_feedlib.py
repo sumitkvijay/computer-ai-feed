@@ -1,5 +1,6 @@
 import copy
 import json
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -84,12 +85,44 @@ class ValidateTests(FeedTestCase):
         self.assertError("relatedLesson")
 
     def test_unescaped_asterisk(self):
-        self.item(TREND)["en"]["hook"] = "Use * to multiply"
+        self.item(TREND)["en"]["example"] = "Use * to multiply"
         self.assertError("markdown")
 
     def test_escaped_and_paired_markdown_ok(self):
-        self.item(TREND)["en"]["hook"] = r"**Bold** and *italic* and 2 \* 3"
+        self.item(TREND)["en"]["example"] = r"**Bold** and *italic* and 2 \* 3"
         self.assertEqual(self.errors(), [])
+
+    def test_asterisk_rejected_in_plain_text_fields(self):
+        for f, text in (("title", "**New** trick"), ("hook", r"2 \* 3"), ("imageAlt", "A *retro* photo")):
+            with self.subTest(field=f):
+                self.setUp()
+                self.item(TREND)["hi"][f] = text
+                errs = self.assertError(f"{f} must not contain '*'")
+                self.assertTrue(any(e.startswith(TREND + ": hi:") for e in errs if "'*'" in e))
+
+    def test_minutes_format_enforced(self):
+        for bad in ("about 3 min", "3-5 min", "५ मिनट", "५ min", "100 min", "3 mins", "3min", 3):
+            with self.subTest(minutes=bad):
+                self.item(TREND)["minutes"] = bad
+                self.assertError("minutes")
+
+    def test_minutes_valid(self):
+        for good in ("1 min", "3 min", "10 min", "45 min"):
+            with self.subTest(minutes=good):
+                self.item(TREND)["minutes"] = good
+                self.assertEqual(self.errors(), [])
+        del self.item(TREND)["minutes"]
+        self.assertEqual(self.errors(), [])
+
+    def test_archived_week_id_is_tolerated(self):
+        self.src.week["stories"].append("howto-old")
+        self.assertError("unknown item 'howto-old'")
+        self.src.archived = {"howto-old"}
+        self.assertEqual(self.errors(), [])
+        self.src.week["featured"] = "howto-old"
+        self.assertEqual(self.errors(), [])
+        self.src.week["featured"] = "howto-nowhere"
+        self.assertError("unknown item 'howto-nowhere'")
 
     def test_story_count_enforced_by_default(self):
         errs = feedlib.validate(self.src, self.lessons, False)
@@ -187,6 +220,24 @@ class BuildTests(FeedTestCase):
     def test_prune_30_days_past_review(self):
         self.assertEqual(feedlib.prune(self.src, date(2026, 12, 4)), [NEWS])
         self.assertEqual(feedlib.prune(self.src, date(2026, 12, 3)), [])
+
+    def test_build_drops_archived_week_ids_with_warning(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "feed"
+            shutil.copytree(FIX, root)
+            (root / "archive" / "items").mkdir(parents=True)
+            shutil.move(str(root / "content" / "items" / f"{TREND}.json"), str(root / "archive" / "items"))
+            out = Path(tmp) / "out"
+            r = subprocess.run(
+                [sys.executable, "-I", str(REPO / "tools" / "build.py"), "--root", str(root), "--out", str(out),
+                 "--generated-at", "2026-10-20T03:30:00Z", "--today", "2026-10-20", "--no-urls", "--min-stories", "1"],
+                capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            self.assertIn(f"WARNING week.json references '{TREND}'", r.stdout)
+            en = json.loads((out / "en.json").read_text(encoding="utf-8"))
+            self.assertEqual(en["stories"], [NEWS])
+            self.assertIsNone(en["featured"])
+            self.assertEqual([i["id"] for i in en["items"]], [NEWS])
 
     def test_build_copies_referenced_images(self):
         with tempfile.TemporaryDirectory() as out:

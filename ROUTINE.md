@@ -57,6 +57,10 @@ the existing files in `content/items/`.
 - Any item whose steps or prompt involve a photo, voice, face or document needs a `privacyNote` in both
   languages. Never suggest uploading Aadhaar, PAN, bank or OTP screenshots.
 - Add new tools to `content/tools.json` only if they are free or freemium and have an Android or web link.
+- `minutes` (optional) is how long the item takes, written exactly as `"N min"` with 1 or 2 digits, for
+  example `"3 min"`. Use the same value in both languages; the app shows it in the user's language. Never
+  write a range, words or Hindi digits (not `"3-5 min"`, `"about 3 min"` or `"५ मिनट"`).
+- `title`, `hook` and `imageAlt` are shown as plain text, so they must not contain `*`.
 - Update `content/week.json`: `stories` (the batch ids in publish order) and `featured` (the best item).
 - Images: use none unless you can make one yourself or generate one that contains no real people and no
   copyrighted material. WebP, at most 40 KB, saved under `images/`, with `image` and `imageAlt` set. If you
