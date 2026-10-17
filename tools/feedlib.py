@@ -4,6 +4,7 @@ import json
 import re
 import shutil
 import time
+import unicodedata
 import urllib.request
 from dataclasses import dataclass, field
 from datetime import date, timedelta
@@ -31,7 +32,8 @@ MARKDOWN_FIELDS = ("title", "hook", "steps", "example", "privacyNote", "body", "
 LIST_LIMITS = {"steps": (2, 6), "howToSpot": (2, 4), "whatToDo": (2, 4)}
 
 PRIVACY_EN = re.compile(r"\b(photo|selfie|face|voice|document)", re.IGNORECASE)
-PRIVACY_HI = re.compile("फ़ोटो|फोटो|सेल्फ़ी|चेहरा|आवाज़|दस्तावेज़")
+PRIVACY_HI = re.compile(unicodedata.normalize("NFC", "फ़ोटो|फोटो|सेल्फ़ी|चेहरा|आवाज़|दस्तावेज़"))
+MAX_LIFETIME_DAYS = {"trend": 28, "news": 14}
 
 
 @dataclass
@@ -121,6 +123,9 @@ def _reachable(url):
 
 
 def _check_image(root, path, where, errs, label="image"):
+    if not isinstance(path, str):
+        errs.append(f"{where}: {label} must be a string path")
+        return
     p = Path(path)
     if p.is_absolute() or ".." in p.parts or not path.startswith("images/"):
         errs.append(f"{where}: {label} must be a relative path under images/, got {path}")
@@ -163,7 +168,9 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
     if rev is None:
         e("reviewBy must be a valid YYYY-MM-DD date")
     if pub and rev and pub > rev:
-        e("publishAt must be on or before reviewBy")
+        e("reviewBy must be on or after publishAt")
+    elif pub and rev and typ in MAX_LIFETIME_DAYS and (rev - pub).days > MAX_LIFETIME_DAYS[typ]:
+        e(f"lifetime {(rev - pub).days} days is over the {MAX_LIFETIME_DAYS[typ]} day maximum for {typ} items")
 
     tags = it.get("tags")
     if not isinstance(tags, list) or not 1 <= len(tags) <= 3 or not all(_is_str(t) for t in tags):
@@ -175,7 +182,7 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
             e("toolIds must be a list")
         else:
             for t in ids:
-                if t not in tool_ids:
+                if not isinstance(t, str) or t not in tool_ids:
                     e(f"toolIds references unknown tool {t!r}")
 
     if "relatedLesson" in it:
@@ -217,7 +224,10 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
                 le("prompt is required")
             elif len(d["prompt"]) > 600:
                 le(f"prompt length {len(d['prompt'])} is over 600")
-            text = " ".join(s for s in d.get("steps", []) if isinstance(s, str)) + " " + str(d.get("prompt", ""))
+            steps = d.get("steps")
+            steps = steps if isinstance(steps, list) else []
+            text = unicodedata.normalize(
+                "NFC", " ".join(x for x in steps if isinstance(x, str)) + " " + str(d.get("prompt") or ""))
             if (PRIVACY_EN.search(text) or PRIVACY_HI.search(text)) and not _is_str(d.get("privacyNote")):
                 le("privacyNote is required when steps or prompt mention a photo, selfie, face, voice or document")
             required = ("steps",)
@@ -256,10 +266,20 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
 
 
 def validate(src: Sources, app_lessons: set, check_urls: bool, min_stories: int = 5) -> list:
+    try:
+        return _validate(src, app_lessons, check_urls, min_stories)
+    except Exception as ex:  # malformed input must be reported, never crash
+        return [f"malformed input: {type(ex).__name__}: {ex}"]
+
+
+def _validate(src, app_lessons, check_urls, min_stories):
     errs, urls = [], []
     tool_ids = set()
 
     for t in src.tools:
+        if not isinstance(t, dict):
+            errs.append(f"tool {t!r}: must be an object")
+            continue
         tid = t.get("id", "?")
         where = f"tool {tid}"
         if tid in tool_ids:
@@ -286,6 +306,9 @@ def validate(src: Sources, app_lessons: set, check_urls: bool, min_stories: int 
     if len(src.tasks) > MAX_TASKS:
         errs.append(f"tasks: at most {MAX_TASKS} allowed, got {len(src.tasks)}")
     for t in src.tasks:
+        if not isinstance(t, dict):
+            errs.append(f"task {t!r}: must be an object")
+            continue
         tid = t.get("id", "?")
         task_ids.add(tid)
         if not _is_str(t.get("icon")):
@@ -296,22 +319,28 @@ def validate(src: Sources, app_lessons: set, check_urls: bool, min_stories: int 
 
     seen = set()
     for it, stem in zip(src.items, src.files):
+        if not isinstance(it, dict):
+            errs.append(f"{stem}: item must be an object")
+            continue
         iid = it.get("id", stem)
         if iid in seen:
             errs.append(f"{iid}: duplicate id")
         seen.add(iid)
         _check_item(src, it, stem, tool_ids, app_lessons, errs, urls)
 
-    by_id = {i.get("id"): i for i in src.items}
-    stories, featured = src.week.get("stories"), src.week.get("featured")
-    if not isinstance(stories, list):
-        errs.append("week: stories must be a list")
+    by_id = {i.get("id"): i for i in src.items if isinstance(i, dict)}
+    week = src.week if isinstance(src.week, dict) else {}
+    if week is not src.week:
+        errs.append("week: must be an object")
+    stories, featured = week.get("stories"), week.get("featured")
+    if not isinstance(stories, list) or not all(isinstance(x, str) for x in stories):
+        errs.append("week: stories must be a list of ids")
         stories = []
     elif not min_stories <= len(stories) <= 7:
         errs.append(f"week: stories count {len(stories)} must be {min_stories} to 7")
     if len(set(stories)) != len(stories):
         errs.append("week: stories contains duplicate ids")
-    refs = [("stories", s) for s in stories] + [("featured", featured)]
+    refs = [("stories", x) for x in stories] + [("featured", featured)]
     for kind, rid in refs:
         if rid not in by_id:
             errs.append(f"week: {kind} references unknown item {rid!r}")

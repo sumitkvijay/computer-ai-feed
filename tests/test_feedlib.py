@@ -97,6 +97,62 @@ class ValidateTests(FeedTestCase):
         self.item(TREND)["image"] = "images/x.png"
         self.assertError("image")
 
+    def test_trend_lifetime_over_28_rejected(self):
+        self.item(TREND)["reviewBy"] = "2026-11-18"
+        errs = self.assertError("lifetime")
+        self.assertTrue(any(e.startswith(TREND + ":") and "lifetime" in e for e in errs))
+        self.item(TREND)["reviewBy"] = "2026-11-17"
+        self.assertEqual(self.errors(), [])
+
+    def test_news_lifetime_over_14_rejected(self):
+        self.item(NEWS)["reviewBy"] = "2026-11-05"
+        errs = self.assertError("lifetime")
+        self.assertTrue(any(e.startswith(NEWS + ":") for e in errs))
+
+    def test_howto_long_lifetime_allowed(self):
+        it = self.item(TREND)
+        it["type"] = "howto"
+        it["id"] = "howto-80s-photo"
+        self.src.files[self.src.items.index(it)] = "howto-80s-photo"
+        self.src.week["stories"] = ["howto-80s-photo", NEWS]
+        self.src.week["featured"] = "howto-80s-photo"
+        it["reviewBy"] = "2027-12-31"
+        self.assertEqual(self.errors(), [])
+
+    def test_privacy_check_matches_precomposed_nukta(self):
+        it = self.item(TREND)
+        del it["hi"]["privacyNote"]
+        it["hi"]["steps"] = ["\u095e\u094b\u091f\u094b \u091a\u0941\u0928\u0947\u0902", "\u092d\u0947\u091c\u0947\u0902"]
+        it["en"]["steps"] = ["Choose it", "Send"]
+        it["en"]["prompt"] = "Make it retro"
+        it["hi"]["prompt"] = "इसे रेट्रो बनाओ"
+        self.assertError("privacyNote")
+
+    def test_privacy_check_case_insensitive_english(self):
+        it = self.item(TREND)
+        del it["en"]["privacyNote"]
+        it["en"]["steps"] = ["Upload your Photo", "Send"]
+        it["en"]["prompt"] = "Make it retro"
+        self.assertError("privacyNote")
+
+    def test_malformed_fields_report_errors_not_crash(self):
+        it = self.item(TREND)
+        it["image"] = 5
+        it["hi"]["steps"] = None
+        it["tags"] = None
+        it["toolIds"] = [["x"]]
+        self.src.tools.append("junk")
+        self.src.tasks.append(7)
+        self.src.items.append(None)
+        self.src.files.append("junk")
+        self.src.week["stories"] = [{"a": 1}]
+        errs = self.errors()
+        self.assertTrue(errs)
+        self.assertTrue(any("image" in e for e in errs))
+        self.assertTrue(any("steps" in e for e in errs))
+        self.src.week = None
+        self.assertTrue(self.errors())
+
     def test_unknown_tool_id(self):
         self.item(TREND)["toolIds"] = ["ghost"]
         self.assertError("toolIds")
