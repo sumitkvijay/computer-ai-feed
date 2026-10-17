@@ -1,0 +1,46 @@
+{
+ "id": "howto-translate-letter",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "translate",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "google-lens",
+  "google-translate",
+  "gemini"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L08"
+ },
+ "hi": {
+  "title": "अंग्रेज़ी चिट्ठी को हिंदी में समझें",
+  "hook": "बैंक, स्कूल या दफ़्तर की चिट्ठी? कैमरे से पढ़कर हिंदी में समझें",
+  "steps": [
+   "Google Lens खोलें और नीचे \"अनुवाद\" (Translate) चुनें",
+   "चिट्ठी पर कैमरा रखें। स्क्रीन पर ही हिंदी दिखने लगेगी",
+   "पूरी बात आसान शब्दों में चाहिए तो चिट्ठी का लिखा हिस्सा कॉपी करके Gemini में प्रॉम्प्ट के साथ चिपकाएँ",
+   "कोई ज़रूरी बात (तारीख़, रकम, आख़िरी दिन) समझ न आए तो भेजने वाले दफ़्तर से पूछें"
+  ],
+  "prompt": "नीचे एक अंग्रेज़ी चिट्ठी है। इसे सरल हिंदी में समझाओ:\n1. चिट्ठी किस बारे में है?\n2. मुझसे क्या करने को कहा गया है?\n3. कोई तारीख़ या आख़िरी दिन लिखा है तो बताओ।\n\n[चिट्ठी का लिखा हिस्सा यहाँ चिपकाएँ]",
+  "example": "\"यह चिट्ठी आपके बिजली बिल के बारे में है। आपको 25 तारीख़ तक बिल भरना है...\"",
+  "privacyNote": "फ़ोटो लेने या टेक्स्ट चिपकाने से पहले खाता नंबर, आधार नंबर, पता और साइन वाला हिस्सा ढक दें या हटा दें। आधार, PAN या बैंक के कागज़ AI में न डालें।"
+ },
+ "en": {
+  "title": "Understand a letter in another language",
+  "hook": "Got a letter from the bank, school or office? Point your camera and understand it",
+  "steps": [
+   "Open Google Lens and tap \"Translate\" at the bottom",
+   "Point the camera at the letter. The translation appears right on the screen",
+   "For a simple summary, copy the letter's text and paste it into Gemini with the prompt below",
+   "If an important detail (a date, an amount, a deadline) is unclear, ask the office that sent it"
+  ],
+  "prompt": "Below is a letter. Explain it in simple English:\n1. What is this letter about?\n2. What am I being asked to do?\n3. Is there a date or deadline? Tell me.\n\n[Paste the letter text here]",
+  "example": "\"This letter is about your electricity bill. You need to pay it by the 25th...\"",
+  "privacyNote": "Before you take a photo or paste text, cover or delete account numbers, Aadhaar numbers, your address and your signature. Never put Aadhaar, PAN or bank papers into AI."
+ }
+}

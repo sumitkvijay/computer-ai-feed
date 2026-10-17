@@ -1,0 +1,39 @@
+{
+ "id": "trend-ai-rangoli-design",
+ "type": "trend",
+ "publishAt": "2026-10-24",
+ "reviewBy": "2026-11-21",
+ "tags": [
+  "photo",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "title": "AI से इस दिवाली नई रंगोली डिज़ाइन पाएँ",
+  "hook": "मनपसंद रंग बताइए, AI रंगोली का डिज़ाइन बनाकर दिखा देगा",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में अपने रंग और आकार भरें",
+   "डिज़ाइन बहुत मुश्किल लगे तो लिखें \"इसे और आसान बनाओ, बच्चों के लिए\"",
+   "तस्वीर डाउनलोड करें और उसे देखकर ज़मीन पर रंगोली बनाएँ"
+  ],
+  "prompt": "दिवाली के लिए एक रंगोली डिज़ाइन की तस्वीर बनाओ, ऊपर से देखने जैसी। रंग: [जैसे लाल, पीला, हरा]। आकार: [गोल / फूल जैसा / मोर वाला]। डिज़ाइन इतना आसान हो कि घर पर हाथ से बनाया जा सके। किनारों पर छोटे दीये हों।",
+  "example": "ऊपर से दिखती एक रंग-बिरंगी गोल रंगोली, किनारों पर दीये, जिसे देखकर आप घर पर बना सकें।"
+ },
+ "en": {
+  "title": "Get a fresh rangoli design from AI this Diwali",
+  "hook": "Tell AI your favourite colours and it draws a rangoli design for you",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below and fill in your colours and shape",
+   "Too hard? Write \"make it simpler, so children can do it\"",
+   "Download the picture and copy the design onto your floor"
+  ],
+  "prompt": "Make a picture of a Diwali rangoli design, seen from above. Colours: [for example red, yellow, green]. Shape: [round / flower / peacock]. Keep the design simple enough to make by hand at home. Add small diyas around the edges.",
+  "example": "A colourful round rangoli seen from above, with diyas around it, that you can copy at home."
+ }
+}

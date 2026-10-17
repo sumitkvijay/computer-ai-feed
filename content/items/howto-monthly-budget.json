@@ -1,0 +1,45 @@
+{
+ "id": "howto-monthly-budget",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "5 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt",
+  "meta-ai"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L09"
+ },
+ "hi": {
+  "title": "महीने के ख़र्च की आसान तालिका बनाएँ",
+  "hook": "घर के ख़र्च लिखें, AI जोड़कर साफ़ तालिका बना देगा",
+  "steps": [
+   "इस महीने के ख़र्च एक कागज़ पर लिख लें, जैसे राशन, किराया, बिजली",
+   "Gemini, ChatGPT या Meta AI खोलें और नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "अपने ख़र्च और कमाई की रकम भरें और भेजें",
+   "जोड़ एक बार कैलकुलेटर से भी जाँच लें, AI से गिनती में ग़लती हो सकती है"
+  ],
+  "prompt": "मेरे इस महीने के ख़र्च की एक सरल तालिका बनाओ, जिसमें ख़र्च का नाम और रकम हो, और आख़िर में कुल जोड़ हो। फिर बताओ कि कमाई में से कितना बचा।\nकमाई: [रकम]\nख़र्च:\nराशन - [रकम]\nकिराया - [रकम]\nबिजली - [रकम]\nमोबाइल रिचार्ज - [रकम]\nबच्चों की पढ़ाई - [रकम]\nबाकी - [रकम]",
+  "example": "एक तालिका: \"राशन ₹4,000 | किराया ₹6,000 | ... | कुल ₹15,500\" और नीचे \"इस महीने ₹2,500 बचे।\"",
+  "privacyNote": "सिर्फ़ रकम लिखें। बैंक खाता नंबर, UPI PIN, कार्ड नंबर या बैंक स्टेटमेंट की फ़ोटो कभी न डालें।"
+ },
+ "en": {
+  "title": "Make a simple table of your monthly expenses",
+  "hook": "Write down your home expenses and AI adds them up in a neat table",
+  "steps": [
+   "Write this month's expenses on paper: groceries, rent, electricity and so on",
+   "Open Gemini, ChatGPT or Meta AI and paste the prompt below",
+   "Fill in your income and expense amounts, then send",
+   "Check the total once with a calculator too. AI can make mistakes with sums"
+  ],
+  "prompt": "Make a simple table of my expenses this month with the item and the amount, and the total at the end. Then tell me how much is left from my income.\nIncome: [amount]\nExpenses:\nGroceries - [amount]\nRent - [amount]\nElectricity - [amount]\nMobile recharge - [amount]\nChildren's school - [amount]\nOther - [amount]",
+  "example": "A table: \"Groceries ₹4,000 | Rent ₹6,000 | ... | Total ₹15,500\" and below it \"You have ₹2,500 left this month.\"",
+  "privacyNote": "Type only the amounts. Never add bank account numbers, UPI PINs, card numbers or photos of bank statements."
+ }
+}

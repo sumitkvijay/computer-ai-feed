@@ -1,0 +1,45 @@
+{
+ "id": "howto-interview-practice",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "work"
+ ],
+ "minutes": "10 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt",
+  "copilot"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L16"
+ },
+ "hi": {
+  "title": "AI के साथ इंटरव्यू की तैयारी करें",
+  "hook": "AI इंटरव्यू लेने वाला बनेगा, आप जवाब देकर अभ्यास करें",
+  "steps": [
+   "Gemini, ChatGPT या Copilot खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और नौकरी का नाम भरें",
+   "AI एक-एक सवाल पूछेगा। अपना जवाब टाइप करें",
+   "हर जवाब के बाद AI बताएगा कि जवाब और अच्छा कैसे हो",
+   "5 सवालों के बाद पूछें: \"मेरी सबसे बड़ी कमी क्या रही?\""
+  ],
+  "prompt": "तुम एक इंटरव्यू लेने वाले हो। मैं [नौकरी का नाम, जैसे डेटा एंट्री ऑपरेटर / सेल्स एग्ज़िक्यूटिव] की नौकरी के लिए इंटरव्यू दे रहा/रही हूँ। मुझसे एक बार में सिर्फ़ एक सवाल पूछो। मेरे जवाब के बाद 2 लाइन में बताओ कि क्या अच्छा था और क्या सुधार सकता हूँ, फिर अगला सवाल पूछो। कुल 5 सवाल पूछना। सरल हिंदी में बात करो।",
+  "example": "\"पहला सवाल: अपने बारे में थोड़ा बताइए।\" ... \"अच्छा जवाब! अगली बार अपने पिछले काम का एक उदाहरण भी जोड़ें।\""
+ },
+ "en": {
+  "title": "Practise for a job interview with AI",
+  "hook": "AI plays the interviewer while you practise your answers",
+  "steps": [
+   "Open Gemini, ChatGPT or Copilot",
+   "Paste the prompt below and fill in the job name",
+   "AI will ask one question at a time. Type your answer",
+   "After each answer, AI tells you how to make it better",
+   "After 5 questions, ask: \"What was my biggest weak point?\""
+  ],
+  "prompt": "You are a job interviewer. I am interviewing for a [job name, for example data entry operator / sales executive] job. Ask me only one question at a time. After each answer, tell me in 2 lines what was good and what I can improve, then ask the next question. Ask 5 questions in total. Use simple English.",
+  "example": "\"First question: Tell me a little about yourself.\" ... \"Good answer! Next time, add one example from your past work.\""
+ }
+}

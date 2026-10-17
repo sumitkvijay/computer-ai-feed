@@ -1,0 +1,62 @@
+[
+ {
+  "id": "writing",
+  "icon": "edit",
+  "hi": {
+   "title": "अर्ज़ी और चिट्ठी लिखें"
+  },
+  "en": {
+   "title": "Write letters & applications"
+  }
+ },
+ {
+  "id": "translate",
+  "icon": "translate",
+  "hi": {
+   "title": "भाषा बदलें, अनुवाद करें"
+  },
+  "en": {
+   "title": "Translate anything"
+  }
+ },
+ {
+  "id": "study",
+  "icon": "school",
+  "hi": {
+   "title": "पढ़ाई में मदद"
+  },
+  "en": {
+   "title": "Help with studies"
+  }
+ },
+ {
+  "id": "work",
+  "icon": "work",
+  "hi": {
+   "title": "नौकरी और काम"
+  },
+  "en": {
+   "title": "Jobs & work"
+  }
+ },
+ {
+  "id": "photo",
+  "icon": "photo_camera",
+  "hi": {
+   "title": "फ़ोटो बनाएँ और सजाएँ"
+  },
+  "en": {
+   "title": "Create & style photos"
+  }
+ },
+ {
+  "id": "daily-life",
+  "icon": "home",
+  "hi": {
+   "title": "रोज़ के काम आसान"
+  },
+  "en": {
+   "title": "Everyday life made easy"
+  }
+ }
+]

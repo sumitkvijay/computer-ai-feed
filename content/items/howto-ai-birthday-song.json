@@ -1,0 +1,44 @@
+{
+ "id": "howto-ai-birthday-song",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "daily-life",
+  "writing"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt",
+  "meta-ai"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L05"
+ },
+ "hi": {
+  "title": "अपनों के लिए AI से जन्मदिन का गाना लिखवाएँ",
+  "hook": "नाम और दो-तीन बातें बताइए, AI प्यारा-सा गाना लिख देगा",
+  "steps": [
+   "Gemini, ChatGPT या WhatsApp में Meta AI खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और नाम व बातें भरें",
+   "गाना पढ़ें। बदलना हो तो लिखें \"और मज़ेदार बनाओ\" या \"छोटा करो\"",
+   "गाने को WhatsApp पर भेजें, या ख़ुद गाकर रिकॉर्ड करें और भेजें"
+  ],
+  "prompt": "मेरी [रिश्ता, जैसे माँ / दोस्त / बेटा] [नाम] का जन्मदिन है। उनके लिए 3 छोटे अंतरों वाला एक प्यारा जन्मदिन गाना सरल हिंदी में लिखो, जिसे आसानी से गाया जा सके। उनके बारे में कुछ बातें: [जैसे खाना बहुत अच्छा बनाती हैं, क्रिकेट पसंद है]। हर अंतरे के बाद \"हैप्पी बर्थडे [नाम]\" वाली एक लाइन हो।",
+  "example": "\"सुबह-सुबह जो चाय बनाए, सबसे पहले मुस्काए... हैप्पी बर्थडे माँ!\""
+ },
+ "en": {
+  "title": "Get AI to write a birthday song for a loved one",
+  "hook": "Share a name and a few details, and AI writes a sweet song",
+  "steps": [
+   "Open Gemini, ChatGPT or Meta AI in WhatsApp",
+   "Paste the prompt below and fill in the name and details",
+   "Read the song. To change it, write \"make it funnier\" or \"make it shorter\"",
+   "Send the song on WhatsApp, or sing and record it yourself"
+  ],
+  "prompt": "It is my [relation, for example mother / friend / son] [name]'s birthday. Write a sweet birthday song for them in simple English with 3 short verses that are easy to sing. A few things about them: [for example, cooks amazing food, loves cricket]. After each verse, add a line \"Happy birthday [name]\".",
+  "example": "\"Up with the sun, the first to smile, making chai with love and style... Happy birthday, Mum!\""
+ }
+}

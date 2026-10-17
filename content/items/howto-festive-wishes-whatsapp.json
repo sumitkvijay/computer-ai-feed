@@ -1,0 +1,43 @@
+{
+ "id": "howto-festive-wishes-whatsapp",
+ "type": "howto",
+ "publishAt": "2026-10-23",
+ "reviewBy": "2026-11-20",
+ "tags": [
+  "writing",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "meta-ai",
+  "gemini"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L07"
+ },
+ "hi": {
+  "title": "WhatsApp में Meta AI से दिवाली की शुभकामनाएँ लिखें",
+  "hook": "रिश्तेदारों, दोस्तों और ग्राहकों के लिए अलग-अलग प्यारे संदेश",
+  "steps": [
+   "WhatsApp खोलें और चैट लिस्ट में नीला-बैंगनी गोल बटन (Meta AI) दबाएँ",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में भरें कि संदेश किसके लिए है",
+   "जो संदेश पसंद आए, उसे दबाकर रखें और कॉपी करें",
+   "अपने परिवार या ग्राहकों की चैट में चिपकाकर भेजें"
+  ],
+  "prompt": "दिवाली की शुभकामनाओं के 3 छोटे, प्यारे संदेश सरल हिंदी में लिखो, हर संदेश 2-3 लाइन का हो। संदेश [किसके लिए: जैसे मेरे रिश्तेदार / दोस्त / मेरी किराना दुकान के ग्राहक] के लिए हैं। हर संदेश के आख़िर में मेरा नाम [नाम] हो। थोड़े इमोजी भी डालो।",
+  "example": "\"दीयों की रोशनी आपके घर को ख़ुशियों से भर दे। आपको और आपके परिवार को शुभ दीपावली! 🪔 - रमेश\""
+ },
+ "en": {
+  "title": "Write Diwali wishes with Meta AI in WhatsApp",
+  "hook": "Warm messages for family, friends and customers, each one different",
+  "steps": [
+   "Open WhatsApp and tap the blue-purple ring (Meta AI) in your chat list",
+   "Paste the prompt below and fill in who the message is for",
+   "Long-press the message you like and copy it",
+   "Paste it into your family or customer chats and send"
+  ],
+  "prompt": "Write 3 short, warm Diwali wishes in simple English, each 2 to 3 lines long. They are for [who: for example my relatives / friends / customers of my grocery shop]. End each message with my name [name]. Add a few emojis.",
+  "example": "\"May the light of the diyas fill your home with joy. Happy Diwali to you and your family! 🪔 - Ramesh\""
+ }
+}

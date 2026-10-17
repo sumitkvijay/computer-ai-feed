@@ -1,0 +1,46 @@
+{
+ "id": "howto-leave-application",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "writing",
+  "work"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt",
+  "meta-ai"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L07"
+ },
+ "hi": {
+  "title": "AI से छुट्टी की अर्ज़ी लिखवाएँ",
+  "hook": "स्कूल या दफ़्तर की अर्ज़ी, एक मिनट में तैयार",
+  "steps": [
+   "Gemini, ChatGPT या WhatsApp में Meta AI खोलें",
+   "नीचे दिया गया प्रॉम्प्ट कॉपी करके चिपकाएँ",
+   "कोष्ठक [ ] वाली जगह अपनी बातें भरें और भेजें",
+   "जवाब पढ़ें। कुछ बदलना हो तो लिखें, जैसे \"थोड़ा छोटा करो\"",
+   "आख़िर में अपना नाम और तारीख़ ख़ुद जाँच लें"
+  ],
+  "prompt": "मेरे लिए छुट्टी की एक अर्ज़ी लिखो।\nकिसको: [प्रधानाचार्य / मैनेजर का पद]\nमेरा नाम: [नाम]\nकितने दिन: [तारीख़ से तारीख़ तक]\nवजह: [जैसे बुख़ार, घर में शादी]\nभाषा सरल और विनम्र हिंदी हो, और अर्ज़ी 8-10 लाइन से ज़्यादा न हो।",
+  "example": "\"सेवा में, प्रधानाचार्य महोदय... सविनय निवेदन है कि...\" जैसी पूरी अर्ज़ी, जिसे आप सीधे कॉपी कर सकें।"
+ },
+ "en": {
+  "title": "Get AI to write your leave application",
+  "hook": "A school or office leave letter, ready in a minute",
+  "steps": [
+   "Open Gemini, ChatGPT or Meta AI in WhatsApp",
+   "Copy the prompt below and paste it in",
+   "Fill in the parts in [ ] brackets and send",
+   "Read the reply. To change it, just ask, for example \"make it shorter\"",
+   "Check your name and dates yourself before you send it"
+  ],
+  "prompt": "Write a leave application for me.\nTo: [Principal / Manager]\nMy name: [name]\nDays of leave: [from date to date]\nReason: [for example fever, family wedding]\nUse simple, polite English and keep it under 10 lines.",
+  "example": "A complete letter starting \"To the Principal... Respected Sir/Madam, I am writing to request leave...\" that you can copy as it is."
+ }
+}

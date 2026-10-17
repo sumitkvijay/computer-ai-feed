@@ -1,0 +1,51 @@
+{
+ "id": "safety-voice-clone-call",
+ "type": "safety",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "safety",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L14"
+ },
+ "hi": {
+  "title": "अपनों की नकली आवाज़ वाली कॉल से बचें",
+  "hook": "आवाज़ बेटे की, पर कॉल ठग की? पैसे भेजने से पहले रुकें",
+  "whatsHappening": "ठग सोशल मीडिया वीडियो या वॉइस नोट से किसी की कुछ सेकंड की आवाज़ लेकर AI से उसकी **नकली आवाज़** बना लेते हैं। फिर रोते हुए या घबराकर कॉल करते हैं, \"मैं मुसीबत में हूँ, अभी पैसे भेजो\"।",
+  "howToSpot": [
+   "नए या अनजान नंबर से कॉल, और कहा जाए कि \"मेरा फ़ोन खो गया\"",
+   "बहुत जल्दी मचाना: \"अभी भेजो, किसी को मत बताना\"",
+   "UPI, गिफ़्ट कार्ड या किसी और के खाते में पैसे माँगना",
+   "आवाज़ थोड़ी अटकती या मशीन जैसी लगे, सवाल पूछने पर बात बदल दे"
+  ],
+  "whatToDo": [
+   "कॉल काटें और उसी व्यक्ति को उसके **पुराने सेव नंबर** पर ख़ुद कॉल करें",
+   "परिवार में एक \"कोड वर्ड\" तय करें, जो सिर्फ़ आप लोग जानते हों",
+   "कभी OTP या PIN न बताएँ, और जाँचे बिना पैसे न भेजें",
+   "ठगी हो जाए तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "title": "Watch out for fake calls in a loved one's voice",
+  "hook": "It sounds like your son, but is it a scammer? Stop before you pay",
+  "whatsHappening": "Scammers take a few seconds of someone's voice from a social media video or voice note and use AI to make a **fake copy of the voice**. Then they call in a panic: \"I'm in trouble, send money now.\"",
+  "howToSpot": [
+   "A call from a new or unknown number, with \"my phone is lost\"",
+   "Heavy pressure: \"Send it right now, don't tell anyone\"",
+   "A request for UPI, gift cards or money to someone else's account",
+   "The voice sounds slightly broken or robotic, and dodges your questions"
+  ],
+  "whatToDo": [
+   "Hang up and call the person yourself on their **old saved number**",
+   "Agree on a family \"code word\" that only you know",
+   "Never share an OTP or PIN, and never pay without checking first",
+   "If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

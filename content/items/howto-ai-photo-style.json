@@ -1,0 +1,46 @@
+{
+ "id": "howto-ai-photo-style",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "photo"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L13"
+ },
+ "hi": {
+  "title": "अपनी फ़ोटो को पेंटिंग जैसा बनाएँ",
+  "hook": "एक फ़ोटो से वॉटरकलर, कार्टून या पुराने ज़माने वाला लुक",
+  "steps": [
+   "Gemini या ChatGPT ऐप खोलें",
+   "+ बटन दबाकर अपनी एक साफ़ फ़ोटो जोड़ें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में अपनी पसंद का स्टाइल लिखें",
+   "पसंद न आए तो लिखें \"चेहरा बिल्कुल वैसा ही रखो, बस रंग हल्के करो\"",
+   "फ़ोटो डाउनलोड करें। मुफ़्त प्लान में दिन की कुछ सीमा होती है"
+  ],
+  "prompt": "इस फ़ोटो को [वॉटरकलर पेंटिंग / कार्टून / पुराने ज़माने की ब्लैक एंड व्हाइट फ़ोटो] के स्टाइल में बदलो। मेरा चेहरा, आँखें और मुस्कान बिल्कुल वैसी ही रहें। बैकग्राउंड सादा और सुंदर रखो।",
+  "example": "आपकी ही फ़ोटो, पर ऐसे जैसे किसी कलाकार ने हाथ से रंग भरे हों।",
+  "privacyNote": "सिर्फ़ अपनी फ़ोटो डालें, या जिसकी फ़ोटो है उससे पूछकर। बच्चों की फ़ोटो डालने से बचें। सिर्फ़ Gemini, ChatGPT जैसे जाने-माने ऐप इस्तेमाल करें, अनजान \"AI फ़िल्टर\" लिंक या ऐप पर फ़ोटो न डालें।"
+ },
+ "en": {
+  "title": "Turn your photo into a painting",
+  "hook": "One photo, a watercolour, cartoon or old-time look",
+  "steps": [
+   "Open the Gemini or ChatGPT app",
+   "Tap + and add one clear photo of yourself",
+   "Paste the prompt below and write your style in the [ ]",
+   "Not happy? Write \"keep my face exactly the same, just softer colours\"",
+   "Download the picture. The free plan has a daily limit"
+  ],
+  "prompt": "Turn this photo into a [watercolour painting / cartoon / old black and white photo] style. Keep my face, eyes and smile exactly the same. Keep the background simple and pretty.",
+  "example": "Your own photo, but looking as if an artist painted it by hand.",
+  "privacyNote": "Upload only your own photo, or someone else's with their permission. Avoid uploading photos of children. Use well-known apps like Gemini or ChatGPT, never an unknown \"AI filter\" link or app."
+ }
+}
