@@ -7,12 +7,20 @@ You never merge, and you never push to `main`.
 
 Read `EDITORIAL.md` first and follow it exactly. Everything below assumes it.
 
-## Step 0: Is there an open feed PR with owner comments?
+## Step 0: Decide what this run does
 
-List open PRs whose branch starts with `feed/week-`. If one has comments from the owner (GitHub login `sumitkvijay`, not bots),
-do NOT draft a new week. Check out that branch, read every comment, revise the files to address them, run the
-validator (step 3), commit, push to the same branch, and reply on the PR with a short summary of what you
-changed. Then stop. If no open feed PR has owner comments, If an older open feed PR exists with no comments, do not open a duplicate for the same week: update that PR's branch with fresh drafts instead (steps 1 to 3, then push and edit the PR description). Otherwise continue with step 1.
+List open PRs whose branch starts with `feed/week-`. Then follow the first branch below that applies, and only
+that one.
+
+1. **Revise.** An open feed PR has comments from the owner (GitHub login `sumitkvijay`, not bots) that are
+   newer than your own last commit or reply on that PR. Comments you have already answered do not count.
+   Check out that PR's branch, read the new comments, revise the files to address them, run the validator
+   (step 3), commit, push to the same branch, and reply on the PR with a short summary of what you changed.
+   Then stop.
+2. **Refresh.** Otherwise, an open feed PR already exists for the week you would draft (the same target
+   Tuesday D, see step 4). Do not open a duplicate. Check out its branch, redo steps 1 to 3 with fresh drafts,
+   push to the same branch, and update the PR description. Then stop.
+3. **Draft.** Otherwise, draft a new week: continue with step 1.
 
 ## Step 1: Research
 
