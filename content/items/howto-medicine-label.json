@@ -1,0 +1,45 @@
+{
+ "id": "howto-medicine-label",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "daily-life",
+  "translate"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "google-lens",
+  "gemini"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L11"
+ },
+ "hi": {
+  "title": "दवा के पत्ते पर लिखी बात पढ़ें",
+  "hook": "छोटे अंग्रेज़ी अक्षर पढ़कर समझें, पर फ़ैसला डॉक्टर से पूछकर ही करें",
+  "steps": [
+   "Google Lens खोलें और दवा के पत्ते या डिब्बे की फ़ोटो लें",
+   "\"अनुवाद\" चुनें, ताकि लिखी बात हिंदी में दिखे",
+   "चाहें तो वही फ़ोटो Gemini में डालें और नीचे वाला प्रॉम्प्ट भेजें",
+   "दवा लेने, बंद करने या मात्रा बदलने से पहले डॉक्टर या केमिस्ट से ज़रूर पूछें"
+  ],
+  "prompt": "इस दवा के पत्ते पर जो लिखा है, उसे सिर्फ़ जानकारी के लिए सरल हिंदी में बताओ: दवा का नाम, एक्सपायरी तारीख़, और रखने के बारे में लिखी बातें। मुझे दवा लेने की कोई सलाह मत दो।",
+  "example": "\"पत्ते पर दवा का नाम ... लिखा है। एक्सपायरी: 08/2027। इसे ठंडी, सूखी जगह पर रखने को लिखा है।\"",
+  "privacyNote": "सिर्फ़ दवा के पत्ते की फ़ोटो लें। डॉक्टर की पर्ची पर आपका नाम, फ़ोन नंबर या बीमारी लिखी हो तो उसे फ़ोटो में न आने दें। AI की बात डॉक्टर की सलाह नहीं है, AI ग़लत भी हो सकता है।"
+ },
+ "en": {
+  "title": "Read the small print on a medicine strip",
+  "hook": "Read and understand the label, but always ask a doctor before deciding",
+  "steps": [
+   "Open Google Lens and take a photo of the medicine strip or box",
+   "Tap \"Translate\" to see the text in your language",
+   "If you like, add the same photo to Gemini and send the prompt below",
+   "Always ask a doctor or pharmacist before you start, stop or change any medicine"
+  ],
+  "prompt": "Tell me, for information only, what is written on this medicine strip in simple words: the medicine name, the expiry date, and any storage instructions. Do not give me any advice about taking it.",
+  "example": "\"The strip says the medicine name is ... Expiry: 08/2027. It says to store it in a cool, dry place.\"",
+  "privacyNote": "Photograph only the medicine strip. Keep any prescription with your name, phone number or illness out of the photo. AI is not a doctor and can be wrong."
+ }
+}

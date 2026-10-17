@@ -1,0 +1,46 @@
+{
+ "id": "howto-check-viral-photo",
+ "type": "howto",
+ "publishAt": "2026-10-25",
+ "reviewBy": "2027-04-23",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "google-lens",
+  "gemini"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L13"
+ },
+ "hi": {
+  "title": "वायरल फ़ोटो असली है या AI से बनी? ऐसे जाँचें",
+  "hook": "फ़ॉरवर्ड करने से पहले Google Lens और Gemini से दो मिनट की जाँच",
+  "steps": [
+   "वायरल फ़ोटो को फ़ोन में सेव करें",
+   "Google Lens खोलें, वह फ़ोटो चुनें और देखें कि यह और कहाँ-कहाँ छपी है। पुरानी या किसी और घटना की तो नहीं?",
+   "Gemini ऐप में वही फ़ोटो जोड़ें और नीचे वाला सवाल पूछें",
+   "Gemini सिर्फ़ Google के AI से बनी फ़ोटो पक्की तरह पहचान पाता है, इसलिए \"नहीं मिला\" का मतलब यह नहीं कि फ़ोटो असली है",
+   "शक बना रहे तो फ़ोटो आगे न भेजें"
+  ],
+  "prompt": "क्या यह फ़ोटो Google AI से बनी है? और क्या इसमें कुछ ऐसा दिखता है जिससे लगे कि यह AI से बनी या बदली गई है? सरल हिंदी में बताओ।",
+  "example": "\"इस फ़ोटो में Google के AI का निशान (SynthID) मिला है, यानी यह Google AI से बनी या बदली गई है।\"",
+  "privacyNote": "ऐसी फ़ोटो जाँच के लिए न डालें जिसमें किसी की निजी या शर्मनाक तस्वीर हो। ऐसी फ़ोटो दिखे तो आगे न भेजें, उसकी शिकायत cybercrime.gov.in पर करें।"
+ },
+ "en": {
+  "title": "Is that viral photo real or made by AI? Check it",
+  "hook": "A two-minute check with Google Lens and Gemini before you forward",
+  "steps": [
+   "Save the viral photo on your phone",
+   "Open Google Lens, pick the photo and see where else it appears. Is it old, or from another event?",
+   "Add the same photo to the Gemini app and ask the question below",
+   "Gemini can only reliably detect photos made with Google's AI, so \"not found\" does not prove a photo is real",
+   "If you are still unsure, don't forward it"
+  ],
+  "prompt": "Was this photo created with Google AI? Is there anything in it that suggests it was made or changed by AI? Explain in simple English.",
+  "example": "\"This photo contains Google's AI watermark (SynthID), so it was made or edited with Google AI.\"",
+  "privacyNote": "Don't upload private or embarrassing photos of anyone to check them. If you see one, don't forward it; report it on cybercrime.gov.in."
+ }
+}

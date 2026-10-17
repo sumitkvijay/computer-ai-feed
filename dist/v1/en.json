@@ -1,0 +1,637 @@
+{
+ "schemaVersion": 1,
+ "minAppVersionCode": 1,
+ "generatedAt": "2026-10-17T12:54:03Z",
+ "stories": [
+  "trend-festive-photo-portrait",
+  "safety-fake-ai-filter-links",
+  "news-gemini-free-auto-mode",
+  "howto-festive-wishes-whatsapp",
+  "trend-ai-rangoli-design",
+  "howto-check-viral-photo"
+ ],
+ "featured": "trend-festive-photo-portrait",
+ "tasks": [
+  {
+   "id": "writing",
+   "icon": "edit",
+   "title": "Write letters & applications"
+  },
+  {
+   "id": "translate",
+   "icon": "translate",
+   "title": "Translate anything"
+  },
+  {
+   "id": "study",
+   "icon": "school",
+   "title": "Help with studies"
+  },
+  {
+   "id": "work",
+   "icon": "work",
+   "title": "Jobs & work"
+  },
+  {
+   "id": "photo",
+   "icon": "photo_camera",
+   "title": "Create & style photos"
+  },
+  {
+   "id": "daily-life",
+   "icon": "home",
+   "title": "Everyday life made easy"
+  }
+ ],
+ "tools": [
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "price": "freemium",
+   "login": "google",
+   "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard",
+   "web": "https://gemini.google.com",
+   "loginNote": "Free with a Google account. Some extra features need a paid plan."
+  },
+  {
+   "id": "chatgpt",
+   "name": "ChatGPT",
+   "price": "freemium",
+   "login": "none",
+   "android": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+   "web": "https://chatgpt.com",
+   "loginNote": "Chat works without signing in. Adding or creating pictures may need a free sign-in, for example with Google."
+  },
+  {
+   "id": "meta-ai",
+   "name": "Meta AI (WhatsApp)",
+   "price": "free",
+   "login": "phone",
+   "android": "https://play.google.com/store/apps/details?id=com.whatsapp",
+   "web": "https://web.whatsapp.com",
+   "loginNote": "Already inside WhatsApp. Tap the blue-purple ring in your chat list."
+  },
+  {
+   "id": "google-lens",
+   "name": "Google Lens",
+   "price": "free",
+   "login": "google",
+   "android": "https://play.google.com/store/apps/details?id=com.google.ar.lens",
+   "web": "https://lens.google",
+   "loginNote": "Free. It is also the camera button in the Google app's search bar."
+  },
+  {
+   "id": "google-translate",
+   "name": "Google Translate",
+   "price": "free",
+   "login": "none",
+   "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate",
+   "web": "https://translate.google.com",
+   "loginNote": "Free, no sign-in needed."
+  },
+  {
+   "id": "copilot",
+   "name": "Microsoft Copilot",
+   "price": "freemium",
+   "login": "none",
+   "android": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow",
+   "web": "https://copilot.microsoft.com",
+   "loginNote": "The website works without signing in. A free Microsoft account gives you more."
+  },
+  {
+   "id": "canva",
+   "name": "Canva",
+   "price": "freemium",
+   "login": "google",
+   "android": "https://play.google.com/store/apps/details?id=com.canva.editor",
+   "web": "https://www.canva.com",
+   "loginNote": "Free with a Google account. AI features have limited uses on the free plan."
+  }
+ ],
+ "items": [
+  {
+   "id": "howto-check-viral-photo",
+   "type": "howto",
+   "publishAt": "2026-10-25",
+   "reviewBy": "2027-04-23",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "google-lens",
+    "gemini"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L13"
+   },
+   "title": "Is that viral photo real or made by AI? Check it",
+   "hook": "A two-minute check with Google Lens and Gemini before you forward",
+   "steps": [
+    "Save the viral photo on your phone",
+    "Open Google Lens, pick the photo and see where else it appears. Is it old, or from another event?",
+    "Add the same photo to the Gemini app and ask the question below",
+    "Gemini can only reliably detect photos made with Google's AI, so \"not found\" does not prove a photo is real",
+    "If you are still unsure, don't forward it"
+   ],
+   "prompt": "Was this photo created with Google AI? Is there anything in it that suggests it was made or changed by AI? Explain in simple English.",
+   "example": "\"This photo contains Google's AI watermark (SynthID), so it was made or edited with Google AI.\"",
+   "privacyNote": "Don't upload private or embarrassing photos of anyone to check them. If you see one, don't forward it; report it on cybercrime.gov.in."
+  },
+  {
+   "id": "trend-ai-rangoli-design",
+   "type": "trend",
+   "publishAt": "2026-10-24",
+   "reviewBy": "2026-11-21",
+   "tags": [
+    "photo",
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "title": "Get a fresh rangoli design from AI this Diwali",
+   "hook": "Tell AI your favourite colours and it draws a rangoli design for you",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Paste the prompt below and fill in your colours and shape",
+    "Too hard? Write \"make it simpler, so children can do it\"",
+    "Download the picture and copy the design onto your floor"
+   ],
+   "prompt": "Make a picture of a Diwali rangoli design, seen from above. Colours: [for example red, yellow, green]. Shape: [round / flower / peacock]. Keep the design simple enough to make by hand at home. Add small diyas around the edges.",
+   "example": "A colourful round rangoli seen from above, with diyas around it, that you can copy at home."
+  },
+  {
+   "id": "howto-festive-wishes-whatsapp",
+   "type": "howto",
+   "publishAt": "2026-10-23",
+   "reviewBy": "2026-11-20",
+   "tags": [
+    "writing",
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "meta-ai",
+    "gemini"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L07"
+   },
+   "title": "Write Diwali wishes with Meta AI in WhatsApp",
+   "hook": "Warm messages for family, friends and customers, each one different",
+   "steps": [
+    "Open WhatsApp and tap the blue-purple ring (Meta AI) in your chat list",
+    "Paste the prompt below and fill in who the message is for",
+    "Long-press the message you like and copy it",
+    "Paste it into your family or customer chats and send"
+   ],
+   "prompt": "Write 3 short, warm Diwali wishes in simple English, each 2 to 3 lines long. They are for [who: for example my relatives / friends / customers of my grocery shop]. End each message with my name [name]. Add a few emojis.",
+   "example": "\"May the light of the diyas fill your home with joy. Happy Diwali to you and your family! 🪔 - Ramesh\""
+  },
+  {
+   "id": "news-gemini-free-auto-mode",
+   "type": "news",
+   "publishAt": "2026-10-22",
+   "reviewBy": "2026-11-05",
+   "tags": [
+    "news"
+   ],
+   "toolIds": [
+    "gemini"
+   ],
+   "sourceUrl": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
+   "title": "Free Gemini now picks its model for you",
+   "hook": "Gemini is still free; it now picks the model itself",
+   "body": "Gemini has several \"brains\" (models): some faster, some smarter. Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",
+   "whyItMatters": "You don't need to change anything and Gemini stays free; for harder tasks, write a clear, complete question and double-check important answers.",
+   "sourceName": "9to5Google"
+  },
+  {
+   "id": "safety-fake-ai-filter-links",
+   "type": "safety",
+   "publishAt": "2026-10-21",
+   "reviewBy": "2027-04-19",
+   "tags": [
+    "safety",
+    "photo"
+   ],
+   "minutes": "2 min",
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L12"
+   },
+   "title": "Avoid \"free AI photo filter\" links",
+   "hook": "Scammers use viral photo trends to grab your photos and details",
+   "whatsHappening": "Whenever an AI photo trend goes viral, like the \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",
+   "howToSpot": [
+    "An unknown \"free AI filter\" link on WhatsApp, Instagram or SMS",
+    "It asks for your name, phone number or OTP along with the photo",
+    "A demand like \"pay ₹49 for the HD photo\"",
+    "An odd website name, or one that looks like a real app but is slightly different"
+   ],
+   "whatToDo": [
+    "To try a trend, use only well-known apps like Gemini or ChatGPT",
+    "Don't open unknown links, and never give them photos, OTPs or money",
+    "If someone misuses your photo, keep proof (screenshots)",
+    "Call 1930 or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "trend-festive-photo-portrait",
+   "type": "trend",
+   "publishAt": "2026-10-20",
+   "reviewBy": "2026-11-17",
+   "tags": [
+    "photo"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L13"
+   },
+   "title": "Make a festive Dussehra-Diwali AI photo",
+   "hook": "Turn one photo into a festive picture full of diyas and lights",
+   "steps": [
+    "Open the Gemini or ChatGPT app",
+    "Tap + and add one clear photo where your face is easy to see",
+    "Paste the prompt below and send",
+    "Not happy? Write \"keep my face the same, just make the lights softer\"",
+    "Download it and put it on your WhatsApp status"
+   ],
+   "prompt": "Use this photo to make a beautiful [Dussehra / Diwali] portrait of me. Keep my face exactly the same. Show me in traditional clothes, with lit diyas, marigold flowers and a soft golden glow behind me. Write \"[Happy Dussehra / Happy Diwali]\" in elegant letters at the bottom.",
+   "example": "A festive portrait of you in the glow of diyas, with \"Happy Diwali\" written below.",
+   "privacyNote": "Upload only your own photo, or someone else's with their permission. Use only well-known apps like Gemini or ChatGPT. Never upload photos to unknown \"free AI photo filter\" links."
+  },
+  {
+   "id": "howto-ai-birthday-song",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "daily-life",
+    "writing"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt",
+    "meta-ai"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L05"
+   },
+   "title": "Get AI to write a birthday song for a loved one",
+   "hook": "Share a name and a few details, and AI writes a sweet song",
+   "steps": [
+    "Open Gemini, ChatGPT or Meta AI in WhatsApp",
+    "Paste the prompt below and fill in the name and details",
+    "Read the song. To change it, write \"make it funnier\" or \"make it shorter\"",
+    "Send the song on WhatsApp, or sing and record it yourself"
+   ],
+   "prompt": "Today is [relation and name, for example my mother Sunita / my son Rahul / my friend Amit]'s birthday. Write a sweet birthday song for them in simple English with 3 short verses that are easy to sing. A few things about them: [for example, cooks amazing food, loves cricket]. After each verse, add a line \"Happy birthday [name]\".",
+   "example": "\"Up with the sun, the first to smile, making chai with love and style... Happy birthday, Mum!\""
+  },
+  {
+   "id": "howto-ai-photo-style",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "photo"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L13"
+   },
+   "title": "Turn your photo into a painting",
+   "hook": "One photo, a watercolour, cartoon or old-time look",
+   "steps": [
+    "Open the Gemini or ChatGPT app",
+    "Tap + and add one clear photo of yourself",
+    "Paste the prompt below and write your style in the [ ]",
+    "Not happy? Write \"keep my face exactly the same, just softer colours\"",
+    "Download the picture. The free plan has a daily limit"
+   ],
+   "prompt": "Turn this photo into a [watercolour painting / cartoon / old black and white photo] style. Keep my face, eyes and smile exactly the same. Keep the background simple and pretty.",
+   "example": "Your own photo, but looking as if an artist painted it by hand.",
+   "privacyNote": "Upload only your own photo, or someone else's with their permission. Avoid uploading photos of children. Use well-known apps like Gemini or ChatGPT, never an unknown \"AI filter\" link or app."
+  },
+  {
+   "id": "howto-homework-help",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "study"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt",
+    "google-lens"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L15"
+   },
+   "title": "Explain your child's homework in simple words",
+   "hook": "AI explains the method, not just the answer, so your child learns",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Type the question, or copy the text from the book with Google Lens",
+    "Paste the prompt below, then fill in the question and class",
+    "Read each step together with your child, then let them solve it on their own"
+   ],
+   "prompt": "My child is in class [class]. Explain this question in simple English, in small steps, the way a good teacher would. Do not give the answer straight away. First explain the method, then give one similar easy question for practice.\nQuestion: [write the question here]",
+   "example": "\"Step 1: A fraction means a part of something. Imagine you cut one roti into 4 pieces...\""
+  },
+  {
+   "id": "howto-interview-practice",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "work"
+   ],
+   "minutes": "10 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt",
+    "copilot"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L16"
+   },
+   "title": "Practise for a job interview with AI",
+   "hook": "AI plays the interviewer while you practise your answers",
+   "steps": [
+    "Open Gemini, ChatGPT or Copilot",
+    "Paste the prompt below and fill in the job name",
+    "AI will ask one question at a time. Type your answer",
+    "After each answer, AI tells you how to make it better",
+    "After 5 questions, ask: \"What was my biggest weak point?\""
+   ],
+   "prompt": "You are a job interviewer. I am interviewing for a [job name, for example data entry operator / sales executive] job. Ask me only one question at a time. After each answer, tell me in 2 lines what was good and what I can improve, then ask the next question. Ask 5 questions in total. Use simple English.",
+   "example": "\"First question: Tell me a little about yourself.\" ... \"Good answer! Next time, add one example from your past work.\""
+  },
+  {
+   "id": "howto-leave-application",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "writing",
+    "work"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt",
+    "meta-ai"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L07"
+   },
+   "title": "Get AI to write your leave application",
+   "hook": "A school or office leave letter, ready in a minute",
+   "steps": [
+    "Open Gemini, ChatGPT or Meta AI in WhatsApp",
+    "Copy the prompt below and paste it in",
+    "Fill in the parts in [ ] brackets and send",
+    "Read the reply. To change it, just ask, for example \"make it shorter\"",
+    "Check your name and dates yourself before you send it"
+   ],
+   "prompt": "Write a leave application for me.\nTo: [Principal / Manager]\nMy name: [name]\nDays of leave: [from date to date]\nReason: [for example fever, family wedding]\nUse simple, polite English and keep it under 10 lines.",
+   "example": "A complete letter starting \"To the Principal... Respected Sir/Madam, I am writing to request leave...\" that you can copy as it is."
+  },
+  {
+   "id": "howto-medicine-label",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "daily-life",
+    "translate"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "google-lens",
+    "gemini"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L11"
+   },
+   "title": "Read the small print on a medicine strip",
+   "hook": "Read and understand the label, but always ask a doctor before deciding",
+   "steps": [
+    "Open Google Lens and take a photo of the medicine strip or box",
+    "Tap \"Translate\" to see the text in your language",
+    "If you like, add the same photo to Gemini and send the prompt below",
+    "Always ask a doctor or pharmacist before you start, stop or change any medicine"
+   ],
+   "prompt": "Tell me, for information only, what is written on this medicine strip in simple words: the medicine name, the expiry date, and any storage instructions. Do not give me any advice about taking it.",
+   "example": "\"The strip says the medicine name is ... Expiry: 08/2027. It says to store it in a cool, dry place.\"",
+   "privacyNote": "Photograph only the medicine strip. Keep any prescription with your name, phone number or illness out of the photo. AI is not a doctor and can be wrong."
+  },
+  {
+   "id": "howto-monthly-budget",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "5 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt",
+    "meta-ai"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L09"
+   },
+   "title": "Make a simple table of your monthly expenses",
+   "hook": "Write down your home expenses and AI adds them up in a neat table",
+   "steps": [
+    "Write this month's expenses on paper: groceries, rent, electricity and so on",
+    "Open Gemini, ChatGPT or Meta AI and paste the prompt below",
+    "Fill in your income and expense amounts, then send",
+    "Check the total once with a calculator too. AI can make mistakes with sums"
+   ],
+   "prompt": "Make a simple table of my expenses this month with the item and the amount, and the total at the end. Then tell me how much is left from my income.\nIncome: [amount]\nExpenses:\nGroceries - [amount]\nRent - [amount]\nElectricity - [amount]\nMobile recharge - [amount]\nChildren's school - [amount]\nOther - [amount]",
+   "example": "A table: \"Groceries ₹4,000 | Rent ₹6,000 | ... | Total ₹15,500\" and below it \"You have ₹2,500 left this month.\"",
+   "privacyNote": "Type only the amounts. Never add bank account numbers, UPI PINs, card numbers or photos of bank statements."
+  },
+  {
+   "id": "howto-talk-to-ai-in-hindi",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "gemini"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L02"
+   },
+   "title": "Talk to AI in Hindi with your voice",
+   "hook": "Hard to type? Just speak to Gemini and ask",
+   "steps": [
+    "Open the Gemini app",
+    "Tap the Live button (the wave icon) at the bottom right",
+    "If it asks for microphone permission the first time, tap \"Allow\"",
+    "Speak in Hindi or English, like the question below. AI answers out loud",
+    "When you are done, tap the red button or \"End\""
+   ],
+   "prompt": "Hello! Please talk to me only in Hindi. Suggest an easy curry I can make for dinner tonight with potatoes and tomatoes.",
+   "example": "Gemini answers out loud: \"Sure! You can make a simple aloo-tamatar curry. First...\"",
+   "privacyNote": "Your voice and chats may be saved in your Google account. You can delete them in the app's settings. Never say an OTP, PIN, Aadhaar or bank details out loud."
+  },
+  {
+   "id": "howto-translate-letter",
+   "type": "howto",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "translate",
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "google-lens",
+    "google-translate",
+    "gemini"
+   ],
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L08"
+   },
+   "title": "Understand a letter in another language",
+   "hook": "Got a letter from the bank, school or office? Point your camera and understand it",
+   "steps": [
+    "Open Google Lens and tap \"Translate\" at the bottom",
+    "Point the camera at the letter. The translation appears right on the screen",
+    "For a simple summary, copy the letter's text and paste it into Gemini with the prompt below",
+    "If an important detail (a date, an amount, a deadline) is unclear, ask the office that sent it"
+   ],
+   "prompt": "Below is a letter. Explain it in simple English:\n1. What is this letter about?\n2. What am I being asked to do?\n3. Is there a date or deadline? Tell me.\n\n[Paste the letter text here]",
+   "example": "\"This letter is about your electricity bill. You need to pay it by the 25th...\"",
+   "privacyNote": "Before you take a photo or paste text, cover or delete account numbers, Aadhaar numbers, your address and your signature. Never put Aadhaar, PAN or bank papers into AI."
+  },
+  {
+   "id": "safety-deepfake-video",
+   "type": "safety",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "safety"
+   ],
+   "minutes": "2 min",
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L13"
+   },
+   "title": "Spot fake AI videos (deepfakes)",
+   "hook": "A famous face and a big promise? The video may be fake",
+   "whatsHappening": "AI can make a **fake video** of any celebrity, leader or sports star, showing them saying things they never said. Scammers use these videos to push money-doubling apps, lotteries or \"free gifts\".",
+   "howToSpot": [
+    "Lips and voice don't match well, or the face looks blurry or moves oddly",
+    "A huge promise, like \"double your money\" or \"free phones for all\"",
+    "A link to an unknown app or website comes with the video",
+    "You can't find the news on a big news channel or the person's real page"
+   ],
+   "whatToDo": [
+    "Don't click the link and don't download any app",
+    "Check the claim on trusted news or the person's official page",
+    "Don't forward the video without checking",
+    "If you lost money, call 1930 or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "safety-fake-ai-apps",
+   "type": "safety",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "safety"
+   ],
+   "minutes": "2 min",
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L12"
+   },
+   "title": "Beware of fake \"AI\" apps",
+   "hook": "A \"free premium AI\" app can put your phone and money at risk",
+   "whatsHappening": "Scammers make **fake apps** with names like ChatGPT or Gemini and share links on WhatsApp or Telegram. These apps can read your messages and OTPs, or take money for \"premium\" access.",
+   "howToSpot": [
+    "You're asked to install from a link or APK file, not the Play Store",
+    "The app asks for SMS, contacts or \"Accessibility\" permission",
+    "The developer name is not the real company (Google LLC, OpenAI)",
+    "Tempting offers like \"lifetime premium for just ₹99\""
+   ],
+   "whatToDo": [
+    "Get AI apps only from the Play Store and check the developer name",
+    "If in doubt, uninstall the app and turn off its permissions in Settings",
+    "Change your UPI PIN and important passwords",
+    "If you were cheated, call 1930 or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "safety-voice-clone-call",
+   "type": "safety",
+   "publishAt": "2026-10-01",
+   "reviewBy": "2027-12-31",
+   "tags": [
+    "safety",
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "relatedLesson": {
+    "courseId": "ai-tools-basics",
+    "lessonId": "L14"
+   },
+   "title": "Watch out for fake calls in a loved one's voice",
+   "hook": "It sounds like your son, but is it a scammer? Stop before you pay",
+   "whatsHappening": "Scammers take a few seconds of someone's voice from a social media video or voice note and use AI to make a **fake copy of the voice**. Then they call in a panic: \"I'm in trouble, send money now.\"",
+   "howToSpot": [
+    "A call from a new or unknown number, with \"my phone is lost\"",
+    "Heavy pressure: \"Send it right now, don't tell anyone\"",
+    "A request for UPI, gift cards or money to someone else's account",
+    "The voice may sound completely real. Be suspicious if they dodge your questions"
+   ],
+   "whatToDo": [
+    "Hang up and call the person yourself on their **old saved number**",
+    "Agree on a family \"code word\" that only you know",
+    "Never share an OTP or PIN, and never pay without checking first",
+    "If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  }
+ ]
+}

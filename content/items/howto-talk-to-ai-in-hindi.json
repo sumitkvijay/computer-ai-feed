@@ -1,0 +1,45 @@
+{
+ "id": "howto-talk-to-ai-in-hindi",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "gemini"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L02"
+ },
+ "hi": {
+  "title": "AI से हिंदी में बोलकर बात करें",
+  "hook": "टाइप करना मुश्किल लगे? Gemini से बस बोलकर पूछें",
+  "steps": [
+   "Gemini ऐप खोलें",
+   "नीचे दाईं ओर Live वाला बटन (लहरों वाला निशान) दबाएँ",
+   "पहली बार माइक की इजाज़त माँगे तो \"Allow\" दबाएँ",
+   "हिंदी या अंग्रेज़ी में बोलें, जैसे नीचे लिखा सवाल। AI बोलकर जवाब देगा",
+   "बात ख़त्म हो तो लाल बटन या \"End\" दबाएँ"
+  ],
+  "prompt": "नमस्ते! मुझसे सिर्फ़ हिंदी में बात करो। मुझे आज शाम के खाने के लिए आलू और टमाटर से बनने वाली कोई आसान सब्ज़ी बताओ।",
+  "example": "Gemini बोलकर बताएगा: \"ज़रूर! आप आलू-टमाटर की रसेदार सब्ज़ी बना सकते हैं। पहले...\"",
+  "privacyNote": "आपकी आवाज़ और बातचीत आपके Google खाते में सेव हो सकती है, जिसे आप ऐप की सेटिंग में जाकर मिटा सकते हैं। बोलकर कभी OTP, PIN, आधार या बैंक की जानकारी न बताएँ।"
+ },
+ "en": {
+  "title": "Talk to AI in Hindi with your voice",
+  "hook": "Hard to type? Just speak to Gemini and ask",
+  "steps": [
+   "Open the Gemini app",
+   "Tap the Live button (the wave icon) at the bottom right",
+   "If it asks for microphone permission the first time, tap \"Allow\"",
+   "Speak in Hindi or English, like the question below. AI answers out loud",
+   "When you are done, tap the red button or \"End\""
+  ],
+  "prompt": "Hello! Please talk to me only in Hindi. Suggest an easy curry I can make for dinner tonight with potatoes and tomatoes.",
+  "example": "Gemini answers out loud: \"Sure! You can make a simple aloo-tamatar curry. First...\"",
+  "privacyNote": "Your voice and chats may be saved in your Google account. You can delete them in the app's settings. Never say an OTP, PIN, Aadhaar or bank details out loud."
+ }
+}

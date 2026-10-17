@@ -1,0 +1,51 @@
+{
+ "id": "safety-fake-ai-filter-links",
+ "type": "safety",
+ "publishAt": "2026-10-21",
+ "reviewBy": "2027-04-19",
+ "tags": [
+  "safety",
+  "photo"
+ ],
+ "minutes": "2 min",
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L12"
+ },
+ "hi": {
+  "title": "\"मुफ़्त AI फ़ोटो फ़िल्टर\" वाले लिंक से बचें",
+  "hook": "वायरल फ़ोटो ट्रेंड के नाम पर ठग आपकी फ़ोटो और जानकारी ले रहे हैं",
+  "whatsHappening": "जब भी कोई AI फ़ोटो ट्रेंड वायरल होता है, जैसे \"80 के दशक वाली फ़ोटो\", ठग **नकली वेबसाइट और ऐप** के लिंक फैलाते हैं। दिल्ली पुलिस ने चेतावनी दी है कि ऐसी जगह डाली गई फ़ोटो से नकली प्रोफ़ाइल, ब्लैकमेल या ठगी हो सकती है।",
+  "howToSpot": [
+   "WhatsApp, Instagram या SMS पर \"मुफ़्त AI फ़िल्टर\" का अनजान लिंक",
+   "फ़ोटो के साथ नाम, फ़ोन नंबर या OTP भी माँगा जाए",
+   "\"HD फ़ोटो के लिए ₹49 दें\" जैसी माँग",
+   "वेबसाइट का नाम अजीब हो, या असली ऐप जैसा दिखे पर थोड़ा अलग हो"
+  ],
+  "whatToDo": [
+   "ट्रेंड आज़माना है तो सिर्फ़ Gemini या ChatGPT जैसे जाने-माने ऐप इस्तेमाल करें",
+   "अनजान लिंक न खोलें और उस पर फ़ोटो, OTP या पैसे न दें",
+   "किसी ने आपकी फ़ोटो का ग़लत इस्तेमाल किया हो तो सबूत (स्क्रीनशॉट) रखें",
+   "1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "title": "Avoid \"free AI photo filter\" links",
+  "hook": "Scammers use viral photo trends to grab your photos and details",
+  "whatsHappening": "Whenever an AI photo trend goes viral, like the \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",
+  "howToSpot": [
+   "An unknown \"free AI filter\" link on WhatsApp, Instagram or SMS",
+   "It asks for your name, phone number or OTP along with the photo",
+   "A demand like \"pay ₹49 for the HD photo\"",
+   "An odd website name, or one that looks like a real app but is slightly different"
+  ],
+  "whatToDo": [
+   "To try a trend, use only well-known apps like Gemini or ChatGPT",
+   "Don't open unknown links, and never give them photos, OTPs or money",
+   "If someone misuses your photo, keep proof (screenshots)",
+   "Call 1930 or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

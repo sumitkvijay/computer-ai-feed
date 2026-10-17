@@ -1,0 +1,50 @@
+{
+ "id": "safety-fake-ai-apps",
+ "type": "safety",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "safety"
+ ],
+ "minutes": "2 min",
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L12"
+ },
+ "hi": {
+  "title": "नकली \"AI\" ऐप से सावधान",
+  "hook": "\"मुफ़्त प्रीमियम AI\" वाला ऐप आपका फ़ोन और पैसा ख़तरे में डाल सकता है",
+  "whatsHappening": "ठग ChatGPT, Gemini जैसे नामों वाले **नकली ऐप** बनाते हैं और WhatsApp या Telegram पर लिंक भेजते हैं। ये ऐप आपके मैसेज और OTP पढ़ सकते हैं, या \"प्रीमियम\" के नाम पर पैसे ले लेते हैं।",
+  "howToSpot": [
+   "ऐप Play Store से नहीं, किसी लिंक या APK फ़ाइल से इंस्टॉल करने को कहा जाए",
+   "ऐप SMS, कॉन्टैक्ट या \"Accessibility\" की इजाज़त माँगे",
+   "बनाने वाले का नाम असली कंपनी (Google LLC, OpenAI) से अलग हो",
+   "\"सिर्फ़ ₹99 में लाइफ़टाइम प्रीमियम\" जैसे लुभावने ऑफ़र"
+  ],
+  "whatToDo": [
+   "AI ऐप सिर्फ़ Play Store से लें और बनाने वाले का नाम जाँचें",
+   "शक हो तो ऐप तुरंत हटाएँ (Uninstall) और फ़ोन की सेटिंग में इजाज़तें बंद करें",
+   "अपना UPI PIN और ज़रूरी पासवर्ड बदल लें",
+   "ठगी हो तो 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "title": "Beware of fake \"AI\" apps",
+  "hook": "A \"free premium AI\" app can put your phone and money at risk",
+  "whatsHappening": "Scammers make **fake apps** with names like ChatGPT or Gemini and share links on WhatsApp or Telegram. These apps can read your messages and OTPs, or take money for \"premium\" access.",
+  "howToSpot": [
+   "You're asked to install from a link or APK file, not the Play Store",
+   "The app asks for SMS, contacts or \"Accessibility\" permission",
+   "The developer name is not the real company (Google LLC, OpenAI)",
+   "Tempting offers like \"lifetime premium for just ₹99\""
+  ],
+  "whatToDo": [
+   "Get AI apps only from the Play Store and check the developer name",
+   "If in doubt, uninstall the app and turn off its permissions in Settings",
+   "Change your UPI PIN and important passwords",
+   "If you were cheated, call 1930 or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

@@ -1,0 +1,100 @@
+[
+ {
+  "id": "gemini",
+  "name": "Gemini",
+  "price": "freemium",
+  "login": "google",
+  "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard",
+  "web": "https://gemini.google.com",
+  "hi": {
+   "note": "Google खाते से मुफ़्त। कुछ बड़े फ़ीचर पैसे वाले प्लान में हैं।"
+  },
+  "en": {
+   "note": "Free with a Google account. Some extra features need a paid plan."
+  }
+ },
+ {
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "price": "freemium",
+  "login": "none",
+  "android": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+  "web": "https://chatgpt.com",
+  "hi": {
+   "note": "बातचीत बिना लॉगिन भी चलती है। फ़ोटो डालने या तस्वीर बनाने के लिए मुफ़्त लॉगिन (जैसे Google खाते से) करना पड़ सकता है।"
+  },
+  "en": {
+   "note": "Chat works without signing in. Adding or creating pictures may need a free sign-in, for example with Google."
+  }
+ },
+ {
+  "id": "meta-ai",
+  "name": "Meta AI (WhatsApp)",
+  "price": "free",
+  "login": "phone",
+  "android": "https://play.google.com/store/apps/details?id=com.whatsapp",
+  "web": "https://web.whatsapp.com",
+  "hi": {
+   "note": "WhatsApp में पहले से है। चैट लिस्ट में नीला-बैंगनी गोल बटन दबाएँ।"
+  },
+  "en": {
+   "note": "Already inside WhatsApp. Tap the blue-purple ring in your chat list."
+  }
+ },
+ {
+  "id": "google-lens",
+  "name": "Google Lens",
+  "price": "free",
+  "login": "google",
+  "android": "https://play.google.com/store/apps/details?id=com.google.ar.lens",
+  "web": "https://lens.google",
+  "hi": {
+   "note": "मुफ़्त। Google ऐप के सर्च बार में कैमरा वाला बटन भी यही है।"
+  },
+  "en": {
+   "note": "Free. It is also the camera button in the Google app's search bar."
+  }
+ },
+ {
+  "id": "google-translate",
+  "name": "Google Translate",
+  "price": "free",
+  "login": "none",
+  "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate",
+  "web": "https://translate.google.com",
+  "hi": {
+   "note": "मुफ़्त, लॉगिन की ज़रूरत नहीं।"
+  },
+  "en": {
+   "note": "Free, no sign-in needed."
+  }
+ },
+ {
+  "id": "copilot",
+  "name": "Microsoft Copilot",
+  "price": "freemium",
+  "login": "none",
+  "android": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow",
+  "web": "https://copilot.microsoft.com",
+  "hi": {
+   "note": "वेबसाइट पर बिना लॉगिन भी चलता है। मुफ़्त Microsoft खाते से ज़्यादा सुविधा मिलती है।"
+  },
+  "en": {
+   "note": "The website works without signing in. A free Microsoft account gives you more."
+  }
+ },
+ {
+  "id": "canva",
+  "name": "Canva",
+  "price": "freemium",
+  "login": "google",
+  "android": "https://play.google.com/store/apps/details?id=com.canva.editor",
+  "web": "https://www.canva.com",
+  "hi": {
+   "note": "Google खाते से मुफ़्त। AI वाले फ़ीचर मुफ़्त प्लान में सीमित बार चलते हैं।"
+  },
+  "en": {
+   "note": "Free with a Google account. AI features have limited uses on the free plan."
+  }
+ }
+]

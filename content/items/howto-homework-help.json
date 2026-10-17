@@ -1,0 +1,43 @@
+{
+ "id": "howto-homework-help",
+ "type": "howto",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "study"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt",
+  "google-lens"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L15"
+ },
+ "hi": {
+  "title": "बच्चे का होमवर्क आसान भाषा में समझें",
+  "hook": "AI जवाब नहीं, तरीका समझाए, ताकि बच्चा ख़ुद हल करे",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "सवाल टाइप करें, या Google Lens से किताब के सवाल का टेक्स्ट कॉपी करें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ, फिर सवाल और कक्षा भरें",
+   "बच्चे के साथ बैठकर एक-एक कदम पढ़ें, फिर उसे ख़ुद हल करने दें"
+  ],
+  "prompt": "मेरा बच्चा कक्षा [कक्षा] में है। यह सवाल उसे सरल हिंदी में, छोटे-छोटे कदमों में समझाओ, जैसे एक अच्छा टीचर समझाता है। सीधा जवाब मत बताओ, पहले तरीका समझाओ, फिर एक मिलता-जुलता आसान सवाल अभ्यास के लिए दो।\nसवाल: [सवाल यहाँ लिखें]",
+  "example": "\"पहला कदम: भिन्न का मतलब है किसी चीज़ का हिस्सा। मान लो एक रोटी के 4 टुकड़े किए...\""
+ },
+ "en": {
+  "title": "Explain your child's homework in simple words",
+  "hook": "AI explains the method, not just the answer, so your child learns",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Type the question, or copy the text from the book with Google Lens",
+   "Paste the prompt below, then fill in the question and class",
+   "Read each step together with your child, then let them solve it on their own"
+  ],
+  "prompt": "My child is in class [class]. Explain this question in simple English, in small steps, the way a good teacher would. Do not give the answer straight away. First explain the method, then give one similar easy question for practice.\nQuestion: [write the question here]",
+  "example": "\"Step 1: A fraction means a part of something. Imagine you cut one roti into 4 pieces...\""
+ }
+}

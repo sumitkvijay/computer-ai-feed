@@ -1,0 +1,50 @@
+{
+ "id": "safety-deepfake-video",
+ "type": "safety",
+ "publishAt": "2026-10-01",
+ "reviewBy": "2027-12-31",
+ "tags": [
+  "safety"
+ ],
+ "minutes": "2 min",
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L13"
+ },
+ "hi": {
+  "title": "नकली AI वीडियो (डीपफ़ेक) को पहचानें",
+  "hook": "मशहूर चेहरा, बड़ा वादा? ऐसा वीडियो नकली भी हो सकता है",
+  "whatsHappening": "AI से किसी भी मशहूर व्यक्ति, नेता या खिलाड़ी का **नकली वीडियो** बनाया जा सकता है, जिसमें वह कुछ ऐसा कहता दिखे जो उसने कभी नहीं कहा। ठग ऐसे वीडियो से पैसे दोगुने करने वाले ऐप, लॉटरी या \"मुफ़्त इनाम\" बेचते हैं।",
+  "howToSpot": [
+   "होंठ और आवाज़ ठीक से मेल नहीं खाते, चेहरा धुंधला या अजीब हिलता है",
+   "बहुत बड़ा वादा, जैसे \"पैसे दोगुने\" या \"सबको मुफ़्त फ़ोन\"",
+   "वीडियो के साथ किसी अनजान ऐप या वेबसाइट का लिंक हो",
+   "यह बात किसी बड़े न्यूज़ चैनल या उस व्यक्ति के असली पेज पर न मिले"
+  ],
+  "whatToDo": [
+   "लिंक पर क्लिक न करें, और कोई ऐप डाउनलोड न करें",
+   "बात सच है या नहीं, यह भरोसेमंद न्यूज़ या असली पेज पर जाँचें",
+   "बिना जाँचे वीडियो आगे फ़ॉरवर्ड न करें",
+   "पैसे गए हों तो 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "title": "Spot fake AI videos (deepfakes)",
+  "hook": "A famous face and a big promise? The video may be fake",
+  "whatsHappening": "AI can make a **fake video** of any celebrity, leader or sports star, showing them saying things they never said. Scammers use these videos to push money-doubling apps, lotteries or \"free gifts\".",
+  "howToSpot": [
+   "Lips and voice don't match well, or the face looks blurry or moves oddly",
+   "A huge promise, like \"double your money\" or \"free phones for all\"",
+   "A link to an unknown app or website comes with the video",
+   "You can't find the news on a big news channel or the person's real page"
+  ],
+  "whatToDo": [
+   "Don't click the link and don't download any app",
+   "Check the claim on trusted news or the person's official page",
+   "Don't forward the video without checking",
+   "If you lost money, call 1930 or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}
