@@ -8,6 +8,7 @@
  ],
  "sourceUrl": "https://example.com/gemini-news",
  "hi": {
+  "label": "Gemini फ़ीचर",
   "title": "Gemini में नया मुफ़्त फ़ीचर",
   "hook": "अब हिंदी में बोलकर पूछ सकते हैं",
   "body": "Gemini ने नया फ़ीचर जोड़ा है। यह मुफ़्त है।",
@@ -15,6 +16,7 @@
   "sourceName": "उदाहरण समाचार"
  },
  "en": {
+  "label": "Gemini feature",
   "title": "New free feature in Gemini",
   "hook": "You can now ask by speaking in Hindi",
   "body": "Gemini added a new feature. It is free.",

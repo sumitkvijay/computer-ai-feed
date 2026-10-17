@@ -16,6 +16,7 @@
   "lessonId": "L13"
  },
  "hi": {
+  "label": "त्योहार फ़ोटो",
   "title": "दशहरा-दिवाली वाली AI फ़ोटो बनाएँ",
   "hook": "अपनी एक फ़ोटो से दीयों और रोशनी वाली त्योहार की तस्वीर",
   "steps": [
@@ -30,6 +31,7 @@
   "privacyNote": "सिर्फ़ अपनी फ़ोटो डालें, या जिसकी है उससे पूछकर। फ़ोटो सिर्फ़ Gemini या ChatGPT जैसे जाने-माने ऐप में डालें। \"मुफ़्त AI फ़ोटो फ़िल्टर\" वाले अनजान लिंक पर कभी फ़ोटो न डालें।"
  },
  "en": {
+  "label": "Festive photo",
   "title": "Make a festive Dussehra-Diwali AI photo",
   "hook": "Turn one photo into a festive picture full of diyas and lights",
   "steps": [

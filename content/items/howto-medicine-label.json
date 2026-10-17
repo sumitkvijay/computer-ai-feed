@@ -17,6 +17,7 @@
   "lessonId": "L11"
  },
  "hi": {
+  "label": "दवा का पत्ता",
   "title": "दवा के पत्ते पर लिखी बात पढ़ें",
   "hook": "छोटे अंग्रेज़ी अक्षर पढ़कर समझें, पर फ़ैसला डॉक्टर से पूछकर ही करें",
   "steps": [
@@ -30,6 +31,7 @@
   "privacyNote": "सिर्फ़ दवा के पत्ते की फ़ोटो लें। डॉक्टर की पर्ची पर आपका नाम, फ़ोन नंबर या बीमारी लिखी हो तो उसे फ़ोटो में न आने दें। AI की बात डॉक्टर की सलाह नहीं है, AI ग़लत भी हो सकता है।"
  },
  "en": {
+  "label": "Medicine strip",
   "title": "Read the small print on a medicine strip",
   "hook": "Read and understand the label, but always ask a doctor before deciding",
   "steps": [

@@ -25,13 +25,13 @@ MAX_TASKS = 8
 
 SHARED_FIELDS = ("id", "type", "publishAt", "reviewBy", "tags", "image", "minutes",
                  "toolIds", "relatedLesson", "sourceUrl")
-LANG_FIELDS = ("title", "hook", "imageAlt", "steps", "prompt", "example", "privacyNote", "body",
+LANG_FIELDS = ("label", "title", "hook", "imageAlt", "steps", "prompt", "example", "privacyNote", "body",
                "whyItMatters", "sourceName", "whatsHappening", "howToSpot", "whatToDo", "helpline")
 # Fields rendered as inline markdown (prompt is copied verbatim, so it is not checked).
 MARKDOWN_FIELDS = ("steps", "example", "privacyNote", "body", "whyItMatters",
                    "whatsHappening", "howToSpot", "whatToDo", "helpline")
 # Fields the app shows as plain text, so a '*' would appear literally.
-PLAIN_TEXT_FIELDS = ("title", "hook", "imageAlt")
+PLAIN_TEXT_FIELDS = ("label", "title", "hook", "imageAlt")
 # "N min" with 1 or 2 ASCII digits, the same in both languages; the app shows it localised.
 MINUTES = re.compile(r"^\d{1,2} min$", re.ASCII)
 LIST_LIMITS = {"steps": (2, 6), "howToSpot": (2, 4), "whatToDo": (2, 4)}
@@ -39,6 +39,10 @@ LIST_LIMITS = {"steps": (2, 6), "howToSpot": (2, 4), "whatToDo": (2, 4)}
 PRIVACY_EN = re.compile(r"\b(photo|selfie|face|voice|document)", re.IGNORECASE)
 PRIVACY_HI = re.compile(unicodedata.normalize("NFC", "फ़ोटो|फोटो|सेल्फ़ी|चेहरा|आवाज़|दस्तावेज़"))
 MAX_LIFETIME_DAYS = {"trend": 28, "news": 14}
+# Short story-circle name per language: at most 14 characters after NFC, plain text.
+MAX_LABEL_CHARS = 14
+# Items published on or after this date must have a label in both languages.
+LABEL_REQUIRED_FROM = date(2026, 10, 20)
 
 
 @dataclass
@@ -241,6 +245,13 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
             le(f"title length {len(d['title'])} is over 60")
         if _is_str(d.get("hook")) and len(d["hook"]) > 90:
             le(f"hook length {len(d['hook'])} is over 90")
+        if "label" in d:
+            if not _is_str(d["label"]):
+                le("label must be a non-empty string")
+            elif len(unicodedata.normalize("NFC", d["label"])) > MAX_LABEL_CHARS:
+                le(f"label length {len(unicodedata.normalize('NFC', d['label']))} is over {MAX_LABEL_CHARS}")
+        elif pub and pub >= LABEL_REQUIRED_FROM:
+            le(f"label is required for items published on or after {LABEL_REQUIRED_FROM}")
         if "image" in it and not _is_str(d.get("imageAlt")):
             le("imageAlt is required when image is set")
         if typ in ("trend", "howto"):
@@ -288,7 +299,7 @@ def _check_item(src, it, stem, tool_ids, lessons, errs, urls):
         for f in LANG_FIELDS:
             if f in ("steps", "howToSpot", "whatToDo"):
                 continue
-            if (f in langs["hi"]) != (f in langs["en"]) and f in ("imageAlt", "privacyNote", "example", "helpline"):
+            if (f in langs["hi"]) != (f in langs["en"]) and f in ("label", "imageAlt", "privacyNote", "example", "helpline"):
                 errs.append(f"{iid}: {f} is present in only one of hi/en")
 
 
@@ -354,6 +365,17 @@ def _validate(src, app_lessons, check_urls, min_stories):
             errs.append(f"{iid}: duplicate id")
         seen.add(iid)
         _check_item(src, it, stem, tool_ids, app_lessons, errs, urls)
+
+    for lang in LANGS:
+        owners = {}
+        for it in src.items:
+            d = it.get(lang) if isinstance(it, dict) else None
+            lab = d.get("label") if isinstance(d, dict) else None
+            if _is_str(lab):
+                owners.setdefault(unicodedata.normalize("NFC", lab).strip().casefold(), []).append(str(it.get("id")))
+        for ids in owners.values():
+            if len(ids) > 1:
+                errs.append(f"{', '.join(ids)}: {lang}: label is the same for these items; each needs its own")
 
     by_id = {i.get("id"): i for i in src.items if isinstance(i, dict)}
     week = src.week if isinstance(src.week, dict) else {}

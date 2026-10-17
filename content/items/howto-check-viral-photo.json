@@ -16,6 +16,7 @@
   "lessonId": "L13"
  },
  "hi": {
+  "label": "असली या AI?",
   "title": "वायरल फ़ोटो असली है या AI से बनी? ऐसे जाँचें",
   "hook": "फ़ॉरवर्ड करने से पहले Google Lens और Gemini से दो मिनट की जाँच",
   "steps": [
@@ -30,6 +31,7 @@
   "privacyNote": "ऐसी फ़ोटो जाँच के लिए न डालें जिसमें किसी की निजी या शर्मनाक तस्वीर हो। ऐसी फ़ोटो दिखे तो आगे न भेजें, उसकी शिकायत cybercrime.gov.in पर करें।"
  },
  "en": {
+  "label": "Real or AI?",
   "title": "Is that viral photo real or made by AI? Check it",
   "hook": "A two-minute check with Google Lens and Gemini before you forward",
   "steps": [

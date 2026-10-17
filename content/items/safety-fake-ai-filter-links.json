@@ -13,6 +13,7 @@
   "lessonId": "L12"
  },
  "hi": {
+  "label": "फ़िल्टर फ़्रॉड",
   "title": "\"मुफ़्त AI फ़ोटो फ़िल्टर\" वाले लिंक से बचें",
   "hook": "वायरल फ़ोटो ट्रेंड के नाम पर ठग आपकी फ़ोटो और जानकारी ले रहे हैं",
   "whatsHappening": "जब भी कोई AI फ़ोटो ट्रेंड वायरल होता है, जैसे \"80 के दशक वाली फ़ोटो\", ठग **नकली वेबसाइट और ऐप** के लिंक फैलाते हैं। दिल्ली पुलिस ने चेतावनी दी है कि ऐसी जगह डाली गई फ़ोटो से नकली प्रोफ़ाइल, ब्लैकमेल या ठगी हो सकती है।",
@@ -31,6 +32,7 @@
   "helpline": "1930 / cybercrime.gov.in"
  },
  "en": {
+  "label": "Filter scam",
   "title": "Avoid \"free AI photo filter\" links",
   "hook": "Scammers use viral photo trends to grab your photos and details",
   "whatsHappening": "Whenever an AI photo trend goes viral, like the \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",

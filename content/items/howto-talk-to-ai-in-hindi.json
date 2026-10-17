@@ -15,6 +15,7 @@
   "lessonId": "L02"
  },
  "hi": {
+  "label": "हिंदी में बात",
   "title": "AI से हिंदी में बोलकर बात करें",
   "hook": "टाइप करना मुश्किल लगे? Gemini से बस बोलकर पूछें",
   "steps": [
@@ -29,6 +30,7 @@
   "privacyNote": "आपकी आवाज़ और बातचीत आपके Google खाते में सेव हो सकती है, जिसे आप ऐप की सेटिंग में जाकर मिटा सकते हैं। बोलकर कभी OTP, PIN, आधार या बैंक की जानकारी न बताएँ।"
  },
  "en": {
+  "label": "Talk in Hindi",
   "title": "Talk to AI in Hindi with your voice",
   "hook": "Hard to type? Just speak to Gemini and ask",
   "steps": [

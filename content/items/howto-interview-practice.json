@@ -17,6 +17,7 @@
   "lessonId": "L16"
  },
  "hi": {
+  "label": "इंटरव्यू",
   "title": "AI के साथ इंटरव्यू की तैयारी करें",
   "hook": "AI इंटरव्यू लेने वाला बनेगा, आप जवाब देकर अभ्यास करें",
   "steps": [
@@ -30,6 +31,7 @@
   "example": "\"पहला सवाल: अपने बारे में थोड़ा बताइए।\" ... \"अच्छा जवाब! अगली बार अपने पिछले काम का एक उदाहरण भी जोड़ें।\""
  },
  "en": {
+  "label": "Interview prep",
   "title": "Practise for a job interview with AI",
   "hook": "AI plays the interviewer while you practise your answers",
   "steps": [

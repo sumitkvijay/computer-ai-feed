@@ -12,6 +12,7 @@
   "lessonId": "L12"
  },
  "hi": {
+  "label": "नकली AI ऐप",
   "title": "नकली \"AI\" ऐप से सावधान",
   "hook": "\"मुफ़्त प्रीमियम AI\" वाला ऐप आपका फ़ोन और पैसा ख़तरे में डाल सकता है",
   "whatsHappening": "ठग ChatGPT, Gemini जैसे नामों वाले **नकली ऐप** बनाते हैं और WhatsApp या Telegram पर लिंक भेजते हैं। ये ऐप आपके मैसेज और OTP पढ़ सकते हैं, या \"प्रीमियम\" के नाम पर पैसे ले लेते हैं।",
@@ -30,6 +31,7 @@
   "helpline": "1930 / cybercrime.gov.in"
  },
  "en": {
+  "label": "Fake AI apps",
   "title": "Beware of fake \"AI\" apps",
   "hook": "A \"free premium AI\" app can put your phone and money at risk",
   "whatsHappening": "Scammers make **fake apps** with names like ChatGPT or Gemini and share links on WhatsApp or Telegram. These apps can read your messages and OTPs, or take money for \"premium\" access.",

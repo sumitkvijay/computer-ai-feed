@@ -18,6 +18,7 @@
   "lessonId": "L05"
  },
  "hi": {
+  "label": "जन्मदिन गाना",
   "title": "अपनों के लिए AI से जन्मदिन का गाना लिखवाएँ",
   "hook": "नाम और दो-तीन बातें बताइए, AI प्यारा-सा गाना लिख देगा",
   "steps": [
@@ -30,6 +31,7 @@
   "example": "\"सुबह-सुबह जो चाय बनाए, सबसे पहले मुस्काए... हैप्पी बर्थडे माँ!\""
  },
  "en": {
+  "label": "Birthday song",
   "title": "Get AI to write a birthday song for a loved one",
   "hook": "Share a name and a few details, and AI writes a sweet song",
   "steps": [

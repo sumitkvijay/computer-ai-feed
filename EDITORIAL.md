@@ -26,7 +26,14 @@ rule that can be checked by machine.
 - `minutes` (optional): how long the item takes, exactly `"N min"` with 1 or 2 digits, for example `"3 min"`
   (pattern `^\d{1,2} min$`). It is shared by both languages and the app shows it localised. No ranges, words
   or Hindi digits: `"3-5 min"`, `"about 3 min"` and `"५ मिनट"` are rejected.
-- `title`, `hook` and `imageAlt` are shown as plain text, so they must not contain `*`. Inline markdown
+- `label` (per language): the short name under the item's story circle, one or two words that name the story,
+  for example "Birthday song" / "जन्मदिन गाना" or "Leave letter" / "छुट्टी अर्ज़ी". At most 14 characters
+  after NFC (code points: every matra, virama and nukta counts, so Hindi labels need fewer words), plain text
+  with no `*`. Write the Hindi in the same everyday voice as the rest of the item; don't translate the English.
+  If one language has a label, the other must too. No two items may share a label in the same language.
+  Required for items with `publishAt` on or after 2026-10-20; older items may omit it, and the app then cuts
+  the title at a word boundary.
+- `label`, `title`, `hook` and `imageAlt` are shown as plain text, so they must not contain `*`. Inline markdown
   (`**bold**`, `*italic*`, a literal `\*`) is allowed only in the longer text fields such as `steps`, `body`
   and `whatToDo`.
 

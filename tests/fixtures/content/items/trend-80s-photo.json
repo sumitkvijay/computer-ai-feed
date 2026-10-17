@@ -16,6 +16,7 @@
   "lessonId": "L01"
  },
  "hi": {
+  "label": "80s वाली फ़ोटो",
   "title": "अपनी फ़ोटो को 80 के दशक का बनाएँ",
   "hook": "एक फ़ोटो से पुराने ज़माने का मज़ेदार पोर्ट्रेट",
   "imageAlt": "80 के दशक की शैली का पोर्ट्रेट",
@@ -29,6 +30,7 @@
   "privacyNote": "अपनी फ़ोटो सिर्फ़ भरोसेमंद ऐप में डालें।"
  },
  "en": {
+  "label": "80s photo",
   "title": "Make your photo look like the 80s",
   "hook": "One photo, one fun retro portrait",
   "imageAlt": "A portrait in 80s style",

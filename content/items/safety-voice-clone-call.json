@@ -13,6 +13,7 @@
   "lessonId": "L14"
  },
  "hi": {
+  "label": "आवाज़ फ़्रॉड",
   "title": "अपनों की नकली आवाज़ वाली कॉल से बचें",
   "hook": "आवाज़ बेटे की, पर कॉल ठग की? पैसे भेजने से पहले रुकें",
   "whatsHappening": "ठग सोशल मीडिया वीडियो या वॉइस नोट से किसी की कुछ सेकंड की आवाज़ लेकर AI से उसकी **नकली आवाज़** बना लेते हैं। फिर रोते हुए या घबराकर कॉल करते हैं, \"मैं मुसीबत में हूँ, अभी पैसे भेजो\"।",
@@ -31,6 +32,7 @@
   "helpline": "1930 / cybercrime.gov.in"
  },
  "en": {
+  "label": "Voice scam",
   "title": "Watch out for fake calls in a loved one's voice",
   "hook": "It sounds like your son, but is it a scammer? Stop before you pay",
   "whatsHappening": "Scammers take a few seconds of someone's voice from a social media video or voice note and use AI to make a **fake copy of the voice**. Then they call in a panic: \"I'm in trouble, send money now.\"",

@@ -12,6 +12,7 @@
   "lessonId": "L13"
  },
  "hi": {
+  "label": "डीपफ़ेक वीडियो",
   "title": "नकली AI वीडियो (डीपफ़ेक) को पहचानें",
   "hook": "मशहूर चेहरा, बड़ा वादा? ऐसा वीडियो नकली भी हो सकता है",
   "whatsHappening": "AI से किसी भी मशहूर व्यक्ति, नेता या खिलाड़ी का **नकली वीडियो** बनाया जा सकता है, जिसमें वह कुछ ऐसा कहता दिखे जो उसने कभी नहीं कहा। ठग ऐसे वीडियो से पैसे दोगुने करने वाले ऐप, लॉटरी या \"मुफ़्त इनाम\" बेचते हैं।",
@@ -30,6 +31,7 @@
   "helpline": "1930 / cybercrime.gov.in"
  },
  "en": {
+  "label": "Deepfake video",
   "title": "Spot fake AI videos (deepfakes)",
   "hook": "A famous face and a big promise? The video may be fake",
   "whatsHappening": "AI can make a **fake video** of any celebrity, leader or sports star, showing them saying things they never said. Scammers use these videos to push money-doubling apps, lotteries or \"free gifts\".",

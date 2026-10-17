@@ -16,6 +16,7 @@
   "lessonId": "L13"
  },
  "hi": {
+  "label": "फ़ोटो पेंटिंग",
   "title": "अपनी फ़ोटो को पेंटिंग जैसा बनाएँ",
   "hook": "एक फ़ोटो से वॉटरकलर, कार्टून या पुराने ज़माने वाला लुक",
   "steps": [
@@ -30,6 +31,7 @@
   "privacyNote": "सिर्फ़ अपनी फ़ोटो डालें, या जिसकी फ़ोटो है उससे पूछकर। बच्चों की फ़ोटो डालने से बचें। सिर्फ़ Gemini, ChatGPT जैसे जाने-माने ऐप इस्तेमाल करें, अनजान \"AI फ़िल्टर\" लिंक या ऐप पर फ़ोटो न डालें।"
  },
  "en": {
+  "label": "Photo painting",
   "title": "Turn your photo into a painting",
   "hook": "One photo, a watercolour, cartoon or old-time look",
   "steps": [

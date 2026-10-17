@@ -18,6 +18,7 @@
   "lessonId": "L08"
  },
  "hi": {
+  "label": "चिट्ठी समझें",
   "title": "अंग्रेज़ी चिट्ठी को हिंदी में समझें",
   "hook": "बैंक, स्कूल या दफ़्तर की चिट्ठी? कैमरे से पढ़कर हिंदी में समझें",
   "steps": [
@@ -31,6 +32,7 @@
   "privacyNote": "फ़ोटो लेने या टेक्स्ट चिपकाने से पहले खाता नंबर, आधार नंबर, पता और साइन वाला हिस्सा ढक दें या हटा दें। आधार, PAN या बैंक के कागज़ AI में न डालें।"
  },
  "en": {
+  "label": "Read a letter",
   "title": "Understand a letter in another language",
   "hook": "Got a letter from the bank, school or office? Point your camera and understand it",
   "steps": [

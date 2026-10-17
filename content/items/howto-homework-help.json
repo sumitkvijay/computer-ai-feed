@@ -17,6 +17,7 @@
   "lessonId": "L15"
  },
  "hi": {
+  "label": "होमवर्क",
   "title": "बच्चे का होमवर्क आसान भाषा में समझें",
   "hook": "AI जवाब नहीं, तरीका समझाए, ताकि बच्चा ख़ुद हल करे",
   "steps": [
@@ -29,6 +30,7 @@
   "example": "\"पहला कदम: भिन्न का मतलब है किसी चीज़ का हिस्सा। मान लो एक रोटी के 4 टुकड़े किए...\""
  },
  "en": {
+  "label": "Homework help",
   "title": "Explain your child's homework in simple words",
   "hook": "AI explains the method, not just the answer, so your child learns",
   "steps": [

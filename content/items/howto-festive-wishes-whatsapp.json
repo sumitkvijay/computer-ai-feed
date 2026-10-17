@@ -17,6 +17,7 @@
   "lessonId": "L07"
  },
  "hi": {
+  "label": "दिवाली की बधाई",
   "title": "WhatsApp में Meta AI से दिवाली की शुभकामनाएँ लिखें",
   "hook": "रिश्तेदारों, दोस्तों और ग्राहकों के लिए अलग-अलग प्यारे संदेश",
   "steps": [
@@ -29,6 +30,7 @@
   "example": "\"दीयों की रोशनी आपके घर को ख़ुशियों से भर दे। आपको और आपके परिवार को शुभ दीपावली! 🪔 - रमेश\""
  },
  "en": {
+  "label": "Diwali wishes",
   "title": "Write Diwali wishes with Meta AI in WhatsApp",
   "hook": "Warm messages for family, friends and customers, each one different",
   "steps": [

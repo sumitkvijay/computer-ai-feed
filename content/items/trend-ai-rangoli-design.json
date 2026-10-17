@@ -13,6 +13,7 @@
   "chatgpt"
  ],
  "hi": {
+  "label": "रंगोली डिज़ाइन",
   "title": "AI से इस दिवाली नई रंगोली डिज़ाइन पाएँ",
   "hook": "मनपसंद रंग बताइए, AI रंगोली का डिज़ाइन बनाकर दिखा देगा",
   "steps": [
@@ -25,6 +26,7 @@
   "example": "ऊपर से दिखती एक रंग-बिरंगी गोल रंगोली, किनारों पर दीये, जिसे देखकर आप घर पर बना सकें।"
  },
  "en": {
+  "label": "Rangoli design",
   "title": "Get a fresh rangoli design from AI this Diwali",
   "hook": "Tell AI your favourite colours and it draws a rangoli design for you",
   "steps": [

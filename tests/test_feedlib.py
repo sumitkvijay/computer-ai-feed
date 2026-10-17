@@ -192,6 +192,57 @@ class ValidateTests(FeedTestCase):
         self.src.week = None
         self.assertTrue(self.errors())
 
+    def test_label_length_enforced(self):
+        self.item(TREND)["en"]["label"] = "x" * 14
+        self.assertEqual(self.errors(), [])
+        self.item(TREND)["en"]["label"] = "x" * 15
+        self.assertError("label length 15 is over 14")
+        # Counted after NFC: a decomposed nukta is one code point more than the precomposed letter, and
+        # NFC keeps nukta letters decomposed, so both spellings count the same.
+        self.item(TREND)["hi"]["label"] = "\u095e" * 7  # 7 precomposed फ़ = 14 code points after NFC
+        self.item(TREND)["en"]["label"] = "80s photo"
+        self.assertEqual(self.errors(), [])
+        self.item(TREND)["hi"]["label"] = "\u095e" * 8
+        self.assertError("label length 16")
+        self.item(TREND)["hi"]["label"] = "   "
+        self.assertError("label must be a non-empty string")
+
+    def test_label_parity(self):
+        it = self.item(TREND)
+        it["publishAt"] = "2026-10-19"  # before labels became required
+        it["reviewBy"] = "2026-11-16"
+        self.src.week["stories"] = [NEWS]
+        self.src.week["featured"] = NEWS
+        del it["hi"]["label"], it["en"]["label"]
+        self.assertEqual(self.errors(), [])
+        it["en"]["label"] = "80s photo"
+        errs = self.assertError("label is present in only one of hi/en")
+        self.assertTrue(any(e.startswith(TREND + ":") for e in errs if "label" in e))
+
+    def test_label_required_for_new_items(self):
+        it = self.item(TREND)
+        self.src.week["stories"] = [NEWS]
+        self.src.week["featured"] = NEWS
+        del it["hi"]["label"], it["en"]["label"]
+        it["publishAt"] = "2026-10-20"
+        errs = self.assertError("label is required")
+        self.assertTrue(any(e.startswith(TREND + ": hi:") for e in errs if "label is required" in e))
+        self.assertTrue(any(e.startswith(TREND + ": en:") for e in errs if "label is required" in e))
+        it["publishAt"] = "2026-10-19"
+        it["reviewBy"] = "2026-11-16"
+        self.assertEqual(self.errors(), [])
+
+    def test_label_no_asterisk(self):
+        self.item(TREND)["hi"]["label"] = "*नई* फ़ोटो"
+        errs = self.assertError("label must not contain '*'")
+        self.assertTrue(any(e.startswith(TREND + ": hi:") for e in errs if "'*'" in e))
+
+    def test_label_unique_per_language(self):
+        self.item(NEWS)["en"]["label"] = " 80S Photo"
+        errs = self.assertError("label is the same")
+        self.assertTrue(any(": en: label is the same" in e for e in errs))
+        self.assertFalse(any(": hi: label is the same" in e for e in errs))
+
     def test_unknown_tool_id(self):
         self.item(TREND)["toolIds"] = ["ghost"]
         self.assertError("toolIds")
@@ -212,6 +263,8 @@ class BuildTests(FeedTestCase):
         self.assertNotIn("note", hi["tools"][0])
         self.assertEqual(hi["tasks"][0], {"id": "photos", "icon": "image", "title": "फ़ोटो बनाएँ और सुधारें"})
         self.assertNotIn("hi", hi["items"][0])
+        self.assertEqual(hi["items"][0]["label"], self.item(NEWS)["hi"]["label"])
+        self.assertEqual(en["items"][0]["label"], self.item(NEWS)["en"]["label"])
 
     def test_sort_publish_desc_then_id(self):
         ids = [i["id"] for i in feedlib.build(self.src, "en", "t")["items"]]

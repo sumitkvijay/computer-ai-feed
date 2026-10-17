@@ -18,6 +18,7 @@
   "lessonId": "L07"
  },
  "hi": {
+  "label": "छुट्टी अर्ज़ी",
   "title": "AI से छुट्टी की अर्ज़ी लिखवाएँ",
   "hook": "स्कूल या दफ़्तर की अर्ज़ी, एक मिनट में तैयार",
   "steps": [
@@ -31,6 +32,7 @@
   "example": "\"सेवा में, प्रधानाचार्य महोदय... सविनय निवेदन है कि...\" जैसी पूरी अर्ज़ी, जिसे आप सीधे कॉपी कर सकें।"
  },
  "en": {
+  "label": "Leave letter",
   "title": "Get AI to write your leave application",
   "hook": "A school or office leave letter, ready in a minute",
   "steps": [

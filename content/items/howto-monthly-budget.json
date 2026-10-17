@@ -17,6 +17,7 @@
   "lessonId": "L09"
  },
  "hi": {
+  "label": "महीने का ख़र्च",
   "title": "महीने के ख़र्च की आसान टेबल बनाएँ",
   "hook": "घर के ख़र्च लिखें, AI जोड़कर साफ़ टेबल बना देगा",
   "steps": [
@@ -30,6 +31,7 @@
   "privacyNote": "सिर्फ़ रकम लिखें। बैंक खाता नंबर, UPI PIN, कार्ड नंबर या बैंक स्टेटमेंट की फ़ोटो कभी न डालें।"
  },
  "en": {
+  "label": "Monthly budget",
   "title": "Make a simple table of your monthly expenses",
   "hook": "Write down your home expenses and AI adds them up in a neat table",
   "steps": [
