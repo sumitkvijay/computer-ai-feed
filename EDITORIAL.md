@@ -29,7 +29,9 @@ rule that can be checked by machine.
 - `label` (per language): the short name under the item's story circle, one or two words that name the story,
   for example "Birthday song" / "जन्मदिन गाना" or "Leave letter" / "छुट्टी अर्ज़ी". At most 14 characters
   after NFC (code points: every matra, virama and nukta counts, so Hindi labels need fewer words), plain text
-  with no `*`. Write the Hindi in the same everyday voice as the rest of the item; don't translate the English.
+  with no `*`. The circle is narrow: about 12 ordinary English letters fit, and wide letters (m, w, D) take
+  more room, so "Monthly budget" is cut off while "Home budget" fits. Hindi has more room per code point.
+  Write the Hindi in the same everyday voice as the rest of the item; don't translate the English.
   If one language has a label, the other must too. No two items may share a label in the same language.
   Required for items with `publishAt` on or after 2026-10-20; older items may omit it, and the app then cuts
   the title at a word boundary.

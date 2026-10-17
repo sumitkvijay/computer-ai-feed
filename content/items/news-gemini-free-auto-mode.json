@@ -19,7 +19,7 @@
   "sourceName": "9to5Google"
  },
  "en": {
-  "label": "Gemini update",
+  "label": "Gemini news",
   "title": "Free Gemini now picks its model for you",
   "hook": "Gemini is still free; it now picks the model itself",
   "body": "Gemini has several \"brains\" (models): some faster, some smarter. Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",

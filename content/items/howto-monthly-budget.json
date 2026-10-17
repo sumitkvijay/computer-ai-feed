@@ -31,7 +31,7 @@
   "privacyNote": "सिर्फ़ रकम लिखें। बैंक खाता नंबर, UPI PIN, कार्ड नंबर या बैंक स्टेटमेंट की फ़ोटो कभी न डालें।"
  },
  "en": {
-  "label": "Monthly budget",
+  "label": "Home budget",
   "title": "Make a simple table of your monthly expenses",
   "hook": "Write down your home expenses and AI adds them up in a neat table",
   "steps": [

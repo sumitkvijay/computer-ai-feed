@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-10-17T15:53:59Z",
+ "generatedAt": "2026-10-17T16:05:08Z",
  "stories": [
   "trend-festive-photo-portrait",
   "safety-fake-ai-filter-links",
@@ -284,8 +284,8 @@
    "publishAt": "2026-10-01",
    "reviewBy": "2027-12-31",
    "tags": [
-    "daily-life",
-    "writing"
+    "writing",
+    "daily-life"
    ],
    "minutes": "3 min",
    "toolIds": [
@@ -439,8 +439,8 @@
    "publishAt": "2026-10-01",
    "reviewBy": "2027-12-31",
    "tags": [
-    "daily-life",
-    "translate"
+    "translate",
+    "daily-life"
    ],
    "minutes": "2 min",
    "toolIds": [

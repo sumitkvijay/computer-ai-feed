@@ -31,7 +31,7 @@
   "example": "\"पहला सवाल: अपने बारे में थोड़ा बताइए।\" ... \"अच्छा जवाब! अगली बार अपने पिछले काम का एक उदाहरण भी जोड़ें।\""
  },
  "en": {
-  "label": "Interview prep",
+  "label": "Job interview",
   "title": "Practise for a job interview with AI",
   "hook": "AI plays the interviewer while you practise your answers",
   "steps": [

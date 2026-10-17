@@ -4,8 +4,8 @@
  "publishAt": "2026-10-01",
  "reviewBy": "2027-12-31",
  "tags": [
-  "daily-life",
-  "translate"
+  "translate",
+  "daily-life"
  ],
  "minutes": "2 min",
  "toolIds": [
@@ -31,7 +31,7 @@
   "privacyNote": "सिर्फ़ दवा के पत्ते की फ़ोटो लें। डॉक्टर की पर्ची पर आपका नाम, फ़ोन नंबर या बीमारी लिखी हो तो उसे फ़ोटो में न आने दें। AI की बात डॉक्टर की सलाह नहीं है, AI ग़लत भी हो सकता है।"
  },
  "en": {
-  "label": "Medicine strip",
+  "label": "Pill strip",
   "title": "Read the small print on a medicine strip",
   "hook": "Read and understand the label, but always ask a doctor before deciding",
   "steps": [

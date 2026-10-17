@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-10-17T15:53:59Z",
+ "generatedAt": "2026-10-17T16:05:08Z",
  "stories": [
   "trend-festive-photo-portrait",
   "safety-fake-ai-filter-links",
@@ -154,7 +154,7 @@
     "gemini",
     "chatgpt"
    ],
-   "label": "Rangoli design",
+   "label": "AI rangoli",
    "title": "Get a fresh rangoli design from AI this Diwali",
    "hook": "Tell AI your favourite colours and it draws a rangoli design for you",
    "steps": [
@@ -208,7 +208,7 @@
     "gemini"
    ],
    "sourceUrl": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
-   "label": "Gemini update",
+   "label": "Gemini news",
    "title": "Free Gemini now picks its model for you",
    "hook": "Gemini is still free; it now picks the model itself",
    "body": "Gemini has several \"brains\" (models): some faster, some smarter. Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",
@@ -284,8 +284,8 @@
    "publishAt": "2026-10-01",
    "reviewBy": "2027-12-31",
    "tags": [
-    "daily-life",
-    "writing"
+    "writing",
+    "daily-life"
    ],
    "minutes": "3 min",
    "toolIds": [
@@ -326,7 +326,7 @@
     "courseId": "ai-tools-basics",
     "lessonId": "L13"
    },
-   "label": "Photo painting",
+   "label": "Photo to art",
    "title": "Turn your photo into a painting",
    "hook": "One photo, a watercolour, cartoon or old-time look",
    "steps": [
@@ -358,7 +358,7 @@
     "courseId": "ai-tools-basics",
     "lessonId": "L15"
    },
-   "label": "Homework help",
+   "label": "Homework",
    "title": "Explain your child's homework in simple words",
    "hook": "AI explains the method, not just the answer, so your child learns",
    "steps": [
@@ -388,7 +388,7 @@
     "courseId": "ai-tools-basics",
     "lessonId": "L16"
    },
-   "label": "Interview prep",
+   "label": "Job interview",
    "title": "Practise for a job interview with AI",
    "hook": "AI plays the interviewer while you practise your answers",
    "steps": [
@@ -439,8 +439,8 @@
    "publishAt": "2026-10-01",
    "reviewBy": "2027-12-31",
    "tags": [
-    "daily-life",
-    "translate"
+    "translate",
+    "daily-life"
    ],
    "minutes": "2 min",
    "toolIds": [
@@ -451,7 +451,7 @@
     "courseId": "ai-tools-basics",
     "lessonId": "L11"
    },
-   "label": "Medicine strip",
+   "label": "Pill strip",
    "title": "Read the small print on a medicine strip",
    "hook": "Read and understand the label, but always ask a doctor before deciding",
    "steps": [
@@ -482,7 +482,7 @@
     "courseId": "ai-tools-basics",
     "lessonId": "L09"
    },
-   "label": "Monthly budget",
+   "label": "Home budget",
    "title": "Make a simple table of your monthly expenses",
    "hook": "Write down your home expenses and AI adds them up in a neat table",
    "steps": [
@@ -570,7 +570,7 @@
     "courseId": "ai-tools-basics",
     "lessonId": "L13"
    },
-   "label": "Deepfake video",
+   "label": "Deepfakes",
    "title": "Spot fake AI videos (deepfakes)",
    "hook": "A famous face and a big promise? The video may be fake",
    "whatsHappening": "AI can make a **fake video** of any celebrity, leader or sports star, showing them saying things they never said. Scammers use these videos to push money-doubling apps, lotteries or \"free gifts\".",
