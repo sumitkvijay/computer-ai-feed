@@ -19,11 +19,12 @@
   "price": "freemium",
   "login": "none",
   "android": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+  "web": "https://chatgpt.com",
   "hi": {
-   "note": "बिना लॉगिन भी चलता है। Google खाते से लॉगिन करें तो बातचीत सेव रहती है।"
+   "note": "बातचीत बिना लॉगिन भी चलती है। फ़ोटो डालने या तस्वीर बनाने के लिए मुफ़्त लॉगिन (जैसे Google खाते से) करना पड़ सकता है।"
   },
   "en": {
-   "note": "Works without signing in. Sign in with Google to save your chats."
+   "note": "Chat works without signing in. Adding or creating pictures may need a free sign-in, for example with Google."
   }
  },
  {
@@ -88,6 +89,7 @@
   "price": "freemium",
   "login": "google",
   "android": "https://play.google.com/store/apps/details?id=com.canva.editor",
+  "web": "https://www.canva.com",
   "hi": {
    "note": "Google खाते से मुफ़्त। AI वाले फ़ीचर मुफ़्त प्लान में सीमित बार चलते हैं।"
   },

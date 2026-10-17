@@ -12,15 +12,15 @@
  "sourceUrl": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
  "hi": {
   "title": "मुफ़्त Gemini में अब मॉडल अपने-आप चुना जाता है",
-  "hook": "Gemini मुफ़्त है, बस अब \"मॉडल\" चुनने का बटन नहीं है",
-  "body": "9 अक्टूबर से मुफ़्त Gemini इस्तेमाल करने वालों के लिए मॉडल चुनने की जगह सिर्फ़ \"Auto\" बचा है। ज़्यादातर सवालों के जवाब Gemini का सबसे तेज़ और हल्का मॉडल देता है, और मुश्किल सवाल पर Gemini अपने-आप ज़्यादा ताक़तवर मॉडल इस्तेमाल कर सकता है। ज़्यादा विकल्प पैसे वाले प्लान में हैं।",
+  "hook": "Gemini अब भी मुफ़्त है, बस मॉडल अब वह ख़ुद चुनता है",
+  "body": "Gemini के अंदर कई \"दिमाग़\" (मॉडल) होते हैं, कोई तेज़, कोई ज़्यादा समझदार। 9 अक्टूबर से मुफ़्त Gemini इस्तेमाल करने वालों के लिए मॉडल चुनने की जगह सिर्फ़ \"Auto\" बचा है। ज़्यादातर सवालों के जवाब Gemini का सबसे तेज़ और हल्का मॉडल देता है, और मुश्किल सवाल पर Gemini अपने-आप ज़्यादा ताक़तवर मॉडल इस्तेमाल कर सकता है। ज़्यादा विकल्प पैसे वाले प्लान में हैं।",
   "whyItMatters": "आपको कुछ बदलने की ज़रूरत नहीं, Gemini पहले की तरह मुफ़्त चलेगा; मुश्किल काम के लिए सवाल साफ़ और पूरा लिखें, और ज़रूरी जवाब ख़ुद जाँचें।",
   "sourceName": "9to5Google"
  },
  "en": {
   "title": "Free Gemini now picks its model for you",
-  "hook": "Gemini is still free, there's just no model button any more",
-  "body": "Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",
+  "hook": "Gemini is still free; it now picks the model itself",
+  "body": "Gemini has several \"brains\" (models): some faster, some smarter. Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",
   "whyItMatters": "You don't need to change anything and Gemini stays free; for harder tasks, write a clear, complete question and double-check important answers.",
   "sourceName": "9to5Google"
  }

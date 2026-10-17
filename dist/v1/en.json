@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-10-17T12:44:45Z",
+ "generatedAt": "2026-10-17T12:54:03Z",
  "stories": [
   "trend-festive-photo-portrait",
   "safety-fake-ai-filter-links",
@@ -59,7 +59,8 @@
    "price": "freemium",
    "login": "none",
    "android": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
-   "loginNote": "Works without signing in. Sign in with Google to save your chats."
+   "web": "https://chatgpt.com",
+   "loginNote": "Chat works without signing in. Adding or creating pictures may need a free sign-in, for example with Google."
   },
   {
    "id": "meta-ai",
@@ -103,6 +104,7 @@
    "price": "freemium",
    "login": "google",
    "android": "https://play.google.com/store/apps/details?id=com.canva.editor",
+   "web": "https://www.canva.com",
    "loginNote": "Free with a Google account. AI features have limited uses on the free plan."
   }
  ],
@@ -204,8 +206,8 @@
    ],
    "sourceUrl": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
    "title": "Free Gemini now picks its model for you",
-   "hook": "Gemini is still free, there's just no model button any more",
-   "body": "Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",
+   "hook": "Gemini is still free; it now picks the model itself",
+   "body": "Gemini has several \"brains\" (models): some faster, some smarter. Since October 9, free Gemini users only see \"Auto\" in the model picker. Most questions are answered by Gemini's fastest, lightest model, and Gemini may switch to a stronger model on its own for harder questions. More choices are in the paid plans.",
    "whyItMatters": "You don't need to change anything and Gemini stays free; for harder tasks, write a clear, complete question and double-check important answers.",
    "sourceName": "9to5Google"
   },
@@ -225,7 +227,7 @@
    },
    "title": "Avoid \"free AI photo filter\" links",
    "hook": "Scammers use viral photo trends to grab your photos and details",
-   "whatsHappening": "Whenever an AI photo trend goes viral, like the recent \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",
+   "whatsHappening": "Whenever an AI photo trend goes viral, like the \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",
    "howToSpot": [
     "An unknown \"free AI filter\" link on WhatsApp, Instagram or SMS",
     "It asks for your name, phone number or OTP along with the photo",
@@ -266,7 +268,7 @@
     "Not happy? Write \"keep my face the same, just make the lights softer\"",
     "Download it and put it on your WhatsApp status"
    ],
-   "prompt": "Use this photo to make a beautiful Diwali portrait of me. Keep my face exactly the same. Show me in traditional clothes, with lit diyas, marigold flowers and a soft golden glow behind me. Write \"Happy Diwali\" in elegant letters at the bottom.",
+   "prompt": "Use this photo to make a beautiful [Dussehra / Diwali] portrait of me. Keep my face exactly the same. Show me in traditional clothes, with lit diyas, marigold flowers and a soft golden glow behind me. Write \"[Happy Dussehra / Happy Diwali]\" in elegant letters at the bottom.",
    "example": "A festive portrait of you in the glow of diyas, with \"Happy Diwali\" written below.",
    "privacyNote": "Upload only your own photo, or someone else's with their permission. Use only well-known apps like Gemini or ChatGPT. Never upload photos to unknown \"free AI photo filter\" links."
   },
@@ -297,7 +299,7 @@
     "Read the song. To change it, write \"make it funnier\" or \"make it shorter\"",
     "Send the song on WhatsApp, or sing and record it yourself"
    ],
-   "prompt": "It is my [relation, for example mother / friend / son] [name]'s birthday. Write a sweet birthday song for them in simple English with 3 short verses that are easy to sing. A few things about them: [for example, cooks amazing food, loves cricket]. After each verse, add a line \"Happy birthday [name]\".",
+   "prompt": "Today is [relation and name, for example my mother Sunita / my son Rahul / my friend Amit]'s birthday. Write a sweet birthday song for them in simple English with 3 short verses that are easy to sing. A few things about them: [for example, cooks amazing food, loves cricket]. After each verse, add a line \"Happy birthday [name]\".",
    "example": "\"Up with the sun, the first to smile, making chai with love and style... Happy birthday, Mum!\""
   },
   {
@@ -621,7 +623,7 @@
     "A call from a new or unknown number, with \"my phone is lost\"",
     "Heavy pressure: \"Send it right now, don't tell anyone\"",
     "A request for UPI, gift cards or money to someone else's account",
-    "The voice sounds slightly broken or robotic, and dodges your questions"
+    "The voice may sound completely real. Be suspicious if they dodge your questions"
    ],
    "whatToDo": [
     "Hang up and call the person yourself on their **old saved number**",

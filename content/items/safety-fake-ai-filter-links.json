@@ -15,9 +15,9 @@
  "hi": {
   "title": "\"मुफ़्त AI फ़ोटो फ़िल्टर\" वाले लिंक से बचें",
   "hook": "वायरल फ़ोटो ट्रेंड के नाम पर ठग आपकी फ़ोटो और जानकारी ले रहे हैं",
-  "whatsHappening": "जब भी कोई AI फ़ोटो ट्रेंड वायरल होता है, जैसे हाल का \"80 के दशक वाली फ़ोटो\", ठग **नकली वेबसाइट और ऐप** के लिंक फैलाते हैं। दिल्ली पुलिस ने चेतावनी दी है कि ऐसी जगह डाली गई फ़ोटो से नकली प्रोफ़ाइल, ब्लैकमेल या ठगी हो सकती है।",
+  "whatsHappening": "जब भी कोई AI फ़ोटो ट्रेंड वायरल होता है, जैसे \"80 के दशक वाली फ़ोटो\", ठग **नकली वेबसाइट और ऐप** के लिंक फैलाते हैं। दिल्ली पुलिस ने चेतावनी दी है कि ऐसी जगह डाली गई फ़ोटो से नकली प्रोफ़ाइल, ब्लैकमेल या ठगी हो सकती है।",
   "howToSpot": [
-   "WhatsApp, इंस्टाग्राम या SMS पर \"मुफ़्त AI फ़िल्टर\" का अनजान लिंक",
+   "WhatsApp, Instagram या SMS पर \"मुफ़्त AI फ़िल्टर\" का अनजान लिंक",
    "फ़ोटो के साथ नाम, फ़ोन नंबर या OTP भी माँगा जाए",
    "\"HD फ़ोटो के लिए ₹49 दें\" जैसी माँग",
    "वेबसाइट का नाम अजीब हो, या असली ऐप जैसा दिखे पर थोड़ा अलग हो"
@@ -33,7 +33,7 @@
  "en": {
   "title": "Avoid \"free AI photo filter\" links",
   "hook": "Scammers use viral photo trends to grab your photos and details",
-  "whatsHappening": "Whenever an AI photo trend goes viral, like the recent \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",
+  "whatsHappening": "Whenever an AI photo trend goes viral, like the \"80s look\" photos, scammers spread links to **fake websites and apps**. Delhi Police has warned that photos uploaded to such sites can be misused for fake profiles, blackmail or fraud.",
   "howToSpot": [
    "An unknown \"free AI filter\" link on WhatsApp, Instagram or SMS",
    "It asks for your name, phone number or OTP along with the photo",

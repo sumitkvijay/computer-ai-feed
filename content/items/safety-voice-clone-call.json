@@ -20,7 +20,7 @@
    "नए या अनजान नंबर से कॉल, और कहा जाए कि \"मेरा फ़ोन खो गया\"",
    "बहुत जल्दी मचाना: \"अभी भेजो, किसी को मत बताना\"",
    "UPI, गिफ़्ट कार्ड या किसी और के खाते में पैसे माँगना",
-   "आवाज़ थोड़ी अटकती या मशीन जैसी लगे, सवाल पूछने पर बात बदल दे"
+   "आवाज़ बिल्कुल असली भी लग सकती है। सवाल पूछने पर वह बात टाले या बदल दे, तो शक करें"
   ],
   "whatToDo": [
    "कॉल काटें और उसी व्यक्ति को उसके **पुराने सेव नंबर** पर ख़ुद कॉल करें",
@@ -38,7 +38,7 @@
    "A call from a new or unknown number, with \"my phone is lost\"",
    "Heavy pressure: \"Send it right now, don't tell anyone\"",
    "A request for UPI, gift cards or money to someone else's account",
-   "The voice sounds slightly broken or robotic, and dodges your questions"
+   "The voice may sound completely real. Be suspicious if they dodge your questions"
   ],
   "whatToDo": [
    "Hang up and call the person yourself on their **old saved number**",

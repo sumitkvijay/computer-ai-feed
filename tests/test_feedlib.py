@@ -60,6 +60,12 @@ class ValidateTests(FeedTestCase):
         self.src.tools[0]["web"] = "http://gemini.google.com"
         self.assertError("https")
 
+    def test_bot_blocked_status_counts_as_reachable(self):
+        for status in (200, 204, 301, 302, 308, 401, 403, 429):
+            self.assertTrue(feedlib.status_is_reachable(status), status)
+        for status in (None, 199, 400, 404, 410, 451, 500, 502, 503):
+            self.assertFalse(feedlib.status_is_reachable(status), status)
+
     def test_news_requires_source(self):
         del self.item(NEWS)["sourceUrl"]
         errs = self.assertError("sourceUrl")

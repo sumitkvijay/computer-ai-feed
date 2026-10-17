@@ -5,6 +5,7 @@ import re
 import shutil
 import time
 import unicodedata
+import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
 from datetime import date, timedelta
@@ -107,14 +108,26 @@ def _check_url(url, where, errs, label):
     return True
 
 
+# Real hosts that block bots (auth walls, bot protection, rate limits) answer with these codes.
+BOT_BLOCKED_STATUSES = (401, 403, 429)
+
+
+def status_is_reachable(status) -> bool:
+    """True for HTTP 2xx/3xx, and for 401/403/429, which real hosts return to block bots."""
+    return isinstance(status, int) and (200 <= status < 400 or status in BOT_BLOCKED_STATUSES)
+
+
 def _reachable(url):
     for attempt in range(2):
         for method in ("HEAD", "GET"):
             try:
                 req = urllib.request.Request(url, method=method, headers={"User-Agent": "computer-ai-feed-validator"})
                 with urllib.request.urlopen(req, timeout=10) as r:
-                    if 200 <= r.status < 400:
+                    if status_is_reachable(r.status):
                         return True
+            except urllib.error.HTTPError as e:
+                if status_is_reachable(e.code):
+                    return True
             except Exception:
                 pass
         if attempt == 0:
@@ -357,7 +370,7 @@ def _validate(src, app_lessons, check_urls, min_stories):
     if check_urls:
         for where, url in dict.fromkeys(urls):
             if not _reachable(url):
-                errs.append(f"{where}: URL not reachable (needs HTTP 2xx or 3xx): {url}")
+                errs.append(f"{where}: URL not reachable (needs HTTP 2xx, 3xx, 401, 403 or 429): {url}")
     return errs
 
 

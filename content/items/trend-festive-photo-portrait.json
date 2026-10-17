@@ -25,7 +25,7 @@
    "पसंद न आए तो लिखें \"चेहरा वैसा ही रखो, बस रोशनी थोड़ी कम करो\"",
    "फ़ोटो डाउनलोड करके WhatsApp स्टेटस पर लगाएँ"
   ],
-  "prompt": "इस फ़ोटो से मेरी एक सुंदर दिवाली फ़ोटो बनाओ। मेरा चेहरा बिल्कुल वैसा ही रहे। मुझे पारंपरिक कपड़ों में दिखाओ, पीछे जलते दीये, गेंदे के फूल और हल्की सुनहरी रोशनी हो। नीचे सुंदर अक्षरों में \"शुभ दीपावली\" लिखो।",
+  "prompt": "इस फ़ोटो से मेरी एक सुंदर [दशहरा / दिवाली] फ़ोटो बनाओ। मेरा चेहरा बिल्कुल वैसा ही रहे। मुझे पारंपरिक कपड़ों में दिखाओ, पीछे जलते दीये, गेंदे के फूल और हल्की सुनहरी रोशनी हो। नीचे सुंदर अक्षरों में \"[शुभ दशहरा / शुभ दीपावली]\" लिखो।",
   "example": "दीयों की रोशनी में आपकी त्योहार वाली फ़ोटो, नीचे \"शुभ दीपावली\" लिखा हुआ।",
   "privacyNote": "सिर्फ़ अपनी फ़ोटो डालें, या जिसकी है उससे पूछकर। फ़ोटो सिर्फ़ Gemini या ChatGPT जैसे जाने-माने ऐप में डालें। \"मुफ़्त AI फ़ोटो फ़िल्टर\" वाले अनजान लिंक पर कभी फ़ोटो न डालें।"
  },
@@ -39,7 +39,7 @@
    "Not happy? Write \"keep my face the same, just make the lights softer\"",
    "Download it and put it on your WhatsApp status"
   ],
-  "prompt": "Use this photo to make a beautiful Diwali portrait of me. Keep my face exactly the same. Show me in traditional clothes, with lit diyas, marigold flowers and a soft golden glow behind me. Write \"Happy Diwali\" in elegant letters at the bottom.",
+  "prompt": "Use this photo to make a beautiful [Dussehra / Diwali] portrait of me. Keep my face exactly the same. Show me in traditional clothes, with lit diyas, marigold flowers and a soft golden glow behind me. Write \"[Happy Dussehra / Happy Diwali]\" in elegant letters at the bottom.",
   "example": "A festive portrait of you in the glow of diyas, with \"Happy Diwali\" written below.",
   "privacyNote": "Upload only your own photo, or someone else's with their permission. Use only well-known apps like Gemini or ChatGPT. Never upload photos to unknown \"free AI photo filter\" links."
  }
