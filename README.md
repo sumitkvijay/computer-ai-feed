@@ -26,6 +26,8 @@ If nothing is merged, nothing changes: the app keeps showing items that are stil
 4. Optional: set the Firebase Remote Config parameter `ai_feed_base_urls` (a JSON array of base URLs).
    Without it the app uses the built-in defaults below.
 
+`main` must allow GitHub Actions to push (the publish workflow commits `dist/`), so either leave branch protection off or allow the Actions bot to bypass it.
+
 URLs the app uses:
 - primary: `https://cdn.jsdelivr.net/gh/sumitkvijay/computer-ai-feed@main/dist/v1/{lang}.json`
 - fallback: `https://sumitkvijay.github.io/computer-ai-feed/v1/{lang}.json`

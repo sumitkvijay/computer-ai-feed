@@ -30,7 +30,7 @@ jobs:
       - name: Archive expired items
         run: python3 tools/prune.py --move
       - name: Build dist
-        run: python3 tools/build.py
+        run: python3 tools/build.py --no-urls
       - name: Commit dist and archive
         run: |
           git config user.name "github-actions[bot]"
@@ -40,9 +40,11 @@ jobs:
             echo "Nothing to commit"
           else
             git commit -m "chore: build dist [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
       - name: Purge jsDelivr cache
+        continue-on-error: true
         run: |
           curl -fsS https://purge.jsdelivr.net/gh/sumitkvijay/computer-ai-feed@main/dist/v1/hi.json
           curl -fsS https://purge.jsdelivr.net/gh/sumitkvijay/computer-ai-feed@main/dist/v1/en.json

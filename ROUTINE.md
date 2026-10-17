@@ -9,10 +9,10 @@ Read `EDITORIAL.md` first and follow it exactly. Everything below assumes it.
 
 ## Step 0: Is there an open feed PR with owner comments?
 
-List open PRs whose branch starts with `feed/week-`. If one has comments from the owner (not from bots),
+List open PRs whose branch starts with `feed/week-`. If one has comments from the owner (GitHub login `sumitkvijay`, not bots),
 do NOT draft a new week. Check out that branch, read every comment, revise the files to address them, run the
 validator (step 3), commit, push to the same branch, and reply on the PR with a short summary of what you
-changed. Then stop. If no open feed PR has owner comments, continue with step 1.
+changed. Then stop. If no open feed PR has owner comments, If an older open feed PR exists with no comments, do not open a duplicate for the same week: update that PR's branch with fresh drafts instead (steps 1 to 3, then push and edit the PR description). Otherwise continue with step 1.
 
 ## Step 1: Research
 
@@ -43,7 +43,7 @@ at least 1 `safety` item if a current AI scam exists.
 For each item write `content/items/<id>.json` with both languages, following EDITORIAL.md and the format of
 the existing files in `content/items/`.
 - Write Hindi and English natively. Never machine-translate one from the other.
-- `publishAt` runs Tuesday to Monday of the coming week, one item a day. Set `reviewBy` within the limits:
+- This routine runs on a Monday. Items publish from the next day, Tuesday, through the following Monday, one item per day, so `publishAt` runs Tuesday to Monday. Set `reviewBy` within the limits:
   trend at most 28 days after `publishAt`, news at most 14 days, howto and safety no cap.
 - `news` items need `sourceUrl` (https, reputable) and `sourceName`. Never use an `.apk` link.
 - Any item whose steps or prompt involve a photo, voice, face or document needs a `privacyNote` in both
@@ -61,7 +61,7 @@ open a PR while it fails. Also run `python3 -m unittest discover -s tests`.
 
 ## Step 4: Open the PR
 
-Let D be the date of the Monday of the coming week (YYYY-MM-DD).
+Let D be the date of that Tuesday, the first `publishAt` day (YYYY-MM-DD).
 1. Create the branch `feed/week-D` from `main`.
 2. Commit only `content/` and `images/` changes. Do not edit `dist/` or `archive/`; the publish workflow
    handles them.
