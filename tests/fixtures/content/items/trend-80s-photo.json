@@ -1,0 +1,44 @@
+{
+ "id": "trend-80s-photo",
+ "type": "trend",
+ "publishAt": "2026-10-20",
+ "reviewBy": "2026-11-17",
+ "tags": [
+  "photos"
+ ],
+ "image": "images/x.webp",
+ "minutes": "2 min",
+ "toolIds": [
+  "gemini"
+ ],
+ "relatedLesson": {
+  "courseId": "ai-tools-basics",
+  "lessonId": "L01"
+ },
+ "hi": {
+  "title": "अपनी फ़ोटो को 80 के दशक का बनाएँ",
+  "hook": "एक फ़ोटो से पुराने ज़माने का मज़ेदार पोर्ट्रेट",
+  "imageAlt": "80 के दशक की शैली का पोर्ट्रेट",
+  "steps": [
+   "Gemini ऐप खोलें",
+   "अपनी एक साफ़ फ़ोटो चुनें",
+   "नीचे दिया गया प्रॉम्प्ट चिपकाएँ"
+  ],
+  "prompt": "इस फ़ोटो को 80 के दशक की फ़िल्मी शैली में बदलो",
+  "example": "आपको एक रंगीन पुराने ज़माने का चित्र मिलेगा।",
+  "privacyNote": "अपनी फ़ोटो सिर्फ़ भरोसेमंद ऐप में डालें।"
+ },
+ "en": {
+  "title": "Make your photo look like the 80s",
+  "hook": "One photo, one fun retro portrait",
+  "imageAlt": "A portrait in 80s style",
+  "steps": [
+   "Open the Gemini app",
+   "Pick one clear photo of yourself",
+   "Paste the prompt below"
+  ],
+  "prompt": "Turn this photo into an 80s film style portrait",
+  "example": "You will get a colourful retro picture.",
+  "privacyNote": "Upload your photo only to apps you trust."
+ }
+}

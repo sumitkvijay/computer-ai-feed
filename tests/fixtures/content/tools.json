@@ -1,0 +1,17 @@
+[
+ {
+  "id": "gemini",
+  "name": "Gemini",
+  "icon": "images/tools/gemini.webp",
+  "price": "free",
+  "login": "google",
+  "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard",
+  "web": "https://gemini.google.com",
+  "hi": {
+   "note": "Google खाते से लॉगिन"
+  },
+  "en": {
+   "note": "Sign in with Google"
+  }
+ }
+]

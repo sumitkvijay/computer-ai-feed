@@ -1,0 +1,24 @@
+{
+ "id": "news-free-gemini-feature",
+ "type": "news",
+ "publishAt": "2026-10-21",
+ "reviewBy": "2026-11-04",
+ "tags": [
+  "news"
+ ],
+ "sourceUrl": "https://example.com/gemini-news",
+ "hi": {
+  "title": "Gemini में नया मुफ़्त फ़ीचर",
+  "hook": "अब हिंदी में बोलकर पूछ सकते हैं",
+  "body": "Gemini ने नया फ़ीचर जोड़ा है। यह मुफ़्त है।",
+  "whyItMatters": "इससे टाइप करने की ज़रूरत कम होगी।",
+  "sourceName": "उदाहरण समाचार"
+ },
+ "en": {
+  "title": "New free feature in Gemini",
+  "hook": "You can now ask by speaking in Hindi",
+  "body": "Gemini added a new feature. It is free.",
+  "whyItMatters": "You will need to type less.",
+  "sourceName": "Example News"
+ }
+}
