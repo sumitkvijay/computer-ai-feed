@@ -1,0 +1,44 @@
+{
+ "id": "trend-80s-ai-photo",
+ "type": "trend",
+ "publishAt": "2026-10-28",
+ "reviewBy": "2026-11-25",
+ "tags": [
+  "photo"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "chatgpt",
+  "gemini"
+ ],
+ "hi": {
+  "label": "80s वाली फ़ोटो",
+  "title": "'80 के दशक' वाली AI फ़ोटो का ट्रेंड",
+  "hook": "बड़े बाल, पुराने कपड़े, फ़िल्म जैसा लुक। सब बना रहे हैं अपनी फ़ोटो",
+  "steps": [
+   "ChatGPT या Gemini ऐप खोलें",
+   "+ दबाकर अपनी एक साफ़ सेल्फ़ी जोड़ें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "फ़ोटो जँचे नहीं तो लिखें \"कपड़े और सादे रखो\"",
+   "पोस्ट करने से पहले अगले आइटम की सावधानियाँ पढ़ लें। मुफ़्त प्लान में रोज़ की सीमा होती है"
+  ],
+  "prompt": "इस सेल्फ़ी को 1980 के दशक की पुरानी फ़ोटो जैसा बना दो: बड़े घुँघराले बाल, उस ज़माने के कपड़े, स्टूडियो की रोशनी और हल्की फ़िल्म वाली दानेदार बनावट। मेरा चेहरा वैसा ही रहे। बैकग्राउंड सादा रखो।",
+  "example": "आपका ही चेहरा, पर ऐसे जैसे 40 साल पुराने फ़ोटो स्टूडियो में खिंची फ़ोटो हो।",
+  "privacyNote": "सिर्फ़ अपनी सेल्फ़ी डालें, और दूसरों की फ़ोटो उनसे पूछकर। बच्चों की फ़ोटो न डालें। Delhi Police ने इस ट्रेंड के नाम पर अनजान \"AI फ़िल्टर\" लिंक से बचने को कहा है: सिर्फ़ ChatGPT, Gemini जैसे जाने-माने ऐप में ही फ़ोटो डालें।"
+ },
+ "en": {
+  "label": "80s photo",
+  "title": "The viral \"1980s\" AI photo trend",
+  "hook": "Big hair, old-time clothes, a film look. Everyone is making one",
+  "steps": [
+   "Open the ChatGPT or Gemini app",
+   "Tap + and add one clear selfie",
+   "Paste the prompt below",
+   "Not right? Write \"keep the clothes simpler\"",
+   "Read the care points in the next safety item before you post. The free plan has a daily limit"
+  ],
+  "prompt": "Turn this selfie into an old photo from the 1980s: big curly hair, clothes of that time, studio lighting and light grainy film texture. Keep my face the same. Keep the background simple.",
+  "example": "Your own face, but as if it were taken in a photo studio 40 years ago.",
+  "privacyNote": "Upload only your own selfie, or someone else's with their permission. Don't upload children's photos. Delhi Police warned against unknown \"AI filter\" links around this trend: use only well-known apps like ChatGPT or Gemini."
+ }
+}

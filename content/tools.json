@@ -96,5 +96,19 @@
   "en": {
    "note": "Free with a Google account. AI features have limited uses on the free plan."
   }
+ },
+ {
+  "id": "google-photos",
+  "name": "Google Photos",
+  "price": "free",
+  "login": "google",
+  "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+  "web": "https://photos.google.com",
+  "hi": {
+   "note": "ज़्यादातर Android फ़ोन में पहले से है। Google खाते से मुफ़्त। \"Help me edit\" कुछ फ़ोन पर धीरे-धीरे आ रहा है।"
+  },
+  "en": {
+   "note": "Already on most Android phones. Free with a Google account. \"Help me edit\" is rolling out to phones gradually."
+  }
  }
 ]
