@@ -1,0 +1,43 @@
+{
+ "id": "howto-gemini-live-camera",
+ "type": "howto",
+ "publishAt": "2026-10-30",
+ "reviewBy": "2027-04-30",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini"
+ ],
+ "hi": {
+  "label": "कैमरा दिखाएँ",
+  "title": "Gemini को कैमरे से दिखाकर पूछें",
+  "hook": "किसी चीज़ पर कैमरा रखिए और बोलकर पूछिए कि यह क्या है",
+  "steps": [
+   "Gemini ऐप खोलें और Live (लहर वाला बटन) दबाएँ",
+   "कैमरे वाला आइकन दबाएँ और कैमरे की इजाज़त दें",
+   "जिस चीज़ के बारे में जानना है, उस पर कैमरा रखें",
+   "बोलकर पूछें, जैसे \"यह क्या है?\" या \"यह कैसे इस्तेमाल करते हैं?\"",
+   "बंद करने के लिए कैमरा बटन फिर दबाएँ। बातचीत में कुछ ग़लत लगे तो ख़ुद भी जाँच लें"
+  ],
+  "prompt": "यह क्या चीज़ है? सरल हिंदी में बताओ कि इसे कैसे इस्तेमाल करते हैं।",
+  "example": "नए गैस-स्टोव या मिक्सर पर कैमरा रखकर पूछना कि इसका कौन-सा बटन क्या करता है।",
+  "privacyNote": "कैमरे में चेहरे, आधार, पैन, बैंक कागज़ या OTP वाली स्क्रीन न आने दें। काम होते ही कैमरा बंद कर दें।"
+ },
+ "en": {
+  "label": "Show camera",
+  "title": "Show something to Gemini through your camera",
+  "hook": "Point the camera at anything and ask out loud what it is",
+  "steps": [
+   "Open the Gemini app and tap Live (the wave button)",
+   "Tap the camera icon and allow camera access",
+   "Point the camera at the thing you want to know about",
+   "Ask out loud, for example \"What is this?\" or \"How do I use it?\"",
+   "Tap the camera button again to stop. If an answer feels off, check it yourself too"
+  ],
+  "prompt": "What is this? Tell me in simple English how to use it.",
+  "example": "Pointing the camera at a new gas stove or mixer and asking what each knob does.",
+  "privacyNote": "Keep faces, Aadhaar, PAN, bank papers and OTP screens out of the camera view. Turn the camera off as soon as you are done."
+ }
+}

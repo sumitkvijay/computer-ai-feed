@@ -1,0 +1,43 @@
+{
+ "id": "howto-google-photos-help-me-edit",
+ "type": "howto",
+ "publishAt": "2026-10-27",
+ "reviewBy": "2027-04-27",
+ "tags": [
+  "photo"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "google-photos"
+ ],
+ "hi": {
+  "label": "बोलकर एडिट",
+  "title": "Google Photos में बोलकर फ़ोटो एडिट करें",
+  "hook": "\"पीछे की भीड़ हटाओ\" बोलिए, फ़ोटो अपने-आप सुधर जाएगी",
+  "steps": [
+   "Google Photos खोलें और जो फ़ोटो सुधारनी है उसे चुनें",
+   "नीचे \"Help me edit\" दबाएँ। यह बटन न दिखे तो आपके फ़ोन पर अभी नहीं आया है",
+   "माइक दबाकर हिंदी में बोलें, जैसे \"फ़ोटो थोड़ी चमकदार करो\" या \"पीछे का कचरा हटाओ\"",
+   "नतीजा पसंद न आए तो बदलाव वापस (undo) कर दें या दूसरे शब्दों में फिर बोलें",
+   "ठीक लगे तो \"Save\" दबाएँ। असली फ़ोटो भी बची रहती है"
+  ],
+  "prompt": "इस फ़ोटो को थोड़ा चमकदार और साफ़ करो। पीछे की भीड़ हटा दो।",
+  "example": "धुँधली या अंधेरी फ़ोटो को बोलकर साफ़ और चमकदार बनाना।",
+  "privacyNote": "इसमें आपकी फ़ोटो Google के AI तक जाती है। ऐसी फ़ोटो न चुनें जिसमें आधार, पैन, बैंक कागज़ या बच्चों के चेहरे हों।"
+ },
+ "en": {
+  "label": "Voice edit",
+  "title": "Edit a photo by speaking, in Google Photos",
+  "hook": "Say \"remove the crowd behind me\" and the photo fixes itself",
+  "steps": [
+   "Open Google Photos and pick the photo you want to improve",
+   "Tap \"Help me edit\" at the bottom. If you don't see it, it hasn't reached your phone yet",
+   "Tap the mic and speak, for example \"make this photo brighter\" or \"remove the clutter behind me\"",
+   "Don't like the result? Undo it, or say it again in different words",
+   "Happy with it? Tap \"Save\". Your original photo is kept too"
+  ],
+  "prompt": "Make this photo a little brighter and clearer. Remove the crowd behind me.",
+  "example": "Turning a dark or blurry photo into a clear, bright one just by talking.",
+  "privacyNote": "Your photo is sent to Google's AI for this. Don't pick photos that show Aadhaar, PAN, bank papers or children's faces."
+ }
+}

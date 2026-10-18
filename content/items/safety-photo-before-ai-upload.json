@@ -1,0 +1,49 @@
+{
+ "id": "safety-photo-before-ai-upload",
+ "type": "safety",
+ "publishAt": "2026-10-29",
+ "reviewBy": "2027-04-29",
+ "tags": [
+  "safety",
+  "photo"
+ ],
+ "minutes": "2 min",
+ "hi": {
+  "label": "फ़ोटो से पहले",
+  "title": "AI में फ़ोटो डालने से पहले 4 बातें जाँचें",
+  "hook": "मज़ेदार ट्रेंड के पीछे आपकी फ़ोटो का ग़लत इस्तेमाल हो सकता है",
+  "whatsHappening": "जब कोई ट्रेंड वायरल होता है, तो ठग उसी नाम से **नकली लिंक और ऐप** फैलाते हैं। आपकी सेल्फ़ी से नकली प्रोफ़ाइल बन सकती है, या उसे ब्लैकमेल और धोखाधड़ी में इस्तेमाल किया जा सकता है। Delhi Police ने सितंबर 2026 में यही चेतावनी दी थी।",
+  "howToSpot": [
+   "WhatsApp या सोशल मीडिया पर आया \"फ़्री AI फ़िल्टर\" का लिंक",
+   "ऐसा ऐप या वेबसाइट जिसका नाम आपने पहले कभी नहीं सुना",
+   "फ़ोटो के साथ आपका फ़ोन नंबर, OTP या कोई कागज़ माँगना",
+   "फ़ोटो में घर का नंबर, गाड़ी की नंबर प्लेट या कोई कागज़ पीछे दिख रहा हो"
+  ],
+  "whatToDo": [
+   "फ़ोटो सिर्फ़ Gemini, ChatGPT जैसे जाने-माने ऐप में डालें, लिंक से नहीं",
+   "फ़ोटो काट (crop) लें ताकि पीछे का घर, नंबर प्लेट या कागज़ न दिखे",
+   "बच्चों की और दूसरों की फ़ोटो उनसे पूछे बिना न डालें",
+   "ठगी हो जाए तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "label": "Before upload",
+  "title": "4 checks before you put your photo into an AI app",
+  "hook": "Behind a fun trend, your photo can be misused",
+  "whatsHappening": "When a trend goes viral, scammers spread **fake links and apps** under the same name. Your selfie can be used to make a fake profile, or in blackmail and fraud. Delhi Police gave exactly this warning in September 2026.",
+  "howToSpot": [
+   "A \"free AI filter\" link that came on WhatsApp or social media",
+   "An app or website whose name you have never heard of",
+   "It asks for your phone number, an OTP or a document along with the photo",
+   "Your house number, a number plate or a paper is visible behind you in the photo"
+  ],
+  "whatToDo": [
+   "Upload photos only in well-known apps like Gemini or ChatGPT, never through a link",
+   "Crop the photo so the house, number plate or papers behind you don't show",
+   "Don't upload children's or other people's photos without asking them",
+   "If you are cheated, call 1930 at once or report on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

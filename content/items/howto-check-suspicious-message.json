@@ -1,0 +1,43 @@
+{
+ "id": "howto-check-suspicious-message",
+ "type": "howto",
+ "publishAt": "2026-10-31",
+ "reviewBy": "2027-04-30",
+ "tags": [
+  "safety",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "मैसेज जाँचें",
+  "title": "शक वाले मैसेज को AI से परखें",
+  "hook": "\"KYC बंद हो जाएगा\" जैसा मैसेज आया? चिपकाइए और पूछिए",
+  "steps": [
+   "शक वाला मैसेज कॉपी करें। उसके लिंक पर दबाएँ नहीं",
+   "Gemini या ChatGPT खोलें और नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "मैसेज में से OTP, खाता नंबर और अपना नाम पहले मिटा दें",
+   "AI की बताई निशानियाँ पढ़ें, पर आख़िरी फ़ैसला ख़ुद लें। बैंक को उसके ऐप या असली नंबर से ही पूछें"
+  ],
+  "prompt": "मुझे यह मैसेज आया है: [मैसेज यहाँ चिपकाएँ]। सरल हिंदी में बताओ कि इसमें ठगी के कौन-से लक्षण हैं और मुझे क्या नहीं करना चाहिए।",
+  "example": "AI बताएगा कि \"जल्दी करो\" वाला डर और अजीब लिंक ठगी के लक्षण हैं।",
+  "privacyNote": "मैसेज चिपकाने से पहले OTP, कार्ड/खाता नंबर, आधार और पैन मिटा दें। इनकी फ़ोटो या स्क्रीनशॉट कभी न डालें।"
+ },
+ "en": {
+  "label": "Check message",
+  "title": "Ask AI to check a suspicious message",
+  "hook": "Got a \"your KYC will be blocked\" message? Paste it and ask",
+  "steps": [
+   "Copy the suspicious message. Don't tap its link",
+   "Open Gemini or ChatGPT and paste the prompt below",
+   "First delete any OTP, account number and your name from the message",
+   "Read the warning signs AI points out, but make the final call yourself. Ask your bank only through its app or real number"
+  ],
+  "prompt": "I got this message: [paste the message here]. In simple English, tell me which signs of a scam it has and what I should not do.",
+  "example": "AI will point out that the \"hurry up\" pressure and the odd link are signs of a scam.",
+  "privacyNote": "Before pasting, delete any OTP, card or account number, Aadhaar and PAN. Never upload photos or screenshots of these."
+ }
+}
