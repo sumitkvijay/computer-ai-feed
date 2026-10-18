@@ -1,16 +1,15 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-10-18T14:25:51Z",
+ "generatedAt": "2026-10-18T16:14:15Z",
  "stories": [
-  "trend-festive-photo-portrait",
-  "safety-fake-ai-filter-links",
-  "news-gemini-free-auto-mode",
-  "howto-festive-wishes-whatsapp",
-  "trend-ai-rangoli-design",
-  "howto-check-viral-photo"
+  "howto-google-photos-help-me-edit",
+  "trend-80s-ai-photo",
+  "safety-photo-before-ai-upload",
+  "howto-gemini-live-camera",
+  "howto-check-suspicious-message"
  ],
- "featured": "trend-festive-photo-portrait",
+ "featured": "trend-80s-ai-photo",
  "tasks": [
   {
    "id": "writing",
@@ -106,9 +105,152 @@
    "android": "https://play.google.com/store/apps/details?id=com.canva.editor",
    "web": "https://www.canva.com",
    "loginNote": "Free with a Google account. AI features have limited uses on the free plan."
+  },
+  {
+   "id": "google-photos",
+   "name": "Google Photos",
+   "price": "free",
+   "login": "google",
+   "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
+   "web": "https://photos.google.com",
+   "loginNote": "Already on most Android phones. Free with a Google account. \"Help me edit\" is rolling out to phones gradually."
   }
  ],
  "items": [
+  {
+   "id": "howto-check-suspicious-message",
+   "type": "howto",
+   "publishAt": "2026-10-31",
+   "reviewBy": "2027-04-30",
+   "tags": [
+    "safety",
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Check message",
+   "title": "Ask AI to check a suspicious message",
+   "hook": "Got a \"your KYC will be blocked\" message? Paste it and ask",
+   "steps": [
+    "Copy the suspicious message. Don't tap its link",
+    "Open Gemini or ChatGPT and paste the prompt below",
+    "First delete any OTP, account number and your name from the message",
+    "Read the warning signs AI points out, but make the final call yourself. Ask your bank only through its app or real number"
+   ],
+   "prompt": "I got this message: [paste the message here]. In simple English, tell me which signs of a scam it has and what I should not do.",
+   "example": "AI will point out that the \"hurry up\" pressure and the odd link are signs of a scam.",
+   "privacyNote": "Before pasting, delete any OTP, card or account number, Aadhaar and PAN. Never upload photos or screenshots of these."
+  },
+  {
+   "id": "howto-gemini-live-camera",
+   "type": "howto",
+   "publishAt": "2026-10-30",
+   "reviewBy": "2027-04-30",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini"
+   ],
+   "label": "Show camera",
+   "title": "Show something to Gemini through your camera",
+   "hook": "Point the camera at anything and ask out loud what it is",
+   "steps": [
+    "Open the Gemini app and tap Live (the wave button)",
+    "Tap the camera icon and allow camera access",
+    "Point the camera at the thing you want to know about",
+    "Ask out loud, for example \"What is this?\" or \"How do I use it?\"",
+    "Tap the camera button again to stop. If an answer feels off, check it yourself too"
+   ],
+   "prompt": "What is this? Tell me in simple English how to use it.",
+   "example": "Pointing the camera at a new gas stove or mixer and asking what each knob does.",
+   "privacyNote": "Keep faces, Aadhaar, PAN, bank papers and OTP screens out of the camera view. Turn the camera off as soon as you are done."
+  },
+  {
+   "id": "safety-photo-before-ai-upload",
+   "type": "safety",
+   "publishAt": "2026-10-29",
+   "reviewBy": "2027-04-29",
+   "tags": [
+    "safety",
+    "photo"
+   ],
+   "minutes": "2 min",
+   "label": "Before upload",
+   "title": "4 checks before you put your photo into an AI app",
+   "hook": "Behind a fun trend, your photo can be misused",
+   "whatsHappening": "When a trend goes viral, scammers spread **fake links and apps** under the same name. Your selfie can be used to make a fake profile, or in blackmail and fraud. Delhi Police gave exactly this warning in September 2026.",
+   "howToSpot": [
+    "A \"free AI filter\" link that came on WhatsApp or social media",
+    "An app or website whose name you have never heard of",
+    "It asks for your phone number, an OTP or a document along with the photo",
+    "Your house number, a number plate or a paper is visible behind you in the photo"
+   ],
+   "whatToDo": [
+    "Upload photos only in well-known apps like Gemini or ChatGPT, never through a link",
+    "Crop the photo so the house, number plate or papers behind you don't show",
+    "Don't upload children's or other people's photos without asking them",
+    "If you are cheated, call 1930 at once or report on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "trend-80s-ai-photo",
+   "type": "trend",
+   "publishAt": "2026-10-28",
+   "reviewBy": "2026-11-25",
+   "tags": [
+    "photo"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "chatgpt",
+    "gemini"
+   ],
+   "label": "80s photo",
+   "title": "The viral \"1980s\" AI photo trend",
+   "hook": "Big hair, old-time clothes, a film look. Everyone is making one",
+   "steps": [
+    "Open the ChatGPT or Gemini app",
+    "Tap + and add one clear selfie",
+    "Paste the prompt below",
+    "Not right? Write \"keep the clothes simpler\"",
+    "Read the care points in the next safety item before you post. The free plan has a daily limit"
+   ],
+   "prompt": "Turn this selfie into an old photo from the 1980s: big curly hair, clothes of that time, studio lighting and light grainy film texture. Keep my face the same. Keep the background simple.",
+   "example": "Your own face, but as if it were taken in a photo studio 40 years ago.",
+   "privacyNote": "Upload only your own selfie, or someone else's with their permission. Don't upload children's photos. Delhi Police warned against unknown \"AI filter\" links around this trend: use only well-known apps like ChatGPT or Gemini."
+  },
+  {
+   "id": "howto-google-photos-help-me-edit",
+   "type": "howto",
+   "publishAt": "2026-10-27",
+   "reviewBy": "2027-04-27",
+   "tags": [
+    "photo"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "google-photos"
+   ],
+   "label": "Voice edit",
+   "title": "Edit a photo by speaking, in Google Photos",
+   "hook": "Say \"remove the crowd behind me\" and the photo fixes itself",
+   "steps": [
+    "Open Google Photos and pick the photo you want to improve",
+    "Tap \"Help me edit\" at the bottom. If you don't see it, it hasn't reached your phone yet",
+    "Tap the mic and speak, for example \"make this photo brighter\" or \"remove the clutter behind me\"",
+    "Don't like the result? Undo it, or say it again in different words",
+    "Happy with it? Tap \"Save\". Your original photo is kept too"
+   ],
+   "prompt": "Make this photo a little brighter and clearer. Remove the crowd behind me.",
+   "example": "Turning a dark or blurry photo into a clear, bright one just by talking.",
+   "privacyNote": "Your photo is sent to Google's AI for this. Don't pick photos that show Aadhaar, PAN, bank papers or children's faces."
+  },
   {
    "id": "howto-check-viral-photo",
    "type": "howto",
