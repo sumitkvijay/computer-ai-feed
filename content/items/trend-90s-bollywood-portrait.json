@@ -1,0 +1,43 @@
+{
+ "id": "trend-90s-bollywood-portrait",
+ "type": "trend",
+ "publishAt": "2026-11-04",
+ "reviewBy": "2026-12-02",
+ "tags": [
+  "photo"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "gemini"
+ ],
+ "hi": {
+  "label": "90s फ़िल्मी",
+  "title": "90 के दशक की फ़िल्मी हीरो-हीरोइन वाली AI फ़ोटो",
+  "hook": "शिफ़ॉन साड़ी, पुराना स्टाइल, फ़िल्मी पोस्टर जैसा लुक। भारत में ख़ूब बन रही हैं ऐसी फ़ोटो",
+  "steps": [
+   "Gemini ऐप खोलें",
+   "+ दबाकर अपनी एक साफ़ सेल्फ़ी जोड़ें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "लुक पसंद न आए तो लिखें \"रंग थोड़े हल्के रखो\"",
+   "पोस्ट करने से पहले सोचें कि फ़ोटो में कौन-सी जानकारी दिख रही है। मुफ़्त में रोज़ की सीमा हो सकती है"
+  ],
+  "prompt": "इस सेल्फ़ी को 1990 के दशक की फ़िल्मी फ़ोटो जैसा बना दो: उस ज़माने के कपड़े और हेयरस्टाइल, गर्म रंग, हल्की धुँध वाली रोशनी। मेरा चेहरा वैसा ही रहे। बैकग्राउंड सादा रखो।",
+  "example": "आपका ही चेहरा, पर ऐसे जैसे 90 के दशक की किसी फ़िल्म के पोस्टर पर हो।",
+  "privacyNote": "सिर्फ़ अपनी सेल्फ़ी डालें, और दूसरों की फ़ोटो उनसे पूछकर। बच्चों की फ़ोटो न डालें। \"AI फ़िल्टर\" वाले अनजान लिंक पर फ़ोटो न डालें: सिर्फ़ Gemini जैसे जाने-माने ऐप में ही डालें।"
+ },
+ "en": {
+  "label": "90s film look",
+  "title": "The \"90s Bollywood\" AI portrait",
+  "hook": "Chiffon sarees, old-time style, a film-poster look. Many are making these in India",
+  "steps": [
+   "Open the Gemini app",
+   "Tap + and add one clear selfie",
+   "Paste the prompt below",
+   "Not right? Write \"make the colours a bit softer\"",
+   "Before you post, think about what the photo gives away. The free plan may have a daily limit"
+  ],
+  "prompt": "Turn this selfie into a Bollywood film photo from the 1990s: clothes and hairstyle of that time, warm colours, soft hazy lighting. Keep my face the same. Keep the background simple.",
+  "example": "Your own face, but as if you were on the poster of a 90s film.",
+  "privacyNote": "Upload only your own selfie, or someone else's with their permission. Don't upload children's photos. Don't upload photos to unknown \"AI filter\" links: use only well-known apps like Gemini."
+ }
+}
