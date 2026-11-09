@@ -1,0 +1,42 @@
+{
+ "id": "howto-recipe-from-fridge",
+ "type": "howto",
+ "publishAt": "2026-11-03",
+ "reviewBy": "2027-05-03",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "आज क्या बनाएँ",
+  "title": "घर में जो सामान है, उससे बनने वाली रेसिपी पूछें",
+  "hook": "सब्ज़ी या दाल ख़त्म? जो है, उसी से आज का खाना सोचें",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "[ ] में घर में मौजूद सामान लिख दें",
+   "रेसिपी पसंद न आए तो लिखें \"कुछ और बताओ, बिना प्याज़-लहसुन के\"",
+   "तेल-मसाले की मात्रा अपने स्वाद से देख लें। किसी को खाने से एलर्जी हो तो ख़ुद जाँच लें"
+  ],
+  "prompt": "मेरे घर में ये सामान है: [आलू, टमाटर, आटा, दही]। इनसे बनने वाली 3 आसान रेसिपी सरल हिंदी में बताओ। हर रेसिपी के कदम छोटे रखो और बनाने में लगने वाला समय भी लिखो।",
+  "example": "आलू, टमाटर और आटे से \"आलू-टमाटर का पराँठा\", 25 मिनट में।"
+ },
+ "en": {
+  "label": "What to cook",
+  "title": "Ask for a recipe from what you already have at home",
+  "hook": "Out of vegetables? Plan today's meal from what is in the kitchen",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below",
+   "Replace the [ ] list with what you have at home",
+   "Not happy with it? Write \"give me something else, without onion and garlic\"",
+   "Taste and adjust the oil and spices yourself. If anyone has a food allergy, check it yourself"
+  ],
+  "prompt": "I have these things at home: [potato, tomato, flour, curd]. Tell me 3 easy recipes I can make from them, in simple English. Keep the steps short and write the time each one takes.",
+  "example": "Potato, tomato and flour become \"aloo-tomato paratha\", ready in 25 minutes."
+ }
+}

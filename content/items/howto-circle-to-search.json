@@ -1,0 +1,43 @@
+{
+ "id": "howto-circle-to-search",
+ "type": "howto",
+ "publishAt": "2026-11-05",
+ "reviewBy": "2027-05-05",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "google-lens"
+ ],
+ "hi": {
+  "label": "घेरकर खोजें",
+  "title": "स्क्रीन पर दिखी किसी भी चीज़ को घेरकर खोजें",
+  "hook": "वीडियो में कोई चीज़ पसंद आई? उसे उँगली से घेरिए और जानिए यह क्या है",
+  "steps": [
+   "जिस वीडियो, फ़ोटो या पोस्ट में चीज़ दिखी है, उसे स्क्रीन पर रोकें",
+   "होम बटन या नेविगेशन बार को देर तक दबाए रखें",
+   "जिस चीज़ के बारे में जानना है, उसे उँगली से घेर दें",
+   "नीचे आए जवाब पढ़ें। चाहें तो वहीं सवाल भी टाइप कर सकते हैं",
+   "अगर यह सुविधा न चले, तो Google Lens ऐप में फ़ोटो चुनकर वही काम करें। यह कुछ फ़ोन में ही आता है"
+  ],
+  "example": "रील में दिखी किसी चप्पल या पौधे को घेरकर उसका नाम और मिलती-जुलती चीज़ें देखना।",
+  "privacyNote": "घेरने से पहले देख लें कि स्क्रीन पर किसी का चेहरा, आधार, पैन, बैंक या OTP वाला मैसेज न हो।",
+  "prompt": "यह क्या है और कहाँ से ख़रीद सकते हैं? सरल हिंदी में बताओ।"
+ },
+ "en": {
+  "label": "Circle search",
+  "title": "Circle anything on your screen to search for it",
+  "hook": "Liked something in a video? Circle it with your finger and find out what it is",
+  "steps": [
+   "Pause the video, photo or post that shows the thing",
+   "Press and hold the home button or the navigation bar",
+   "Draw a circle with your finger around what you want to know about",
+   "Read the answers that appear below. You can also type a question right there",
+   "If it does not work, pick the photo in the Google Lens app to do the same thing. Only some phones have this feature"
+  ],
+  "example": "Circling a pair of sandals or a plant in a reel to see its name and similar things.",
+  "privacyNote": "Before you circle, check that the screen has no one's face, Aadhaar, PAN, bank details or OTP message.",
+  "prompt": "What is this and where can I buy it? Tell me in simple English."
+ }
+}

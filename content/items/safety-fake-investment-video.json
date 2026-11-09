@@ -9,7 +9,7 @@
  ],
  "minutes": "2 min",
  "hi": {
-  "label": "नकली वीडियो",
+  "label": "नकली निवेश",
   "title": "मंत्री या मशहूर हस्ती के नकली AI वीडियो से बचें",
   "hook": "वीडियो में नेता कहें \"पैसा दोगुना\", तो पहले रुकें और जाँचें",
   "whatsHappening": "ठग AI से किसी नेता, मंत्री या मशहूर इंसान का **नकली वीडियो** बनाते हैं, जिसमें वह किसी स्कीम का प्रचार करता दिखता है और हर हफ़्ते मोटी कमाई का वादा करता है। PIB फ़ैक्ट चेक ने ऐसे ही एक नकली वीडियो को पकड़ा है। वीडियो के साथ एक लिंक होता है, जहाँ आपसे पैसे डालने को कहा जाता है।",
@@ -28,7 +28,7 @@
   "helpline": "1930 / cybercrime.gov.in"
  },
  "en": {
-  "label": "Fake video",
+  "label": "Fake scheme",
   "title": "Beware fake AI videos of ministers and famous people",
   "hook": "When a leader in a video says \"double your money\", stop and check first",
   "whatsHappening": "Scammers use AI to make a **fake video** of a leader, minister or famous person who seems to promote a scheme and promises big weekly earnings. PIB Fact Check has caught one such fake video. A link comes with the video, where you are asked to put in money.",

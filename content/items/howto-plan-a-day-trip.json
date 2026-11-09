@@ -1,0 +1,40 @@
+{
+ "id": "howto-plan-a-day-trip",
+ "type": "howto",
+ "publishAt": "2026-11-07",
+ "reviewBy": "2027-05-07",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "घूमने का प्लान",
+  "title": "परिवार के साथ एक दिन की सैर का प्लान बनवाएँ",
+  "hook": "कहाँ जाएँ, क्या देखें, कितना समय लगेगा। AI से एक कच्चा प्लान लें",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और शहर, लोग और समय भरें",
+   "प्लान पढ़ें और जो पसंद न आए, उसे बदलने को कहें",
+   "जाने से पहले खुलने का समय, टिकट और ट्रेन-बस का समय आधिकारिक ऐप या वेबसाइट पर ख़ुद जाँच लें"
+  ],
+  "prompt": "मैं [शहर] में अपने परिवार (बड़े [2], बच्चे [2]) के साथ एक दिन घूमना चाहता हूँ। सुबह 9 से शाम 6 तक का सरल प्लान बनाओ: देखने की 3-4 जगहें, खाने का समय और हर जगह में लगने वाला अंदाज़ी समय। सरल हिंदी में लिखो।",
+  "example": "\"सुबह 9: किला, 11:30: बाज़ार में नाश्ता, 2 बजे: बाग़...\" जैसा एक सीधा कार्यक्रम।"
+ },
+ "en": {
+  "label": "Day trip plan",
+  "title": "Get a one-day outing plan for your family",
+  "hook": "Where to go, what to see, how long it takes. Get a rough plan from AI",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below and fill in the city, people and time",
+   "Read the plan and ask for changes to anything you don't like",
+   "Before you go, check opening hours, tickets and train or bus times yourself on the official app or website"
+  ],
+  "prompt": "I want to spend one day in [city] with my family ([2] adults, [2] children). Make a simple plan from 9 am to 6 pm: 3 or 4 places to see, meal times and the rough time each place takes. Write in simple English.",
+  "example": "A plain schedule like \"9 am: fort, 11:30: breakfast at the market, 2 pm: garden...\"."
+ }
+}

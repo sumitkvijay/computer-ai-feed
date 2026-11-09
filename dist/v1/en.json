@@ -1,15 +1,17 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-10-18T16:14:15Z",
+ "generatedAt": "2026-11-09T03:45:13Z",
  "stories": [
-  "howto-google-photos-help-me-edit",
-  "trend-80s-ai-photo",
-  "safety-photo-before-ai-upload",
-  "howto-gemini-live-camera",
-  "howto-check-suspicious-message"
+  "howto-recipe-from-fridge",
+  "trend-90s-bollywood-portrait",
+  "howto-circle-to-search",
+  "safety-fake-video-interview",
+  "howto-plan-a-day-trip",
+  "safety-fake-friend-video-call",
+  "howto-child-study-timetable"
  ],
- "featured": "trend-80s-ai-photo",
+ "featured": "trend-90s-bollywood-portrait",
  "tasks": [
   {
    "id": "writing",
@@ -117,6 +119,190 @@
   }
  ],
  "items": [
+  {
+   "id": "howto-child-study-timetable",
+   "type": "howto",
+   "publishAt": "2026-11-09",
+   "reviewBy": "2027-05-09",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Study plan",
+   "title": "Get a weekly study timetable for your child",
+   "hook": "School, tuition and play leave little time. Get a rough timetable from AI",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Paste the prompt below and fill in the [ ] with class, subjects and school and tuition times",
+    "Read the timetable. If something is off, write \"keep Sunday free\"",
+    "Before you write it out, ask your child whether the timings feel right"
+   ],
+   "prompt": "My child is in class [6]. Subjects are [Hindi, maths, science, English]. School runs from 8 am to 2 pm and tuition is 4 to 5 pm. Make a simple weekly timetable that also includes play and rest time. Write in simple English.",
+   "example": "A plain list like \"Monday 5:30 pm: maths problems, 6:30: play, 7:30: Hindi reading...\"."
+  },
+  {
+   "id": "safety-fake-friend-video-call",
+   "type": "safety",
+   "publishAt": "2026-11-08",
+   "reviewBy": "2027-05-08",
+   "tags": [
+    "safety",
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "label": "Fake video",
+   "title": "Pause before paying on a video call from a \"friend\"",
+   "hook": "The face looks familiar, but is the caller a scammer? Cases have been reported in Kerala",
+   "whatsHappening": "Scammers use AI on someone's photos and videos to make a **fake face**, then call you on WhatsApp video. They say, \"It's urgent, send money now, I'll return it later.\" A man in Kerala lost ₹40,000 this way.",
+   "howToSpot": [
+    "A sudden video call from an unknown number, kept very short",
+    "The face or lips don't match the voice, or the video is blurry",
+    "An urgent money demand and \"don't tell anyone\"",
+    "A request to send UPI money to a third person's account"
+   ],
+   "whatToDo": [
+    "Hang up and call your friend yourself on their **old saved number**",
+    "Ask a question only the real friend would know",
+    "Never share an OTP or PIN, and never pay without checking first",
+    "If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "howto-plan-a-day-trip",
+   "type": "howto",
+   "publishAt": "2026-11-07",
+   "reviewBy": "2027-05-07",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Day trip plan",
+   "title": "Get a one-day outing plan for your family",
+   "hook": "Where to go, what to see, how long it takes. Get a rough plan from AI",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Paste the prompt below and fill in the city, people and time",
+    "Read the plan and ask for changes to anything you don't like",
+    "Before you go, check opening hours, tickets and train or bus times yourself on the official app or website"
+   ],
+   "prompt": "I want to spend one day in [city] with my family ([2] adults, [2] children). Make a simple plan from 9 am to 6 pm: 3 or 4 places to see, meal times and the rough time each place takes. Write in simple English.",
+   "example": "A plain schedule like \"9 am: fort, 11:30: breakfast at the market, 2 pm: garden...\"."
+  },
+  {
+   "id": "safety-fake-video-interview",
+   "type": "safety",
+   "publishAt": "2026-11-06",
+   "reviewBy": "2027-05-06",
+   "tags": [
+    "safety",
+    "work"
+   ],
+   "minutes": "2 min",
+   "label": "Fake interview",
+   "title": "Check before showing your face on a job video call",
+   "hook": "A fake job call can leave a scammer with a copy of your face",
+   "whatsHappening": "I4C (the Home Ministry's cybercrime unit) warns that scammers use AI-made **fake faces** to fool the face checks of banks and apps. To get the raw material they also collect recordings of people's faces through fake interviews and video calls.",
+   "howToSpot": [
+    "A job offer out of the blue, with pressure for an immediate video interview",
+    "A company name, but no official website or email",
+    "Asking for Aadhaar, PAN or bank details on the call, or your face from many angles",
+    "Asking for money as a \"registration fee\" or for a form"
+   ],
+   "whatToDo": [
+    "First look up the company's official website and number yourself and check",
+    "Never show or tell Aadhaar, PAN, bank details or OTP on an unknown video call",
+    "Keep alerts on for your phone's biometric or face unlock",
+    "If in doubt, end the call. If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "howto-circle-to-search",
+   "type": "howto",
+   "publishAt": "2026-11-05",
+   "reviewBy": "2027-05-05",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "google-lens"
+   ],
+   "label": "Circle search",
+   "title": "Circle anything on your screen to search for it",
+   "hook": "Liked something in a video? Circle it with your finger and find out what it is",
+   "steps": [
+    "Pause the video, photo or post that shows the thing",
+    "Press and hold the home button or the navigation bar",
+    "Draw a circle with your finger around what you want to know about",
+    "Read the answers that appear below. You can also type a question right there",
+    "If it does not work, pick the photo in the Google Lens app to do the same thing. Only some phones have this feature"
+   ],
+   "example": "Circling a pair of sandals or a plant in a reel to see its name and similar things.",
+   "privacyNote": "Before you circle, check that the screen has no one's face, Aadhaar, PAN, bank details or OTP message.",
+   "prompt": "What is this and where can I buy it? Tell me in simple English."
+  },
+  {
+   "id": "trend-90s-bollywood-portrait",
+   "type": "trend",
+   "publishAt": "2026-11-04",
+   "reviewBy": "2026-12-02",
+   "tags": [
+    "photo"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "gemini"
+   ],
+   "label": "90s film look",
+   "title": "The \"90s Bollywood\" AI portrait",
+   "hook": "Chiffon sarees, old-time style, a film-poster look. Many are making these in India",
+   "steps": [
+    "Open the Gemini app",
+    "Tap + and add one clear selfie",
+    "Paste the prompt below",
+    "Not right? Write \"make the colours a bit softer\"",
+    "Before you post, think about what the photo gives away. The free plan may have a daily limit"
+   ],
+   "prompt": "Turn this selfie into a Bollywood film photo from the 1990s: clothes and hairstyle of that time, warm colours, soft hazy lighting. Keep my face the same. Keep the background simple.",
+   "example": "Your own face, but as if you were on the poster of a 90s film.",
+   "privacyNote": "Upload only your own selfie, or someone else's with their permission. Don't upload children's photos. Don't upload photos to unknown \"AI filter\" links: use only well-known apps like Gemini."
+  },
+  {
+   "id": "howto-recipe-from-fridge",
+   "type": "howto",
+   "publishAt": "2026-11-03",
+   "reviewBy": "2027-05-03",
+   "tags": [
+    "daily-life"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "What to cook",
+   "title": "Ask for a recipe from what you already have at home",
+   "hook": "Out of vegetables? Plan today's meal from what is in the kitchen",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Paste the prompt below",
+    "Replace the [ ] list with what you have at home",
+    "Not happy with it? Write \"give me something else, without onion and garlic\"",
+    "Taste and adjust the oil and spices yourself. If anyone has a food allergy, check it yourself"
+   ],
+   "prompt": "I have these things at home: [potato, tomato, flour, curd]. Tell me 3 easy recipes I can make from them, in simple English. Keep the steps short and write the time each one takes.",
+   "example": "Potato, tomato and flour become \"aloo-tomato paratha\", ready in 25 minutes."
+  },
   {
    "id": "howto-check-suspicious-message",
    "type": "howto",
