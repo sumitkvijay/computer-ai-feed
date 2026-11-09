@@ -1,0 +1,40 @@
+{
+ "id": "howto-child-study-timetable",
+ "type": "howto",
+ "publishAt": "2026-11-09",
+ "reviewBy": "2027-05-09",
+ "tags": [
+  "daily-life"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "पढ़ाई टाइमटेबल",
+  "title": "बच्चे की पढ़ाई का हफ़्ते भर का टाइमटेबल बनवाएँ",
+  "hook": "स्कूल, ट्यूशन और खेल के बीच पढ़ाई का समय कैसे निकालें? AI से कच्चा टाइमटेबल लें",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में कक्षा, विषय और स्कूल-ट्यूशन का समय भरें",
+   "टाइमटेबल पढ़ें। कुछ ठीक न लगे तो लिखें \"रविवार को छुट्टी रखो\"",
+   "छपवाने या लिखने से पहले बच्चे से पूछ लें कि समय उसे ठीक लगता है या नहीं"
+  ],
+  "prompt": "मेरा बच्चा कक्षा [6] में है। विषय हैं [हिंदी, गणित, विज्ञान, अंग्रेज़ी]। स्कूल सुबह 8 से दोपहर 2 बजे तक है और शाम 4 से 5 ट्यूशन है। हफ़्ते भर का सरल टाइमटेबल बनाओ, जिसमें खेलने और आराम का समय भी हो। सरल हिंदी में लिखो।",
+  "example": "\"सोमवार शाम 5:30: गणित के सवाल, 6:30: खेल, 7:30: हिंदी पढ़ना...\" जैसी सीधी सूची।"
+ },
+ "en": {
+  "label": "Study plan",
+  "title": "Get a weekly study timetable for your child",
+  "hook": "School, tuition and play leave little time. Get a rough timetable from AI",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below and fill in the [ ] with class, subjects and school and tuition times",
+   "Read the timetable. If something is off, write \"keep Sunday free\"",
+   "Before you write it out, ask your child whether the timings feel right"
+  ],
+  "prompt": "My child is in class [6]. Subjects are [Hindi, maths, science, English]. School runs from 8 am to 2 pm and tuition is 4 to 5 pm. Make a simple weekly timetable that also includes play and rest time. Write in simple English.",
+  "example": "A plain list like \"Monday 5:30 pm: maths problems, 6:30: play, 7:30: Hindi reading...\"."
+ }
+}

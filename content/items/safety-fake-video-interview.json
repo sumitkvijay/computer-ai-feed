@@ -1,0 +1,49 @@
+{
+ "id": "safety-fake-video-interview",
+ "type": "safety",
+ "publishAt": "2026-11-06",
+ "reviewBy": "2027-05-06",
+ "tags": [
+  "safety",
+  "work"
+ ],
+ "minutes": "2 min",
+ "hi": {
+  "label": "नकली इंटरव्यू",
+  "title": "नौकरी के वीडियो कॉल में चेहरा दिखाने से पहले जाँचें",
+  "hook": "फ़र्ज़ी नौकरी वाली कॉल से आपके चेहरे की कॉपी बन सकती है",
+  "whatsHappening": "I4C (गृह मंत्रालय की साइबर अपराध इकाई) की चेतावनी है कि ठग AI से बने **नकली चेहरों** से बैंक और ऐप की चेहरा-पहचान को धोखा दे रहे हैं। इसके लिए वे नकली इंटरव्यू और वीडियो कॉल में लोगों के चेहरे की रिकॉर्डिंग भी जमा करते हैं।",
+  "howToSpot": [
+   "बिना किसी जान-पहचान के नौकरी का ऑफ़र और तुरंत वीडियो इंटरव्यू की ज़िद",
+   "कंपनी का नाम तो है, पर आधिकारिक वेबसाइट या ईमेल नहीं",
+   "कॉल पर आधार, पैन या बैंक की जानकारी, या चेहरा अलग-अलग कोण से दिखाने को कहना",
+   "\"रजिस्ट्रेशन फ़ीस\" या किसी फ़ॉर्म के नाम पर पैसे माँगना"
+  ],
+  "whatToDo": [
+   "पहले कंपनी की आधिकारिक वेबसाइट और नंबर ख़ुद खोजकर जाँचें",
+   "अनजान वीडियो कॉल पर आधार, पैन, बैंक या OTP कभी न दिखाएँ और न बताएँ",
+   "फ़ोन में बायोमेट्रिक या चेहरे से खुलने वाले लॉक के अलर्ट चालू रखें",
+   "शक हो तो कॉल काट दें। ठगी हो जाए तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "label": "Fake interview",
+  "title": "Check before showing your face on a job video call",
+  "hook": "A fake job call can leave a scammer with a copy of your face",
+  "whatsHappening": "I4C (the Home Ministry's cybercrime unit) warns that scammers use AI-made **fake faces** to fool the face checks of banks and apps. To get the raw material they also collect recordings of people's faces through fake interviews and video calls.",
+  "howToSpot": [
+   "A job offer out of the blue, with pressure for an immediate video interview",
+   "A company name, but no official website or email",
+   "Asking for Aadhaar, PAN or bank details on the call, or your face from many angles",
+   "Asking for money as a \"registration fee\" or for a form"
+  ],
+  "whatToDo": [
+   "First look up the company's official website and number yourself and check",
+   "Never show or tell Aadhaar, PAN, bank details or OTP on an unknown video call",
+   "Keep alerts on for your phone's biometric or face unlock",
+   "If in doubt, end the call. If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "safety-fake-friend-video-call",
+ "type": "safety",
+ "publishAt": "2026-11-08",
+ "reviewBy": "2027-05-08",
+ "tags": [
+  "safety",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "hi": {
+  "label": "नकली वीडियो",
+  "title": "दोस्त की शक्ल में आई वीडियो कॉल पर पैसे भेजने से पहले रुकें",
+  "hook": "चेहरा जाना-पहचाना, पर कॉल करने वाला ठग? केरल में ऐसे मामले आए हैं",
+  "whatsHappening": "ठग किसी की फ़ोटो और वीडियो से AI की मदद से उसका **नकली चेहरा** बना लेते हैं और WhatsApp पर वीडियो कॉल करते हैं। फिर कहते हैं, \"अर्जेंट है, अभी पैसे भेज दो, बाद में लौटा दूँगा\"। केरल में एक व्यक्ति से ऐसे ही ₹40,000 ठगे गए थे।",
+  "howToSpot": [
+   "अनजान नंबर से अचानक वीडियो कॉल, और कॉल बहुत छोटी रखना",
+   "चेहरा या होंठ आवाज़ से ठीक न मिलें, या वीडियो धुँधला रहे",
+   "तुरंत पैसे की माँग और \"किसी को मत बताना\" की ज़िद",
+   "UPI से किसी तीसरे व्यक्ति के खाते में पैसे भेजने को कहना"
+  ],
+  "whatToDo": [
+   "कॉल काटें और उसी दोस्त को उसके **पुराने सेव नंबर** पर ख़ुद फ़ोन करें",
+   "कोई ऐसा सवाल पूछें जिसका जवाब सिर्फ़ असली दोस्त जानता हो",
+   "कभी OTP या PIN न बताएँ, और जाँचे बिना पैसे न भेजें",
+   "ठगी हो जाए तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "label": "Fake video",
+  "title": "Pause before paying on a video call from a \"friend\"",
+  "hook": "The face looks familiar, but is the caller a scammer? Cases have been reported in Kerala",
+  "whatsHappening": "Scammers use AI on someone's photos and videos to make a **fake face**, then call you on WhatsApp video. They say, \"It's urgent, send money now, I'll return it later.\" A man in Kerala lost ₹40,000 this way.",
+  "howToSpot": [
+   "A sudden video call from an unknown number, kept very short",
+   "The face or lips don't match the voice, or the video is blurry",
+   "An urgent money demand and \"don't tell anyone\"",
+   "A request to send UPI money to a third person's account"
+  ],
+  "whatToDo": [
+   "Hang up and call your friend yourself on their **old saved number**",
+   "Ask a question only the real friend would know",
+   "Never share an OTP or PIN, and never pay without checking first",
+   "If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}
