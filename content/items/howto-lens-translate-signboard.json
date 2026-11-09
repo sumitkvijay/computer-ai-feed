@@ -1,0 +1,42 @@
+{
+ "id": "howto-lens-translate-signboard",
+ "type": "howto",
+ "publishAt": "2026-11-13",
+ "reviewBy": "2027-05-13",
+ "tags": [
+  "daily-life",
+  "travel"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "google-lens"
+ ],
+ "hi": {
+  "label": "बोर्ड पढ़ें",
+  "title": "दूसरी भाषा का बोर्ड या पर्चा Google Lens से पढ़ें",
+  "hook": "सफ़र में अनजान भाषा का बोर्ड दिखे तो कैमरा रखिए, हिंदी में पढ़िए",
+  "steps": [
+   "Google Lens ऐप खोलें (या Google ऐप में कैमरे वाला आइकन दबाएँ)",
+   "कैमरे की इजाज़त दें और \"Translate\" चुनें",
+   "बोर्ड या पर्चे पर कैमरा रखें और भाषा \"हिन्दी\" चुनें",
+   "स्क्रीन पर हिंदी में अनुवाद दिखेगा। ज़रूरी बात हो तो किसी जानकार से भी पूछ लें"
+  ],
+  "prompt": "इस बोर्ड पर क्या लिखा है? सरल हिंदी में बताओ।",
+  "example": "दूसरे राज्य के स्टेशन पर लगे बोर्ड को हिंदी में पढ़ लेना।",
+  "privacyNote": "कैमरे में चेहरे, आधार, पैन, बैंक कागज़ या OTP वाली स्क्रीन न आने दें। सिर्फ़ बोर्ड या आम पर्चे पर कैमरा रखें।"
+ },
+ "en": {
+  "label": "Read a sign",
+  "title": "Read a sign or leaflet in another language with Google Lens",
+  "hook": "Unknown-language board on a trip? Point the camera and read it",
+  "steps": [
+   "Open the Google Lens app (or tap the camera icon in the Google app)",
+   "Allow camera access and choose \"Translate\"",
+   "Point the camera at the sign or leaflet and choose the language you want",
+   "The translation appears on the screen. For anything important, ask a knowledgeable person too"
+  ],
+  "prompt": "What does this sign say? Tell me in simple English.",
+  "example": "Reading a board at a station in another state in your own language.",
+  "privacyNote": "Keep faces, Aadhaar, PAN, bank papers and OTP screens out of the camera view. Point it only at signs or ordinary leaflets."
+ }
+}

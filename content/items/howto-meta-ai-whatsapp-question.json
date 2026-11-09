@@ -1,0 +1,42 @@
+{
+ "id": "howto-meta-ai-whatsapp-question",
+ "type": "howto",
+ "publishAt": "2026-11-14",
+ "reviewBy": "2027-05-14",
+ "tags": [
+  "daily-life",
+  "whatsapp"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "meta-ai"
+ ],
+ "hi": {
+  "label": "WhatsApp पर AI",
+  "title": "WhatsApp में Meta AI से सवाल पूछें",
+  "hook": "नया ऐप नहीं चाहिए। WhatsApp खोलकर ही AI से पूछिए",
+  "steps": [
+   "WhatsApp खोलें और चैट लिस्ट में नीला-बैंगनी गोल बटन दबाएँ",
+   "नीचे लिखने की जगह में अपना सवाल लिखें या बोलकर पूछें",
+   "जवाब पढ़ें और ज़रूरत हो तो आगे और सवाल पूछें",
+   "सेहत, पैसे या क़ानून की बात हो तो जवाब पर भरोसा करने से पहले जानकार से पूछें। यह बटन सब फ़ोन में नहीं दिखता"
+  ],
+  "prompt": "घर में छोटे बच्चे के जन्मदिन के लिए 5 सस्ते और आसान खेल बताओ। सरल हिंदी में।",
+  "example": "दिवाली के बाद बची मिठाई से कुछ नया बनाने के आइडिया पूछना।",
+  "privacyNote": "इस चैट में अपना आधार, पैन, बैंक की जानकारी, OTP या दूसरों की निजी बातें न लिखें।"
+ },
+ "en": {
+  "label": "AI in WhatsApp",
+  "title": "Ask Meta AI a question inside WhatsApp",
+  "hook": "No new app needed. Open WhatsApp and ask the AI",
+  "steps": [
+   "Open WhatsApp and tap the blue-purple round button on the chat list",
+   "Type your question in the box at the bottom, or ask out loud",
+   "Read the answer and ask follow-up questions if needed",
+   "For health, money or legal matters, ask a knowledgeable person before trusting the answer. The button doesn't show on every phone"
+  ],
+  "prompt": "Suggest 5 cheap and easy games for a small child's birthday at home. Simple English.",
+  "example": "Asking for ideas to make something new from leftover sweets after Diwali.",
+  "privacyNote": "Don't type your Aadhaar, PAN, bank details, OTP or other people's private matters in this chat."
+ }
+}

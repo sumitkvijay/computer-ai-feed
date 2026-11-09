@@ -1,0 +1,44 @@
+{
+ "id": "trend-ai-anime-selfie",
+ "type": "trend",
+ "publishAt": "2026-11-12",
+ "reviewBy": "2026-12-10",
+ "tags": [
+  "photo"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "chatgpt",
+  "gemini"
+ ],
+ "hi": {
+  "label": "एनीमे सेल्फ़ी",
+  "title": "सेल्फ़ी को एनीमे कार्टून जैसा बनाने का ट्रेंड",
+  "hook": "भारत में ChatGPT से कार्टून जैसी सेल्फ़ी ख़ूब बन रही हैं",
+  "steps": [
+   "ChatGPT या Gemini ऐप खोलें",
+   "+ दबाकर अपनी एक साफ़ सेल्फ़ी जोड़ें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "पसंद न आए तो लिखें \"रंग थोड़े हल्के रखो\"",
+   "पोस्ट करने से पहले देख लें कि पीछे घर का नंबर या स्कूल-दफ़्तर का नाम न दिखे। मुफ़्त प्लान में रोज़ की सीमा होती है"
+  ],
+  "prompt": "इस सेल्फ़ी को जापानी एनीमे कार्टून की तरह बना दो: बड़ी आँखें, साफ़ रेखाएँ, चमकीले रंग। मेरा चेहरा पहचान में आए। बैकग्राउंड सादा रखो।",
+  "example": "आपका ही चेहरा, पर किसी कार्टून फ़िल्म के किरदार जैसा।",
+  "privacyNote": "सिर्फ़ अपनी सेल्फ़ी डालें, और दूसरों की फ़ोटो उनसे पूछकर। बच्चों की फ़ोटो न डालें। \"AI फ़िल्टर\" वाले अनजान लिंक पर फ़ोटो न डालें: सिर्फ़ ChatGPT, Gemini जैसे जाने-माने ऐप में ही डालें।"
+ },
+ "en": {
+  "label": "Anime selfie",
+  "title": "The trend of turning a selfie into an anime cartoon",
+  "hook": "Cartoon-style selfies made with ChatGPT are everywhere in India",
+  "steps": [
+   "Open the ChatGPT or Gemini app",
+   "Tap + and add one clear selfie",
+   "Paste the prompt below",
+   "Not right? Write \"make the colours softer\"",
+   "Before you post, check that no house number or school or office name shows behind you. The free plan has a daily limit"
+  ],
+  "prompt": "Turn this selfie into a Japanese anime cartoon: big eyes, clean lines, bright colours. Keep me recognisable. Keep the background simple.",
+  "example": "Your own face, but as a character from a cartoon film.",
+  "privacyNote": "Upload only your own selfie, or someone else's with their permission. Don't upload children's photos. Don't upload photos to unknown \"AI filter\" links: use only well-known apps like ChatGPT or Gemini."
+ }
+}
