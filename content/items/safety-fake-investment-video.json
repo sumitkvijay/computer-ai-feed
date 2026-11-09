@@ -1,0 +1,49 @@
+{
+ "id": "safety-fake-investment-video",
+ "type": "safety",
+ "publishAt": "2026-11-10",
+ "reviewBy": "2027-05-10",
+ "tags": [
+  "safety",
+  "daily-life"
+ ],
+ "minutes": "2 min",
+ "hi": {
+  "label": "नकली वीडियो",
+  "title": "मंत्री या मशहूर हस्ती के नकली AI वीडियो से बचें",
+  "hook": "वीडियो में नेता कहें \"पैसा दोगुना\", तो पहले रुकें और जाँचें",
+  "whatsHappening": "ठग AI से किसी नेता, मंत्री या मशहूर इंसान का **नकली वीडियो** बनाते हैं, जिसमें वह किसी स्कीम का प्रचार करता दिखता है और हर हफ़्ते मोटी कमाई का वादा करता है। PIB फ़ैक्ट चेक ने ऐसे ही एक नकली वीडियो को पकड़ा है। वीडियो के साथ एक लिंक होता है, जहाँ आपसे पैसे डालने को कहा जाता है।",
+  "howToSpot": [
+   "बहुत कम पैसे में बहुत बड़ी, पक्की कमाई का वादा",
+   "वीडियो में होंठ और आवाज़ ठीक से न मिलना, या चेहरा अजीब-सा लगना",
+   "\"आज ही जुड़ें, सीटें सीमित हैं\" जैसी जल्दबाज़ी",
+   "अनजान लिंक या WhatsApp ग्रुप में जुड़ने को कहना"
+  ],
+  "whatToDo": [
+   "वीडियो पर भरोसा करने से पहले उसी बात की ख़बर किसी जाने-माने समाचार या सरकारी साइट पर खोजें",
+   "अनजान लिंक पर पैसे न डालें और अपना बैंक या UPI PIN कहीं न बताएँ",
+   "ऐसा वीडियो आगे फ़ॉरवर्ड न करें",
+   "ठगी हो जाए तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "label": "Fake video",
+  "title": "Beware fake AI videos of ministers and famous people",
+  "hook": "When a leader in a video says \"double your money\", stop and check first",
+  "whatsHappening": "Scammers use AI to make a **fake video** of a leader, minister or famous person who seems to promote a scheme and promises big weekly earnings. PIB Fact Check has caught one such fake video. A link comes with the video, where you are asked to put in money.",
+  "howToSpot": [
+   "A huge, guaranteed return for very little money",
+   "Lips that don't match the voice, or a face that looks odd",
+   "Pressure like \"join today, limited seats\"",
+   "A request to join through an unknown link or WhatsApp group"
+  ],
+  "whatToDo": [
+   "Before trusting a video, look for the same news on a well-known news site or a government site",
+   "Don't put money into unknown links and never share your bank or UPI PIN",
+   "Don't forward such a video",
+   "If you lose money, call 1930 at once or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

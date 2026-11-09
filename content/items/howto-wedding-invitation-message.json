@@ -1,0 +1,41 @@
+{
+ "id": "howto-wedding-invitation-message",
+ "type": "howto",
+ "publishAt": "2026-11-11",
+ "reviewBy": "2027-05-11",
+ "tags": [
+  "daily-life",
+  "writing"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "शादी का न्योता",
+  "title": "शादी का न्योता लिखवाएँ",
+  "hook": "शादी के सीज़न में WhatsApp पर भेजने लायक अच्छा न्योता मिनटों में",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में नाम, तारीख़ और जगह भरें",
+   "न्योता पसंद न आए तो लिखें \"थोड़ा छोटा और सादा करो\"",
+   "भेजने से पहले नाम, तारीख़, समय और पता ख़ुद ध्यान से जाँच लें"
+  ],
+  "prompt": "[रमेश] और [सीमा] की शादी का WhatsApp न्योता लिखो। तारीख़ [25 नवंबर], शाम [7 बजे], जगह [शांति गार्डन, जयपुर]। सरल हिंदी में, 5 लाइन में, प्यार भरे लहजे में।",
+  "example": "\"हमारे बेटे रमेश की शादी में आप सपरिवार आमंत्रित हैं...\" जैसा छोटा, गर्मजोशी भरा संदेश।"
+ },
+ "en": {
+  "label": "Wedding invite",
+  "title": "Get a wedding invitation message written",
+  "hook": "In wedding season, get a WhatsApp-ready invite in minutes",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below and fill the [ ] with names, date and place",
+   "Not right? Write \"make it shorter and simpler\"",
+   "Before sending, check the names, date, time and address yourself"
+  ],
+  "prompt": "Write a WhatsApp wedding invitation for [Ramesh] and [Seema]. Date [25 November], [7 pm], at [Shanti Garden, Jaipur]. Simple English, 5 lines, warm tone.",
+  "example": "A short, warm message like \"You and your family are invited to our son Ramesh's wedding...\"."
+ }
+}
