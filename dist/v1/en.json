@@ -1,15 +1,16 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-11-09T03:46:48Z",
+ "generatedAt": "2026-11-16T03:55:59Z",
  "stories": [
-  "safety-fake-investment-video",
-  "howto-wedding-invitation-message",
-  "trend-ai-anime-selfie",
-  "howto-lens-translate-signboard",
-  "howto-meta-ai-whatsapp-question"
+  "news-chatgpt-go-free-year-ending",
+  "howto-meta-ai-imagine-picture",
+  "safety-public-photo-fake-profile",
+  "howto-live-translate-conversation",
+  "howto-exam-practice-quiz",
+  "howto-customer-care-complaint"
  ],
- "featured": "safety-fake-investment-video",
+ "featured": "news-chatgpt-go-free-year-ending",
  "tasks": [
   {
    "id": "writing",
@@ -117,6 +118,161 @@
   }
  ],
  "items": [
+  {
+   "id": "howto-customer-care-complaint",
+   "type": "howto",
+   "publishAt": "2026-11-22",
+   "reviewBy": "2027-05-22",
+   "tags": [
+    "writing",
+    "daily-life"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Complaint",
+   "title": "Get AI to write your customer care complaint",
+   "hook": "Broken item or failed recharge? Get a clear, polite complaint in minutes",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Paste the prompt below and fill in the company name and what went wrong",
+    "Read the complaint, then check and fill in the date, amount and order number yourself",
+    "Paste it into \"Help\" in the company's own app or official website and send it",
+    "Don't pick up a customer care number from just anywhere. Scammers spread fake numbers, so take it only from the company's app or your bill"
+   ],
+   "prompt": "I need to write a complaint to [company name] customer care. The problem: [for example: I ordered a mixer on 10 November and it arrived broken]. I want them to [replace it / refund my money]. Write a clear, polite complaint in 5 or 6 lines in simple English. Leave a blank for the order number.",
+   "example": "A short, direct message like \"Hello, I ordered a mixer on 10 November and it arrived broken. Please replace it...\".",
+   "privacyNote": "Don't give AI your card number, bank account, UPI PIN or OTP. You don't need them to write a complaint, and real customer care never asks for an OTP or PIN either."
+  },
+  {
+   "id": "howto-exam-practice-quiz",
+   "type": "howto",
+   "publishAt": "2026-11-21",
+   "reviewBy": "2027-05-21",
+   "tags": [
+    "study"
+   ],
+   "minutes": "5 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Practice quiz",
+   "title": "Get AI to quiz you before an exam",
+   "hook": "Name the chapter. AI asks one question at a time and checks your answers",
+   "steps": [
+    "Open Gemini or ChatGPT",
+    "Paste the prompt below and fill in the class, subject and chapter name",
+    "AI asks the questions one by one. Type and send your answer to each",
+    "For any answer you got wrong, write \"explain this one more simply\"",
+    "AI makes mistakes too. If in doubt, check the textbook or ask your teacher"
+   ],
+   "prompt": "I am in class [8]. Ask me 10 questions from the [science] chapter \"[chapter name]\", only one at a time. After each answer, tell me if it is right or wrong, and if wrong, explain it in simple English. At the end, tell me how many I got right out of 10.",
+   "example": "A question like \"Question 3: How do plants make their food?\", then the right answer in two lines after you reply."
+  },
+  {
+   "id": "howto-live-translate-conversation",
+   "type": "howto",
+   "publishAt": "2026-11-20",
+   "reviewBy": "2027-05-20",
+   "tags": [
+    "translate",
+    "travel"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "google-translate"
+   ],
+   "label": "Live translate",
+   "title": "Talk across two languages with Google Translate",
+   "hook": "They speak Tamil, you speak Hindi. The phone says each side in the other language",
+   "steps": [
+    "Open the Google Translate app and tap **Live translate** at the bottom. If it's missing, update the app from the Play Store",
+    "Allow the microphone and pick the two languages, for example Hindi and Tamil",
+    "Choose **Conversation** and hold the phone between the two of you",
+    "Take turns speaking. The phone shows each sentence in the other language and reads it aloud",
+    "Translations can be wrong. For money, medicine or paperwork, confirm with someone who knows both languages"
+   ],
+   "prompt": "Hello, I need to go to the bus stand. How do I get there?",
+   "example": "Chatting with a shopkeeper, an auto driver or a new neighbour in another state, each in your own language.",
+   "privacyNote": "The app listens to your voice and the other person's. Tell them you are using a translation app, and don't say OTPs, bank or Aadhaar details aloud."
+  },
+  {
+   "id": "safety-public-photo-fake-profile",
+   "type": "safety",
+   "publishAt": "2026-11-19",
+   "reviewBy": "2027-05-19",
+   "tags": [
+    "safety",
+    "photo"
+   ],
+   "minutes": "3 min",
+   "label": "Fake profile",
+   "title": "Stop your photos being used for a fake profile",
+   "hook": "Haryana Police warn: scammers can build fake profiles from your public photos",
+   "whatsHappening": "On 15 November 2026, police in Sirsa, Haryana, put out a public warning. Scammers can pick up photos and videos from social media and use AI to make **fake profiles, fake videos and cloned voices**, then use them to cheat people. The police also told people not to put their own or their children's photos into unfamiliar AI apps.",
+   "howToSpot": [
+    "You see another profile or a new number using your name and photo",
+    "Someone you know says, \"I got a message in your name asking for money\"",
+    "Strangers can see your WhatsApp profile photo",
+    "Your Facebook or Instagram account is open to everyone and has family and children's photos"
+   ],
+   "whatToDo": [
+    "In WhatsApp, open **Settings > Privacy > Profile photo** and choose \"My contacts\"",
+    "Turn on **Private account** in Instagram and **Lock profile** in Facebook. Don't leave children's photos open to everyone",
+    "If you find a fake profile, **Report** it in that app and tell the people you know that it is not you",
+    "If you are cheated, call 1930 at once or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "howto-meta-ai-imagine-picture",
+   "type": "howto",
+   "publishAt": "2026-11-18",
+   "reviewBy": "2027-05-18",
+   "tags": [
+    "photo",
+    "whatsapp"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "meta-ai"
+   ],
+   "label": "AI picture",
+   "title": "Make a new picture in WhatsApp just by typing",
+   "hook": "Type imagine and say what you want. Meta AI draws it for you",
+   "steps": [
+    "Open WhatsApp and tap the blue-purple round button on the chat list",
+    "In the message box, type **imagine** first, then describe the picture you want. Try the prompt below",
+    "Not right? Write \"make the colours brighter\" or \"add a diya\"",
+    "Press and hold the picture, then use Forward to send it or Save to keep it on your phone",
+    "It is free, but there may be a daily limit on pictures, and the button doesn't show on every phone"
+   ],
+   "prompt": "imagine a winter morning, a hot cup of tea by the window, light fog outside, marigold flowers beside it, in warm colours",
+   "example": "A fresh good-morning picture for the family group that nobody has sent before.",
+   "privacyNote": "Don't ask for a picture of a real person by name. What you write to Meta AI goes to Meta, so don't type Aadhaar, bank details, OTPs or private matters in this chat."
+  },
+  {
+   "id": "news-chatgpt-go-free-year-ending",
+   "type": "news",
+   "publishAt": "2026-11-17",
+   "reviewBy": "2026-12-01",
+   "tags": [
+    "news"
+   ],
+   "toolIds": [
+    "chatgpt"
+   ],
+   "sourceUrl": "https://www.businesstoday.in/technology/photo/your-free-chatgpt-go-year-may-end-soon-check-your-date-before-rs399-is-charged-565432-2026-11-03",
+   "label": "ChatGPT Go",
+   "title": "Your free ChatGPT Go year may be ending: check the date",
+   "hook": "Took the free Go offer last year? You may now be charged ₹399 a month",
+   "body": "In November 2025, OpenAI gave users in India one free year of ChatGPT Go, its low-cost paid plan. Your free year ends 12 months after the day you claimed it, so the earliest ones started ending on 4 November 2026. Claiming the offer needed a card or UPI, and reports say Go renews by itself at ₹399 a month unless you cancel. To see your date, open **Settings** on chatgpt.com and look under **Billing** or **Account**. If you took it through the Play Store, look in **Subscriptions** there.",
+   "whyItMatters": "If you don't want to keep Go, cancel at least a day before your date, in the same place where you took it, and check your UPI app for a ChatGPT autopay too. Removing the app does not stop the plan. After you cancel you can go back to ChatGPT's free plan, which has lower limits.",
+   "sourceName": "Business Today"
+  },
   {
    "id": "howto-meta-ai-whatsapp-question",
    "type": "howto",
