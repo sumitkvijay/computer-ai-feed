@@ -1,0 +1,49 @@
+{
+ "id": "safety-public-photo-fake-profile",
+ "type": "safety",
+ "publishAt": "2026-11-19",
+ "reviewBy": "2027-05-19",
+ "tags": [
+  "safety",
+  "photo"
+ ],
+ "minutes": "3 min",
+ "hi": {
+  "label": "नकली प्रोफ़ाइल",
+  "title": "आपकी फ़ोटो से नकली प्रोफ़ाइल न बने, ये सेटिंग बदलें",
+  "hook": "हरियाणा पुलिस ने चेताया: खुली पड़ी फ़ोटो से ठग नकली प्रोफ़ाइल बना सकते हैं",
+  "whatsHappening": "हरियाणा के सिरसा में पुलिस ने 15 नवंबर 2026 को लोगों को सावधान किया। ठग सोशल मीडिया पर पड़ी फ़ोटो और वीडियो उठाकर AI से **नकली प्रोफ़ाइल, नकली वीडियो और नकली आवाज़** बना सकते हैं, और फिर इनसे लोगों को ठगते हैं। पुलिस ने अनजान AI ऐप में अपनी और बच्चों की फ़ोटो डालने से भी मना किया है।",
+  "howToSpot": [
+   "आपके नाम और फ़ोटो वाली कोई दूसरी प्रोफ़ाइल या नया नंबर दिखे",
+   "कोई जानने वाला बताए कि \"तुम्हारे नाम से पैसे माँगने का मैसेज आया है\"",
+   "आपकी WhatsApp फ़ोटो अनजान लोगों को भी दिखती हो",
+   "Facebook या Instagram खाता सबके लिए खुला हो और उसमें परिवार और बच्चों की फ़ोटो हों"
+  ],
+  "whatToDo": [
+   "WhatsApp में **Settings > Privacy > Profile photo** खोलें और \"My contacts\" चुनें",
+   "Instagram में **Private account** चालू करें और Facebook में **Lock profile**। बच्चों की फ़ोटो सबके लिए खुली न रखें",
+   "नकली प्रोफ़ाइल दिखे तो उसी ऐप में **Report** करें और अपने जानने वालों को बता दें कि वह आप नहीं हैं",
+   "ठगी हो जाए तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "label": "Fake profile",
+  "title": "Stop your photos being used for a fake profile",
+  "hook": "Haryana Police warn: scammers can build fake profiles from your public photos",
+  "whatsHappening": "On 15 November 2026, police in Sirsa, Haryana, put out a public warning. Scammers can pick up photos and videos from social media and use AI to make **fake profiles, fake videos and cloned voices**, then use them to cheat people. The police also told people not to put their own or their children's photos into unfamiliar AI apps.",
+  "howToSpot": [
+   "You see another profile or a new number using your name and photo",
+   "Someone you know says, \"I got a message in your name asking for money\"",
+   "Strangers can see your WhatsApp profile photo",
+   "Your Facebook or Instagram account is open to everyone and has family and children's photos"
+  ],
+  "whatToDo": [
+   "In WhatsApp, open **Settings > Privacy > Profile photo** and choose \"My contacts\"",
+   "Turn on **Private account** in Instagram and **Lock profile** in Facebook. Don't leave children's photos open to everyone",
+   "If you find a fake profile, **Report** it in that app and tell the people you know that it is not you",
+   "If you are cheated, call 1930 at once or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}

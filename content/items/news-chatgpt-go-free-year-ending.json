@@ -1,0 +1,29 @@
+{
+ "id": "news-chatgpt-go-free-year-ending",
+ "type": "news",
+ "publishAt": "2026-11-17",
+ "reviewBy": "2026-12-01",
+ "tags": [
+  "news"
+ ],
+ "toolIds": [
+  "chatgpt"
+ ],
+ "sourceUrl": "https://www.businesstoday.in/technology/photo/your-free-chatgpt-go-year-may-end-soon-check-your-date-before-rs399-is-charged-565432-2026-11-03",
+ "hi": {
+  "label": "Go का साल पूरा",
+  "title": "ChatGPT Go का मुफ़्त साल पूरा हो रहा है, तारीख़ जाँचें",
+  "hook": "पिछले साल मुफ़्त वाला Go लिया था? अब हर महीने ₹399 कट सकते हैं",
+  "body": "नवंबर 2025 में OpenAI ने भारत में ChatGPT Go (ChatGPT का सस्ता पैसे वाला प्लान) एक साल के लिए मुफ़्त दिया था। जिसने जिस दिन यह ऑफ़र लिया, उसका मुफ़्त साल उसके 12 महीने बाद पूरा होता है। इसलिए सबसे पहले लेने वालों का साल 4 नवंबर 2026 से पूरा होने लगा है। ऑफ़र लेते समय कार्ड या UPI जोड़ना पड़ा था, और ख़बरों के मुताबिक़ रद्द न करने पर Go हर महीने ₹399 में अपने-आप चलता रहता है। अपनी तारीख़ देखने के लिए chatgpt.com पर **Settings** खोलें और **Billing** या **Account** देखें। Play Store से लिया था तो Play Store के **Subscriptions** में देखें।",
+  "whyItMatters": "Go नहीं रखना है तो अपनी तारीख़ से कम से कम एक दिन पहले वहीं से रद्द करें जहाँ से लिया था, और UPI ऐप में ChatGPT का ऑटोपे भी देख लें। सिर्फ़ ऐप हटाने से प्लान बंद नहीं होता। रद्द करने के बाद आप ChatGPT के मुफ़्त प्लान पर लौट सकते हैं, जिसमें सीमाएँ थोड़ी कम हैं।",
+  "sourceName": "Business Today"
+ },
+ "en": {
+  "label": "ChatGPT Go",
+  "title": "Your free ChatGPT Go year may be ending: check the date",
+  "hook": "Took the free Go offer last year? You may now be charged ₹399 a month",
+  "body": "In November 2025, OpenAI gave users in India one free year of ChatGPT Go, its low-cost paid plan. Your free year ends 12 months after the day you claimed it, so the earliest ones started ending on 4 November 2026. Claiming the offer needed a card or UPI, and reports say Go renews by itself at ₹399 a month unless you cancel. To see your date, open **Settings** on chatgpt.com and look under **Billing** or **Account**. If you took it through the Play Store, look in **Subscriptions** there.",
+  "whyItMatters": "If you don't want to keep Go, cancel at least a day before your date, in the same place where you took it, and check your UPI app for a ChatGPT autopay too. Removing the app does not stop the plan. After you cancel you can go back to ChatGPT's free plan, which has lower limits.",
+  "sourceName": "Business Today"
+ }
+}

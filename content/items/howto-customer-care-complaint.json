@@ -1,0 +1,45 @@
+{
+ "id": "howto-customer-care-complaint",
+ "type": "howto",
+ "publishAt": "2026-11-22",
+ "reviewBy": "2027-05-22",
+ "tags": [
+  "writing",
+  "daily-life"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "शिकायत लिखें",
+  "title": "कस्टमर केयर को शिकायत AI से लिखवाएँ",
+  "hook": "सामान टूटा आया या रीचार्ज नहीं हुआ? साफ़ और विनम्र शिकायत मिनटों में",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में कंपनी का नाम और अपनी बात भरें",
+   "शिकायत पढ़ें और तारीख़, रकम और ऑर्डर नंबर ख़ुद जाँचकर भरें",
+   "इसे कंपनी के अपने ऐप या आधिकारिक वेबसाइट के \"Help\" में चिपकाकर भेजें",
+   "कस्टमर केयर का नंबर इधर-उधर से न उठाएँ। ठग नकली नंबर फैलाते हैं, इसलिए नंबर सिर्फ़ कंपनी के ऐप या बिल से लें"
+  ],
+  "prompt": "मुझे [कंपनी का नाम] के कस्टमर केयर को शिकायत लिखनी है। बात यह है: [जैसे: 10 नवंबर को मिक्सर मँगाया था, टूटा हुआ आया]। मैं चाहता हूँ कि [सामान बदल दें / पैसे वापस करें]। 5-6 लाइन में साफ़ और विनम्र शिकायत सरल हिंदी में लिखो। ऑर्डर नंबर के लिए ख़ाली जगह छोड़ दो।",
+  "example": "\"नमस्ते, मैंने 10 नवंबर को एक मिक्सर मँगाया था जो टूटा हुआ मिला। कृपया इसे बदल दें...\" जैसा छोटा, सीधा मैसेज।",
+  "privacyNote": "AI को कार्ड नंबर, बैंक खाता, UPI PIN या OTP न बताएँ। शिकायत लिखवाने के लिए इनकी ज़रूरत नहीं पड़ती, और असली कस्टमर केयर भी OTP या PIN नहीं माँगता।"
+ },
+ "en": {
+  "label": "Complaint",
+  "title": "Get AI to write your customer care complaint",
+  "hook": "Broken item or failed recharge? Get a clear, polite complaint in minutes",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below and fill in the company name and what went wrong",
+   "Read the complaint, then check and fill in the date, amount and order number yourself",
+   "Paste it into \"Help\" in the company's own app or official website and send it",
+   "Don't pick up a customer care number from just anywhere. Scammers spread fake numbers, so take it only from the company's app or your bill"
+  ],
+  "prompt": "I need to write a complaint to [company name] customer care. The problem: [for example: I ordered a mixer on 10 November and it arrived broken]. I want them to [replace it / refund my money]. Write a clear, polite complaint in 5 or 6 lines in simple English. Leave a blank for the order number.",
+  "example": "A short, direct message like \"Hello, I ordered a mixer on 10 November and it arrived broken. Please replace it...\".",
+  "privacyNote": "Don't give AI your card number, bank account, UPI PIN or OTP. You don't need them to write a complaint, and real customer care never asks for an OTP or PIN either."
+ }
+}
