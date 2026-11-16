@@ -1,0 +1,44 @@
+{
+ "id": "howto-meta-ai-imagine-picture",
+ "type": "howto",
+ "publishAt": "2026-11-18",
+ "reviewBy": "2027-05-18",
+ "tags": [
+  "photo",
+  "whatsapp"
+ ],
+ "minutes": "2 min",
+ "toolIds": [
+  "meta-ai"
+ ],
+ "hi": {
+  "label": "तस्वीर बनाएँ",
+  "title": "WhatsApp में लिखकर नई तस्वीर बनवाएँ",
+  "hook": "बस imagine लिखिए और बताइए क्या चाहिए। Meta AI तस्वीर बना देगा",
+  "steps": [
+   "WhatsApp खोलें और चैट लिस्ट में नीला-बैंगनी गोल बटन दबाएँ",
+   "लिखने की जगह में पहले **imagine** लिखें, फिर बताएँ कि तस्वीर में क्या चाहिए। नीचे वाला प्रॉम्प्ट आज़माकर देखें",
+   "पसंद न आए तो लिखें \"रंग और चमकीले करो\" या \"इसमें एक दीया जोड़ दो\"",
+   "तस्वीर को दबाकर रखें, फिर Forward से भेजें या Save से फ़ोन में रख लें",
+   "यह मुफ़्त है, पर एक दिन में तस्वीरों की सीमा हो सकती है, और यह बटन सब फ़ोन में नहीं दिखता"
+  ],
+  "prompt": "imagine सर्दी की सुबह, खिड़की के पास रखा चाय का गरम कप, बाहर हल्की धुंध, पास में गेंदे के फूल, गर्म रंगों में",
+  "example": "परिवार के ग्रुप में भेजने के लिए सुबह की एक नई तस्वीर, जो पहले किसी ने नहीं भेजी होगी।",
+  "privacyNote": "किसी असली इंसान का नाम लिखकर उसकी तस्वीर न बनवाएँ। Meta AI को लिखी बातें Meta तक जाती हैं, इसलिए इस चैट में आधार, बैंक की जानकारी, OTP या निजी बातें न लिखें।"
+ },
+ "en": {
+  "label": "AI picture",
+  "title": "Make a new picture in WhatsApp just by typing",
+  "hook": "Type imagine and say what you want. Meta AI draws it for you",
+  "steps": [
+   "Open WhatsApp and tap the blue-purple round button on the chat list",
+   "In the message box, type **imagine** first, then describe the picture you want. Try the prompt below",
+   "Not right? Write \"make the colours brighter\" or \"add a diya\"",
+   "Press and hold the picture, then use Forward to send it or Save to keep it on your phone",
+   "It is free, but there may be a daily limit on pictures, and the button doesn't show on every phone"
+  ],
+  "prompt": "imagine a winter morning, a hot cup of tea by the window, light fog outside, marigold flowers beside it, in warm colours",
+  "example": "A fresh good-morning picture for the family group that nobody has sent before.",
+  "privacyNote": "Don't ask for a picture of a real person by name. What you write to Meta AI goes to Meta, so don't type Aadhaar, bank details, OTPs or private matters in this chat."
+ }
+}

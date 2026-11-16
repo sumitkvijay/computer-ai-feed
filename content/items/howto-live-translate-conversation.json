@@ -1,0 +1,44 @@
+{
+ "id": "howto-live-translate-conversation",
+ "type": "howto",
+ "publishAt": "2026-11-20",
+ "reviewBy": "2027-05-20",
+ "tags": [
+  "translate",
+  "travel"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "google-translate"
+ ],
+ "hi": {
+  "label": "बोलकर अनुवाद",
+  "title": "दो भाषाओं की बातचीत Google Translate से करें",
+  "hook": "सामने वाला तमिल बोले और आप हिंदी, फ़ोन दोनों की बात बदलकर सुना देगा",
+  "steps": [
+   "Google Translate ऐप खोलें और नीचे **Live translate** दबाएँ। न दिखे तो Play Store से ऐप अपडेट कर लें",
+   "माइक की इजाज़त दें और दोनों भाषाएँ चुनें, जैसे हिन्दी और तमिल",
+   "**Conversation** चुनें और फ़ोन को दोनों के बीच में रखें",
+   "बारी-बारी से बोलें। फ़ोन हर बात दूसरी भाषा में लिखकर दिखाएगा और बोलकर सुनाएगा",
+   "अनुवाद में ग़लती हो सकती है। पैसे, दवा या कागज़ की ज़रूरी बात किसी जानकार से दोबारा पक्की कर लें"
+  ],
+  "prompt": "नमस्ते, मुझे बस अड्डे जाना है। वहाँ तक कैसे पहुँचूँ?",
+  "example": "दूसरे राज्य में दुकानदार, ऑटो वाले या नए पड़ोसी से अपनी-अपनी भाषा में बात कर लेना।",
+  "privacyNote": "ऐप आपकी और सामने वाले की आवाज़ सुनता है। सामने वाले को बता दें कि आप अनुवाद ऐप चला रहे हैं, और बातचीत में OTP, बैंक या आधार की जानकारी न बोलें।"
+ },
+ "en": {
+  "label": "Live translate",
+  "title": "Talk across two languages with Google Translate",
+  "hook": "They speak Tamil, you speak Hindi. The phone says each side in the other language",
+  "steps": [
+   "Open the Google Translate app and tap **Live translate** at the bottom. If it's missing, update the app from the Play Store",
+   "Allow the microphone and pick the two languages, for example Hindi and Tamil",
+   "Choose **Conversation** and hold the phone between the two of you",
+   "Take turns speaking. The phone shows each sentence in the other language and reads it aloud",
+   "Translations can be wrong. For money, medicine or paperwork, confirm with someone who knows both languages"
+  ],
+  "prompt": "Hello, I need to go to the bus stand. How do I get there?",
+  "example": "Chatting with a shopkeeper, an auto driver or a new neighbour in another state, each in your own language.",
+  "privacyNote": "The app listens to your voice and the other person's. Tell them you are using a translation app, and don't say OTPs, bank or Aadhaar details aloud."
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "howto-exam-practice-quiz",
+ "type": "howto",
+ "publishAt": "2026-11-21",
+ "reviewBy": "2027-05-21",
+ "tags": [
+  "study"
+ ],
+ "minutes": "5 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "अभ्यास सवाल",
+  "title": "परीक्षा से पहले AI से अभ्यास के सवाल पुछवाएँ",
+  "hook": "पाठ का नाम बताइए। AI एक-एक सवाल पूछेगा और जवाब भी जाँचेगा",
+  "steps": [
+   "Gemini या ChatGPT खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में कक्षा, विषय और पाठ का नाम भरें",
+   "AI एक-एक करके सवाल पूछेगा। हर सवाल का जवाब लिखकर भेजें",
+   "जो जवाब ग़लत निकले, उस पर लिखें \"यह वाला और आसान करके समझाओ\"",
+   "AI से भी ग़लती होती है। शक हो तो किताब से मिला लें या टीचर से पूछ लें"
+  ],
+  "prompt": "मैं कक्षा [8] में पढ़ता हूँ। [विज्ञान] के पाठ \"[पाठ का नाम]\" से मुझसे 10 सवाल पूछो, एक बार में सिर्फ़ एक। मेरे जवाब के बाद बताओ कि सही है या ग़लत, और ग़लत हो तो सरल हिंदी में समझाओ। आख़िर में बताओ कि 10 में से कितने सही हुए।",
+  "example": "\"सवाल 3: पौधे अपना खाना कैसे बनाते हैं?\" जैसा सवाल, और आपके जवाब के बाद दो लाइन में सही बात।"
+ },
+ "en": {
+  "label": "Practice quiz",
+  "title": "Get AI to quiz you before an exam",
+  "hook": "Name the chapter. AI asks one question at a time and checks your answers",
+  "steps": [
+   "Open Gemini or ChatGPT",
+   "Paste the prompt below and fill in the class, subject and chapter name",
+   "AI asks the questions one by one. Type and send your answer to each",
+   "For any answer you got wrong, write \"explain this one more simply\"",
+   "AI makes mistakes too. If in doubt, check the textbook or ask your teacher"
+  ],
+  "prompt": "I am in class [8]. Ask me 10 questions from the [science] chapter \"[chapter name]\", only one at a time. After each answer, tell me if it is right or wrong, and if wrong, explain it in simple English. At the end, tell me how many I got right out of 10.",
+  "example": "A question like \"Question 3: How do plants make their food?\", then the right answer in two lines after you reply."
+ }
+}
