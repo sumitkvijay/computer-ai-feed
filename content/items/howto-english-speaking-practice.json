@@ -1,0 +1,47 @@
+{
+ "id": "howto-english-speaking-practice",
+ "type": "howto",
+ "publishAt": "2026-11-25",
+ "reviewBy": "2027-05-25",
+ "tags": [
+  "study",
+  "work"
+ ],
+ "minutes": "5 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "इंग्लिश बोलें",
+  "title": "AI के साथ अंग्रेज़ी बोलने का अभ्यास करें",
+  "hook": "किसी के सामने झिझक होती है? AI से बोलिए, वह प्यार से ग़लती सुधार देगा",
+  "steps": [
+   "Gemini ऐप खोलें और नीचे दाईं ओर Live वाला बटन (लहरों वाला निशान) दबाएँ। ChatGPT में भी ऐसा ही बोलने वाला बटन है",
+   "माइक की इजाज़त माँगे तो \"Allow\" दबाएँ",
+   "नीचे वाला प्रॉम्प्ट बोल दें, या पहले टाइप करके भेज दें",
+   "AI जो पूछे, उसका जवाब अंग्रेज़ी में दें। अटक जाएँ तो हिंदी में बोल दें, वह अंग्रेज़ी का वाक्य बता देगा",
+   "आख़िर में पूछें: \"आज मेरी 3 सबसे बड़ी ग़लतियाँ क्या थीं?\"",
+   "रोज़ 5 मिनट करें। मुफ़्त प्लान में बोलकर बात करने की रोज़ की सीमा होती है"
+  ],
+  "prompt": "मैं अंग्रेज़ी बोलना सीख रहा/रही हूँ। मुझसे आसान अंग्रेज़ी में धीरे-धीरे बात करो। रोज़ की बातों पर एक बार में एक ही सवाल पूछो, जैसे मेरा दिन, मेरा काम या मेरा परिवार। मैं ग़लत बोलूँ तो पहले सही वाक्य बताओ, फिर हिंदी में एक लाइन में समझाओ कि ग़लती क्या थी।",
+  "example": "आप बोलें \"I go market yesterday\", तो AI कहेगा: \"सही वाक्य है: I went to the market yesterday. बीते हुए कल की बात में go की जगह went आता है।\"",
+  "privacyNote": "आपकी आवाज़ और बातचीत आपके खाते में सेव हो सकती है, जिसे आप ऐप की सेटिंग से मिटा सकते हैं। अभ्यास में घर का पूरा पता, OTP, PIN, आधार या बैंक की जानकारी न बोलें।"
+ },
+ "en": {
+  "label": "Speak English",
+  "title": "Practise speaking English with AI",
+  "hook": "Shy to speak in front of people? Talk to AI and it corrects you gently",
+  "steps": [
+   "Open the Gemini app and tap the Live button (the wave icon) at the bottom right. ChatGPT has a similar speak button",
+   "If it asks for microphone permission, tap \"Allow\"",
+   "Say the prompt below, or type and send it first",
+   "Answer in English whatever AI asks. If you get stuck, say it in Hindi and it will give you the English sentence",
+   "At the end, ask: \"What were my 3 biggest mistakes today?\"",
+   "Do it for 5 minutes a day. The free plan has a daily limit on spoken chats"
+  ],
+  "prompt": "I am learning to speak English. Talk to me slowly in easy English. Ask me only one question at a time about everyday things, like my day, my work or my family. When I make a mistake, first tell me the correct sentence, then explain the mistake in one line in Hindi.",
+  "example": "You say \"I go market yesterday\" and AI replies: \"The correct sentence is: I went to the market yesterday. For something that happened yesterday, use went, not go.\"",
+  "privacyNote": "Your voice and chats may be saved in your account. You can delete them in the app's settings. While practising, don't say your full home address, an OTP, PIN, Aadhaar or bank details."
+ }
+}

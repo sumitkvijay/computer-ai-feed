@@ -1,0 +1,45 @@
+{
+ "id": "trend-ai-professional-headshot",
+ "type": "trend",
+ "publishAt": "2026-11-28",
+ "reviewBy": "2026-12-26",
+ "tags": [
+  "photo",
+  "work"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt"
+ ],
+ "hi": {
+  "label": "ऑफ़िस फ़ोटो",
+  "title": "सेल्फ़ी से \"ऑफ़िस वाली\" प्रोफ़ाइल फ़ोटो का ट्रेंड",
+  "hook": "लोग AI से अपनी सेल्फ़ी को स्टूडियो जैसी फ़ॉर्मल फ़ोटो में बदल रहे हैं",
+  "steps": [
+   "Gemini या ChatGPT ऐप खोलें",
+   "+ दबाकर अपनी एक साफ़ सेल्फ़ी जोड़ें: सामने से, अच्छी रोशनी में, बिना चश्मे की चमक के",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ",
+   "चेहरा बदला हुआ लगे तो लिखें \"मेरा चेहरा बिल्कुल असली जैसा रखो\"। मुफ़्त प्लान में रोज़ की सीमा होती है",
+   "इसे WhatsApp या नौकरी वाली प्रोफ़ाइल पर लगा सकते हैं। आधार, पासपोर्ट या किसी सरकारी फ़ॉर्म में AI से बनी फ़ोटो न लगाएँ, वहाँ असली फ़ोटो ही चलती है"
+  ],
+  "prompt": "इस सेल्फ़ी से मेरी एक फ़ॉर्मल प्रोफ़ाइल फ़ोटो बनाओ, जैसी स्टूडियो में खिंचती है। मुझे सादी हल्के रंग की शर्ट या कुर्ता पहनाओ। बैकग्राउंड सादा हल्का स्लेटी रखो, रोशनी नरम हो। मेरा चेहरा, रंग और बाल बिल्कुल वैसे ही रखो, कुछ भी सुंदर बनाने के लिए मत बदलो। फ़ोटो कंधों तक की हो।",
+  "example": "आपका ही चेहरा, पर सादे बैकग्राउंड और साफ़ कपड़ों में, जैसे स्टूडियो में खिंची फ़ोटो।",
+  "privacyNote": "सिर्फ़ अपनी सेल्फ़ी डालें, किसी और की फ़ोटो उनसे पूछे बिना नहीं। \"फ़्री AI फ़ोटो\" वाले अनजान लिंक या ऐप में फ़ोटो न डालें: सिर्फ़ Gemini, ChatGPT जैसे जाने-माने ऐप में ही डालें।"
+ },
+ "en": {
+  "label": "Office photo",
+  "title": "The trend of turning a selfie into an \"office\" photo",
+  "hook": "People are using AI to turn a selfie into a formal, studio-style profile photo",
+  "steps": [
+   "Open the Gemini or ChatGPT app",
+   "Tap + and add one clear selfie: facing the camera, in good light, with no glare on your glasses",
+   "Paste the prompt below",
+   "If the face looks changed, write \"keep my face exactly as it really is\". The free plan has a daily limit",
+   "You can use it on WhatsApp or a job profile. Don't use an AI-made photo for Aadhaar, a passport or any government form: those need a real photo"
+  ],
+  "prompt": "Make a formal profile photo of me from this selfie, like one taken in a studio. Dress me in a plain light-coloured shirt or kurta. Keep the background plain light grey with soft lighting. Keep my face, skin tone and hair exactly as they are; do not change anything to make me look better. Show me down to the shoulders.",
+  "example": "Your own face, but with a plain background and neat clothes, like a studio photo.",
+  "privacyNote": "Upload only your own selfie, never someone else's photo without asking them. Don't upload photos to unknown \"free AI photo\" links or apps: use only well-known apps like Gemini or ChatGPT."
+ }
+}

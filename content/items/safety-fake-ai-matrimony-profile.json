@@ -1,0 +1,49 @@
+{
+ "id": "safety-fake-ai-matrimony-profile",
+ "type": "safety",
+ "publishAt": "2026-11-26",
+ "reviewBy": "2027-05-26",
+ "tags": [
+  "safety",
+  "photo"
+ ],
+ "minutes": "3 min",
+ "hi": {
+  "label": "नकली रिश्ता",
+  "title": "शादी के रिश्ते में AI से बनी नकली फ़ोटो से बचें",
+  "hook": "दुर्ग में नकली मैरिज ब्यूरो पकड़ा गया: फ़ोटो की लड़कियाँ असल में थीं ही नहीं",
+  "whatsHappening": "छत्तीसगढ़ के दुर्ग में पुलिस ने अक्टूबर 2026 के आख़िर में एक नकली मैरिज ब्यूरो पकड़ा। पुलिस के मुताबिक़ Facebook और Instagram पर रिश्ते के विज्ञापनों में जिन लड़कियों की फ़ोटो थीं, वे **AI से बनाई गई थीं**, यानी ऐसी कोई लड़की थी ही नहीं। फ़ोन करने वालों से पहले QR कोड पर ₹2,000 \"फ़ीस\" ली जाती थी, फिर अलग-अलग बहाने से और पैसे माँगे जाते थे, और उसके बाद नंबर ब्लॉक कर दिया जाता था। शादियों के मौसम में ऐसे विज्ञापन और बढ़ जाते हैं।",
+  "howToSpot": [
+   "ब्यूरो का न दफ़्तर है, न वेबसाइट; बस सोशल मीडिया का पेज और मोबाइल नंबर है",
+   "फ़ोटो ज़रूरत से ज़्यादा सुंदर और चिकनी हैं, और हर फ़ोटो में चेहरा थोड़ा अलग लगता है",
+   "लड़की या लड़के के परिवार से बात कराने या वीडियो कॉल पर मिलाने से टालते हैं",
+   "मिलने से पहले ही \"रजिस्ट्रेशन\" या \"बायोडेटा फ़ीस\" माँगते हैं, वह भी किसी के निजी QR कोड पर"
+  ],
+  "whatToDo": [
+   "पैसे देने से पहले परिवार से वीडियो कॉल पर बात करें और फिर आमने-सामने मिलें",
+   "फ़ोटो को Google Lens में डालकर देखें कि वही फ़ोटो किसी और नाम से तो नहीं मिलती। कहीं न मिले, तब भी AI से बनी हो सकती है, इसलिए सिर्फ़ फ़ोटो पर भरोसा न करें",
+   "अनजान ब्यूरो को **आधार, बैंक की जानकारी या OTP** कभी न दें, और निजी QR कोड पर फ़ीस न भेजें",
+   "पैसे चले गए हों तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ },
+ "en": {
+  "label": "Fake rishta",
+  "title": "Marriage match? Watch for fake AI-made profile photos",
+  "hook": "A fake marriage bureau was caught in Durg: the women in its photos never existed",
+  "whatsHappening": "In late October 2026, police in Durg, Chhattisgarh, caught a fake marriage bureau. Police say the women shown in its matrimonial ads on Facebook and Instagram were **made with AI**, so no such women existed. People who called were first asked to pay a ₹2,000 \"fee\" on a QR code, then more money for other reasons, and after that their number was blocked. Ads like these grow during the wedding season.",
+  "howToSpot": [
+   "The bureau has no office and no website, only a social media page and a mobile number",
+   "The photos look too perfect and smooth, and the face changes a little from one photo to the next",
+   "They keep avoiding a talk with the family or a video call with the match",
+   "They ask for a \"registration\" or \"biodata fee\" before any meeting, to someone's personal QR code"
+  ],
+  "whatToDo": [
+   "Before paying anything, talk to the family on a video call and then meet in person",
+   "Put the photo into Google Lens to see if the same photo appears under another name. Even if nothing turns up it may still be AI-made, so never trust a photo alone",
+   "Never give an unknown bureau your **Aadhaar, bank details or an OTP**, and don't send fees to a personal QR code",
+   "If money is gone, call 1930 at once or report it on cybercrime.gov.in"
+  ],
+  "helpline": "1930 / cybercrime.gov.in"
+ }
+}
