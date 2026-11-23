@@ -1,16 +1,17 @@
 {
  "schemaVersion": 1,
  "minAppVersionCode": 1,
- "generatedAt": "2026-11-16T03:55:59Z",
+ "generatedAt": "2026-11-23T03:57:22Z",
  "stories": [
-  "news-chatgpt-go-free-year-ending",
-  "howto-meta-ai-imagine-picture",
-  "safety-public-photo-fake-profile",
-  "howto-live-translate-conversation",
-  "howto-exam-practice-quiz",
-  "howto-customer-care-complaint"
+  "news-gemini-tasks-free-india",
+  "howto-english-speaking-practice",
+  "safety-fake-ai-matrimony-profile",
+  "howto-simple-resume",
+  "trend-ai-professional-headshot",
+  "howto-google-ai-mode-hindi",
+  "trend-ai-mini-figurine"
  ],
- "featured": "news-chatgpt-go-free-year-ending",
+ "featured": "news-gemini-tasks-free-india",
  "tasks": [
   {
    "id": "writing",
@@ -115,9 +116,205 @@
    "android": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
    "web": "https://photos.google.com",
    "loginNote": "Already on most Android phones. Free with a Google account. \"Help me edit\" is rolling out to phones gradually."
+  },
+  {
+   "id": "google-app",
+   "name": "Google (AI Mode)",
+   "price": "free",
+   "login": "google",
+   "android": "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+   "web": "https://www.google.com/ai",
+   "loginNote": "The Google app is already on most Android phones. AI Mode is free and also works in Hindi."
   }
  ],
  "items": [
+  {
+   "id": "trend-ai-mini-figurine",
+   "type": "trend",
+   "publishAt": "2026-11-30",
+   "reviewBy": "2026-12-28",
+   "tags": [
+    "photo"
+   ],
+   "minutes": "2 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Mini figure",
+   "title": "The trend of turning your photo into a tiny toy figure",
+   "hook": "AI turns your photo into a picture of a little toy figure standing on a table",
+   "steps": [
+    "Open the Gemini or ChatGPT app",
+    "Tap + and add one clear, full-length photo of yourself",
+    "Paste the prompt below",
+    "To change something, write for example \"put a cricket bat in the hand\" or \"keep the same clothes\"",
+    "This is only a picture, not a real toy. The free plan has a daily limit"
+   ],
+   "prompt": "Make a small toy figure of the person in this photo, standing on a round base on a wooden table. Keep the face, clothes and pose the same as in the photo. Make the figure look glossy, like a plastic toy. Show a blurred room behind it. Do not put any brand name or logo in the picture.",
+   "example": "A palm-sized figure on a table, with a face and clothes like yours in the photo.",
+   "privacyNote": "Upload only your own photo, or someone else's with their permission. Don't upload children's photos. Don't upload photos to unknown \"AI filter\" links: use only well-known apps like Gemini or ChatGPT."
+  },
+  {
+   "id": "howto-google-ai-mode-hindi",
+   "type": "howto",
+   "publishAt": "2026-11-29",
+   "reviewBy": "2027-05-29",
+   "tags": [
+    "daily-life",
+    "study"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "google-app"
+   ],
+   "label": "AI Mode",
+   "title": "Ask a long question in Google's AI Mode",
+   "hook": "Instead of opening ten links, ask your whole question once and get one clear answer",
+   "steps": [
+    "Open the Google app and tap **AI Mode** under the search bar",
+    "If you don't see it, open google.com/ai in Chrome. It is free",
+    "Type your full question, or tap the mic and speak it. The more detail you give, the more useful the answer",
+    "Read the answer and open the links next to it to see where the information comes from",
+    "To know more, ask a follow-up right there, such as \"explain that more simply\"",
+    "For health, money or legal matters, don't decide from an AI answer. Ask someone who knows"
+   ],
+   "prompt": "I live in Lucknow and my balcony only gets morning sun. Which 4 vegetables can I grow easily in pots in winter? For each one, tell me when to sow it, how much water it needs and how many days it takes to be ready.",
+   "example": "A list of vegetables such as spinach, methi, coriander and radish, each with its sowing time and care, plus links to the websites the information came from."
+  },
+  {
+   "id": "trend-ai-professional-headshot",
+   "type": "trend",
+   "publishAt": "2026-11-28",
+   "reviewBy": "2026-12-26",
+   "tags": [
+    "photo",
+    "work"
+   ],
+   "minutes": "3 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Office photo",
+   "title": "The trend of turning a selfie into an \"office\" photo",
+   "hook": "People are using AI to turn a selfie into a formal, studio-style profile photo",
+   "steps": [
+    "Open the Gemini or ChatGPT app",
+    "Tap + and add one clear selfie: facing the camera, in good light, with no glare on your glasses",
+    "Paste the prompt below",
+    "If the face looks changed, write \"keep my face exactly as it really is\". The free plan has a daily limit",
+    "You can use it on WhatsApp or a job profile. Don't use an AI-made photo for Aadhaar, a passport or any government form: those need a real photo"
+   ],
+   "prompt": "Make a formal profile photo of me from this selfie, like one taken in a studio. Dress me in a plain light-coloured shirt or kurta. Keep the background plain light grey with soft lighting. Keep my face, skin tone and hair exactly as they are; do not change anything to make me look better. Show me down to the shoulders.",
+   "example": "Your own face, but with a plain background and neat clothes, like a studio photo.",
+   "privacyNote": "Upload only your own selfie, never someone else's photo without asking them. Don't upload photos to unknown \"free AI photo\" links or apps: use only well-known apps like Gemini or ChatGPT."
+  },
+  {
+   "id": "howto-simple-resume",
+   "type": "howto",
+   "publishAt": "2026-11-27",
+   "reviewBy": "2027-05-27",
+   "tags": [
+    "work",
+    "writing"
+   ],
+   "minutes": "5 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt",
+    "copilot"
+   ],
+   "label": "Easy resume",
+   "title": "Get AI to write a one-page resume for a job",
+   "hook": "Tell AI about your studies and work, and it writes a neat resume for you",
+   "steps": [
+    "Open Gemini, ChatGPT or Copilot",
+    "Paste the prompt below and fill in your studies, work and skills",
+    "Read the result carefully. If AI has added a degree, job or skill by itself, remove it",
+    "To change something, write for example \"make it shorter\" or \"put computer skills at the top\"",
+    "Copy the resume into Google Docs or Word, type in your own name, phone number and email, and save it"
+   ],
+   "prompt": "Write a one-page job resume for me in simple English. Job: [for example data entry operator]. Education: [for example Class 12 pass, 2023, UP Board]. Work experience: [for example 1 year at a mobile shop, or \"none\"]. Skills: [for example Hindi and English typing, MS Excel]. Languages: [Hindi, English]. Do not add anything I have not told you. Leave blanks for my name, phone and email.",
+   "example": "Blanks for your name and phone at the top, then your details as short points under \"Education\", \"Work Experience\" and \"Skills\".",
+   "privacyNote": "Don't give AI, or put in a resume, your Aadhaar number, PAN, bank account or full home address. A job resume only needs your name, city, phone number and email."
+  },
+  {
+   "id": "safety-fake-ai-matrimony-profile",
+   "type": "safety",
+   "publishAt": "2026-11-26",
+   "reviewBy": "2027-05-26",
+   "tags": [
+    "safety",
+    "photo"
+   ],
+   "minutes": "3 min",
+   "label": "Fake rishta",
+   "title": "Marriage match? Watch for fake AI-made profile photos",
+   "hook": "A fake marriage bureau was caught in Durg: the women in its photos never existed",
+   "whatsHappening": "In late October 2026, police in Durg, Chhattisgarh, caught a fake marriage bureau. Police say the women shown in its matrimonial ads on Facebook and Instagram were **made with AI**, so no such women existed. People who called were first asked to pay a ₹2,000 \"fee\" on a QR code, then more money for other reasons, and after that their number was blocked. Ads like these grow during the wedding season.",
+   "howToSpot": [
+    "The bureau has no office and no website, only a social media page and a mobile number",
+    "The photos look too perfect and smooth, and the face changes a little from one photo to the next",
+    "They keep avoiding a talk with the family or a video call with the match",
+    "They ask for a \"registration\" or \"biodata fee\" before any meeting, to someone's personal QR code"
+   ],
+   "whatToDo": [
+    "Before paying anything, talk to the family on a video call and then meet in person",
+    "Put the photo into Google Lens to see if the same photo appears under another name. Even if nothing turns up it may still be AI-made, so never trust a photo alone",
+    "Never give an unknown bureau your **Aadhaar, bank details or an OTP**, and don't send fees to a personal QR code",
+    "If money is gone, call 1930 at once or report it on cybercrime.gov.in"
+   ],
+   "helpline": "1930 / cybercrime.gov.in"
+  },
+  {
+   "id": "howto-english-speaking-practice",
+   "type": "howto",
+   "publishAt": "2026-11-25",
+   "reviewBy": "2027-05-25",
+   "tags": [
+    "study",
+    "work"
+   ],
+   "minutes": "5 min",
+   "toolIds": [
+    "gemini",
+    "chatgpt"
+   ],
+   "label": "Speak English",
+   "title": "Practise speaking English with AI",
+   "hook": "Shy to speak in front of people? Talk to AI and it corrects you gently",
+   "steps": [
+    "Open the Gemini app and tap the Live button (the wave icon) at the bottom right. ChatGPT has a similar speak button",
+    "If it asks for microphone permission, tap \"Allow\"",
+    "Say the prompt below, or type and send it first",
+    "Answer in English whatever AI asks. If you get stuck, say it in Hindi and it will give you the English sentence",
+    "At the end, ask: \"What were my 3 biggest mistakes today?\"",
+    "Do it for 5 minutes a day. The free plan has a daily limit on spoken chats"
+   ],
+   "prompt": "I am learning to speak English. Talk to me slowly in easy English. Ask me only one question at a time about everyday things, like my day, my work or my family. When I make a mistake, first tell me the correct sentence, then explain the mistake in one line in Hindi.",
+   "example": "You say \"I go market yesterday\" and AI replies: \"The correct sentence is: I went to the market yesterday. For something that happened yesterday, use went, not go.\"",
+   "privacyNote": "Your voice and chats may be saved in your account. You can delete them in the app's settings. While practising, don't say your full home address, an OTP, PIN, Aadhaar or bank details."
+  },
+  {
+   "id": "news-gemini-tasks-free-india",
+   "type": "news",
+   "publishAt": "2026-11-24",
+   "reviewBy": "2026-12-08",
+   "tags": [
+    "news"
+   ],
+   "toolIds": [
+    "gemini"
+   ],
+   "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "label": "Gemini Tasks",
+   "title": "Gemini's \"Task\" feature is now free in India",
+   "hook": "Gemini no longer just answers: it can do a multi-step job in the background for you",
+   "body": "On 17 November 2026, Google said that **Tasks** in Gemini is rolling out free in six countries, including India. Until now it was only in the paid plans. With Tasks you hand Gemini a job that takes several steps, such as \"plan a full Saturday trip to Jaipur\" or \"give me a short summary of my important emails every morning\". Gemini works on it quietly in the background and sends a notification when it is done. To use it, choose **Task** instead of **Chat** on the first screen of the Gemini app. It is reaching people gradually, so you may not see it yet. Having Gemini phone a shop or pay for shopping is only in the US for now.",
+   "whyItMatters": "You don't need to buy anything or install a new app. Connect Gmail or Calendar only if you want Gemini to read them, and you can remove them later in settings. Gemini can get things wrong, so read and check the plan or summary it makes. Free use has a limit, but Google has not given a number.",
+   "sourceName": "Google"
+  },
   {
    "id": "howto-customer-care-complaint",
    "type": "howto",
