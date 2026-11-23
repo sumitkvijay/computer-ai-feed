@@ -1,0 +1,29 @@
+{
+ "id": "news-gemini-tasks-free-india",
+ "type": "news",
+ "publishAt": "2026-11-24",
+ "reviewBy": "2026-12-08",
+ "tags": [
+  "news"
+ ],
+ "toolIds": [
+  "gemini"
+ ],
+ "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+ "hi": {
+  "label": "Gemini के काम",
+  "title": "Gemini का \"Task\" वाला फ़ीचर अब भारत में मुफ़्त",
+  "hook": "अब Gemini सिर्फ़ जवाब नहीं देता, कई क़दम वाला काम पीछे से करके बता भी देता है",
+  "body": "17 नवंबर 2026 को Google ने बताया कि Gemini का **Tasks** फ़ीचर अब भारत समेत छह देशों में मुफ़्त मिलने लगा है। पहले यह सिर्फ़ पैसे वाले प्लान में था। इसमें आप Gemini को कई क़दम वाला काम सौंप देते हैं, जैसे \"शनिवार को जयपुर घूमने का पूरा प्लान बनाओ\" या \"रोज़ सुबह मेरे ज़रूरी ईमेल का छोटा सार दो\"। Gemini यह काम पीछे चुपचाप करता है और पूरा होने पर नोटिफ़िकेशन भेज देता है। इसे चलाने के लिए Gemini ऐप की पहली स्क्रीन पर **Chat** की जगह **Task** चुनें। यह धीरे-धीरे सबके पास पहुँच रहा है, इसलिए हो सकता है आपको अभी न दिखे। Gemini से दुकान पर फ़ोन करवाना और ख़रीदारी का भुगतान करवाना फ़िलहाल सिर्फ़ अमेरिका में है।",
+  "whyItMatters": "इसके लिए कुछ ख़रीदना या कोई नया ऐप डालना नहीं है। Gmail या Calendar तभी जोड़ें जब आप चाहें कि Gemini उन्हें पढ़े, और बाद में सेटिंग से हटा भी सकते हैं। Gemini ग़लती कर सकता है, इसलिए उसका बनाया प्लान या सार ख़ुद पढ़कर जाँचें। मुफ़्त में इस्तेमाल की एक सीमा है, जो Google ने गिनकर नहीं बताई।",
+  "sourceName": "Google"
+ },
+ "en": {
+  "label": "Gemini Tasks",
+  "title": "Gemini's \"Task\" feature is now free in India",
+  "hook": "Gemini no longer just answers: it can do a multi-step job in the background for you",
+  "body": "On 17 November 2026, Google said that **Tasks** in Gemini is rolling out free in six countries, including India. Until now it was only in the paid plans. With Tasks you hand Gemini a job that takes several steps, such as \"plan a full Saturday trip to Jaipur\" or \"give me a short summary of my important emails every morning\". Gemini works on it quietly in the background and sends a notification when it is done. To use it, choose **Task** instead of **Chat** on the first screen of the Gemini app. It is reaching people gradually, so you may not see it yet. Having Gemini phone a shop or pay for shopping is only in the US for now.",
+  "whyItMatters": "You don't need to buy anything or install a new app. Connect Gmail or Calendar only if you want Gemini to read them, and you can remove them later in settings. Gemini can get things wrong, so read and check the plan or summary it makes. Free use has a limit, but Google has not given a number.",
+  "sourceName": "Google"
+ }
+}

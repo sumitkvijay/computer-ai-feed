@@ -110,5 +110,19 @@
   "en": {
    "note": "Already on most Android phones. Free with a Google account. \"Help me edit\" is rolling out to phones gradually."
   }
+ },
+ {
+  "id": "google-app",
+  "name": "Google (AI Mode)",
+  "price": "free",
+  "login": "google",
+  "android": "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+  "web": "https://www.google.com/ai",
+  "hi": {
+   "note": "Google ऐप ज़्यादातर Android फ़ोन में पहले से है। AI Mode मुफ़्त है और हिंदी में भी चलता है।"
+  },
+  "en": {
+   "note": "The Google app is already on most Android phones. AI Mode is free and also works in Hindi."
+  }
  }
 ]

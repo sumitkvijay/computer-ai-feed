@@ -1,0 +1,44 @@
+{
+ "id": "howto-google-ai-mode-hindi",
+ "type": "howto",
+ "publishAt": "2026-11-29",
+ "reviewBy": "2027-05-29",
+ "tags": [
+  "daily-life",
+  "study"
+ ],
+ "minutes": "3 min",
+ "toolIds": [
+  "google-app"
+ ],
+ "hi": {
+  "label": "AI से खोजें",
+  "title": "Google के AI Mode से हिंदी में लंबा सवाल पूछें",
+  "hook": "दस लिंक खोलने की जगह पूरा सवाल एक बार में पूछिए, जवाब हिंदी में मिलेगा",
+  "steps": [
+   "Google ऐप खोलें और सर्च बार के नीचे **AI Mode** दबाएँ",
+   "न दिखे तो Chrome में google.com/ai खोलें। यह मुफ़्त है",
+   "अपना पूरा सवाल हिंदी में लिखें, या माइक दबाकर बोलें। जितनी बात बताएँगे, जवाब उतना काम का होगा",
+   "जवाब पढ़ें और साथ में दिए लिंक खोलकर देखें कि बात कहाँ से ली गई है",
+   "कुछ और जानना हो तो वहीं अगला सवाल पूछ लें, जैसे \"इसे और आसान करके बताओ\"",
+   "सेहत, पैसे या क़ानून की बात हो तो AI के जवाब पर फ़ैसला न लें, जानकार से पूछें"
+  ],
+  "prompt": "मैं लखनऊ में रहता हूँ और बालकनी में सिर्फ़ सुबह की धूप आती है। सर्दियों में गमले में कौन-सी 4 सब्ज़ियाँ आसानी से उगा सकता हूँ? हर एक के लिए बताओ कि कब बोना है, कितना पानी देना है और कितने दिन में तैयार होगी।",
+  "example": "पालक, मेथी, धनिया और मूली जैसी सब्ज़ियों की सूची, हर एक के साथ बोने का समय और देखभाल, और नीचे उन वेबसाइट के लिंक जहाँ से जानकारी ली गई।"
+ },
+ "en": {
+  "label": "AI Mode",
+  "title": "Ask a long question in Google's AI Mode",
+  "hook": "Instead of opening ten links, ask your whole question once and get one clear answer",
+  "steps": [
+   "Open the Google app and tap **AI Mode** under the search bar",
+   "If you don't see it, open google.com/ai in Chrome. It is free",
+   "Type your full question, or tap the mic and speak it. The more detail you give, the more useful the answer",
+   "Read the answer and open the links next to it to see where the information comes from",
+   "To know more, ask a follow-up right there, such as \"explain that more simply\"",
+   "For health, money or legal matters, don't decide from an AI answer. Ask someone who knows"
+  ],
+  "prompt": "I live in Lucknow and my balcony only gets morning sun. Which 4 vegetables can I grow easily in pots in winter? For each one, tell me when to sow it, how much water it needs and how many days it takes to be ready.",
+  "example": "A list of vegetables such as spinach, methi, coriander and radish, each with its sowing time and care, plus links to the websites the information came from."
+ }
+}

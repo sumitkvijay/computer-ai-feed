@@ -1,0 +1,46 @@
+{
+ "id": "howto-simple-resume",
+ "type": "howto",
+ "publishAt": "2026-11-27",
+ "reviewBy": "2027-05-27",
+ "tags": [
+  "work",
+  "writing"
+ ],
+ "minutes": "5 min",
+ "toolIds": [
+  "gemini",
+  "chatgpt",
+  "copilot"
+ ],
+ "hi": {
+  "label": "बायोडेटा बनाएँ",
+  "title": "नौकरी के लिए एक पन्ने का बायोडेटा AI से बनवाएँ",
+  "hook": "पढ़ाई और काम की बातें बता दीजिए, AI साफ़-सुथरा बायोडेटा लिख देगा",
+  "steps": [
+   "Gemini, ChatGPT या Copilot खोलें",
+   "नीचे वाला प्रॉम्प्ट चिपकाएँ और [ ] में अपनी पढ़ाई, काम और हुनर भरें",
+   "जो बना है उसे ध्यान से पढ़ें। AI ने अपनी तरफ़ से कोई डिग्री, नौकरी या हुनर जोड़ा हो तो हटा दें",
+   "कुछ बदलना हो तो लिखें, जैसे \"इसे और छोटा करो\" या \"कंप्यूटर वाला हुनर ऊपर रखो\"",
+   "बायोडेटा कॉपी करके Google Docs या Word में चिपकाएँ, अपना नाम, फ़ोन नंबर और ईमेल ख़ुद लिखें, और सेव कर लें"
+  ],
+  "prompt": "मेरे लिए नौकरी का एक पन्ने का बायोडेटा (resume) सरल अंग्रेज़ी में बनाओ। नौकरी: [जैसे डेटा एंट्री ऑपरेटर]। पढ़ाई: [जैसे 12वीं पास, 2023, यूपी बोर्ड]। काम का अनुभव: [जैसे 1 साल मोबाइल की दुकान पर, या \"कोई नहीं\"]। हुनर: [जैसे हिंदी-अंग्रेज़ी टाइपिंग, MS Excel]। भाषाएँ: [हिंदी, अंग्रेज़ी]। जो मैंने नहीं बताया वह अपनी तरफ़ से मत जोड़ो। नाम, फ़ोन और ईमेल के लिए ख़ाली जगह छोड़ दो।",
+  "example": "ऊपर नाम और फ़ोन की ख़ाली जगह, फिर \"Education\", \"Work Experience\" और \"Skills\" के नीचे आपकी बातें छोटे-छोटे बिंदुओं में।",
+  "privacyNote": "AI को और बायोडेटा में आधार नंबर, पैन, बैंक खाता या घर का पूरा पता न लिखें। नौकरी के बायोडेटा में नाम, शहर, फ़ोन नंबर और ईमेल काफ़ी हैं।"
+ },
+ "en": {
+  "label": "Easy resume",
+  "title": "Get AI to write a one-page resume for a job",
+  "hook": "Tell AI about your studies and work, and it writes a neat resume for you",
+  "steps": [
+   "Open Gemini, ChatGPT or Copilot",
+   "Paste the prompt below and fill in your studies, work and skills",
+   "Read the result carefully. If AI has added a degree, job or skill by itself, remove it",
+   "To change something, write for example \"make it shorter\" or \"put computer skills at the top\"",
+   "Copy the resume into Google Docs or Word, type in your own name, phone number and email, and save it"
+  ],
+  "prompt": "Write a one-page job resume for me in simple English. Job: [for example data entry operator]. Education: [for example Class 12 pass, 2023, UP Board]. Work experience: [for example 1 year at a mobile shop, or \"none\"]. Skills: [for example Hindi and English typing, MS Excel]. Languages: [Hindi, English]. Do not add anything I have not told you. Leave blanks for my name, phone and email.",
+  "example": "Blanks for your name and phone at the top, then your details as short points under \"Education\", \"Work Experience\" and \"Skills\".",
+  "privacyNote": "Don't give AI, or put in a resume, your Aadhaar number, PAN, bank account or full home address. A job resume only needs your name, city, phone number and email."
+ }
+}
